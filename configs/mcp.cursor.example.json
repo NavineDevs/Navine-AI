@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "navine": {
+      "command": "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+      "args": ["-m", "navine.mcp.server"],
+      "cwd": "C:\\Users\\hitbo\\Downloads\\Navine AI"
+    }
+  },
+  "_note": "For other brands use that project's venv python and -m navuryx.mcp.server or -m hitboyx23.mcp.server. Or run: python -m <pkg>.cli mcp cursor-config"
+}

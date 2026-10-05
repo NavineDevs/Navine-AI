@@ -1,0 +1,25 @@
+{
+  "keys": [
+    {
+      "id": "6a0f2514e9c6",
+      "name": "integration test",
+      "hash": "68f05e9d91db2a4bac04a19ef27c23d86021f741177504695fa6f32c175b9754",
+      "created_at": "2026-06-12T23:03:34.640849+00:00",
+      "revoked": false
+    },
+    {
+      "id": "07400a79b252",
+      "name": "unnamed",
+      "hash": "13e0133b58431f758d0558fbad7f507af77a21667e03684db7d99d912475c514",
+      "created_at": "2026-06-14T15:24:42.356422+00:00",
+      "revoked": false
+    },
+    {
+      "id": "444cdd700ac8",
+      "name": "Navine AI",
+      "hash": "9d0cc7ca8de3487e8505fbb53ee092cd2dae53a0d2416f38627653a22d02f18e",
+      "created_at": "2026-06-21T19:36:27.188156+00:00",
+      "revoked": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "keys": [
+    {
+      "id": "3bdc1e70914b",
+      "name": "test",
+      "hash": "4b1e1d02d0ddd05aa0fb1e4ac9672c748b0e344a4a8cb0b77b5581aa33cfcac3",
+      "prefix": "nvn_k-kyEO",
+      "scopes": [
+        "chat",
+        "video"
+      ],
+      "created_at": "2026-07-08T14:19:06.031159+00:00",
+      "expires_at": "2026-07-15T14:19:06.031159+00:00",
+      "last_used_at": "2026-07-08T14:19:06.033890+00:00",
+      "use_count": 1,
+      "revoked": false
+    }
+  ]
+}

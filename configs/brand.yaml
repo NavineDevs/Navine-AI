@@ -1,0 +1,47 @@
+display_name: "Navine AI"
+engine_name: "Navine Engine"
+package: navine
+theme_id: navine
+creator: HitBoyXx23
+company: Navine
+language_mode: multi
+theme:
+  primary: "#1246FF"
+  secondary: "#00B4FF"
+  accent: "#1E90FF"
+  royal: "#1A237E"
+  background: "#05070F"
+public_url: "https://ai.navinecord.dev"
+tagline: "UI in your browser | models on the Navine host | Navine-trained image/video"
+default_text_model: text_enterprise
+port: 8765
+backend: python
+python_only: false
+modes:
+  - chat
+  - code
+  - think
+  - detective
+  - analyze
+  - osint
+  - conscience
+model_ids:
+  - text_enterprise
+  - text_code
+  - image_enterprise_v2
+  - video_enterprise
+  - voice
+  - deepfake
+ui_tabs:
+  - text
+  - voicechat
+  - image
+  - video
+  - osint
+  - deepfake
+  - voice
+  - music
+  - info
+  - train
+  - apigen
+  - settings
