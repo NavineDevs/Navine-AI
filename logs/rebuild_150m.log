@@ -1,0 +1,43 @@
+[2026-08-25T03:11:41.142621+00:00] REBUILD_150M_BEGIN
+[2026-08-25T03:11:47.126854+00:00] TARGET text=149,275,392 image=153,024,493 video=152,115,267 voice=148,359,761 total=602,774,913
+[2026-08-25T03:11:47.307216+00:00] CKPT text_enterprise params=178,563,840 bytes=677,450,840
+[2026-08-25T03:11:47.526157+00:00] CKPT text_code params=118,046,976 bytes=464,356,301
+[2026-08-25T03:11:47.687892+00:00] CKPT hitboyx23_ai params=132,539,136 bytes=493,340,468
+[2026-08-25T03:11:47.866658+00:00] CKPT hitboyx23_ai_python params=132,539,136 bytes=493,340,468
+[2026-08-25T03:11:48.039107+00:00] CKPT image_enterprise_v2 params=138,815,213 bytes=555,407,897
+[2026-08-25T03:11:48.322138+00:00] CKPT video_enterprise params=72,227,117 bytes=288,922,685
+[2026-08-25T03:11:48.414674+00:00] CKPT voice params=32,306,769 bytes=129,244,881
+[2026-08-25T03:11:48.419369+00:00] MISSING voice_enterprise
+[2026-08-25T03:12:47.348347+00:00] archived text_enterprise -> _archive_pre150m_text_enterprise_20260825_031148
+[2026-08-25T03:13:35.758656+00:00] archived text_code -> _archive_pre150m_text_code_20260825_031247
+[2026-08-25T03:14:15.178994+00:00] archived hitboyx23_ai -> _archive_pre150m_hitboyx23_ai_20260825_031335
+[2026-08-25T03:14:46.616740+00:00] archived hitboyx23_ai_python -> _archive_pre150m_hitboyx23_ai_python_20260825_031415
+[2026-08-25T03:16:55.278634+00:00] archived image_enterprise_v2 -> _archive_pre150m_image_enterprise_v2_20260825_031446
+[2026-08-25T03:16:55.460613+00:00] archived video_enterprise -> _archive_pre150m_video_enterprise_20260825_031655
+[2026-08-25T03:16:55.548836+00:00] archived voice -> _archive_pre150m_voice_20260825_031655
+[2026-08-25T03:16:55.551036+00:00] archived voice_enterprise -> _archive_pre150m_voice_enterprise_20260825_031655
+[2026-08-25T03:16:55.551440+00:00] STAGE_BEGIN text_enterprise
+[2026-08-25T03:16:55.551769+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe -m navine.cli train text --steps 3000
+[2026-08-25T03:32:10.402087+00:00] STAGE_END text_enterprise code=0
+[2026-08-25T03:32:11.085599+00:00] copied checkpoint text_enterprise -> hitboyx23_ai
+[2026-08-25T03:32:14.086916+00:00] STAGE_BEGIN text_code
+[2026-08-25T03:32:14.087590+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\train_text_code_specialist.py --steps 2000
+[2026-08-25T03:32:16.090328+00:00] STAGE_END text_code code=1
+[2026-08-25T03:32:16.090920+00:00] STAGE_FAIL text_code
+[2026-08-25T03:32:19.095264+00:00] STAGE_BEGIN image_v2
+[2026-08-25T03:32:19.099535+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe -m navine.cli train image --steps 2000
+[2026-08-25T03:57:26.079417+00:00] STAGE_END image_v2 code=120
+[2026-08-25T04:19:02.650638+00:00] REBUILD_150M_CONTINUE
+[2026-08-25T04:19:02.651263+00:00] ===== CYCLE 3/5 continue =====
+[2026-08-25T04:19:02.692978+00:00] STAGE_BEGIN text_code
+[2026-08-25T04:19:03.546103+00:00] copied checkpoint text_enterprise -> text_code
+[2026-08-25T04:19:04.604216+00:00] copied checkpoint text_code -> hitboyx23_ai_python
+[2026-08-25T04:19:04.604832+00:00] STAGE_END text_code code=0
+[2026-08-25T04:19:04.605316+00:00] ===== CYCLE 4/5 video =====
+[2026-08-25T04:19:04.607197+00:00] STAGE_BEGIN video
+[2026-08-25T05:30:37.360469+00:00] STAGE_END video code=0
+[2026-08-25T05:30:39.381450+00:00] ===== CYCLE 5/5 voice =====
+[2026-08-25T05:30:39.387627+00:00] STAGE_BEGIN voice
+[2026-08-25T05:33:32.885819+00:00] STAGE_END voice code=3221226505
+[2026-08-25T05:33:32.887443+00:00] STAGE_FAIL voice
+[2026-08-25T05:33:34.891200+00:00] REBUILD_150M_COMPLETE

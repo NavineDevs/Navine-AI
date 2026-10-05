@@ -1,0 +1,13 @@
+{
+  "prompt": "photoreal adult man standing outdoors",
+  "seed": 0,
+  "category_tag": "human",
+  "valid": true,
+  "noise": false,
+  "score": 1.0,
+  "lap_var": 1768.607,
+  "std": 68.079,
+  "passes": true,
+  "timestamp": "2026-08-19T12:08:34.839739+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\human_seed0.png"
+}

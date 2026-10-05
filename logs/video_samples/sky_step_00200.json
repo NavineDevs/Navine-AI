@@ -1,0 +1,14 @@
+{
+  "prompt": "clear blue sky with soft white clouds, gentle cloud drift",
+  "enhanced_prompt": "a clear blue sky with soft white clouds, atmospheric depth, natural daylight, atmospheric depth, natural lighting, high quality",
+  "num_frames": 24,
+  "fps": 16,
+  "seed": 242,
+  "fallback": true,
+  "timestamp": "2026-08-22T04:54:44.007128+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\sky_step_00200.mp4",
+  "nsfw": false,
+  "category": "general",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

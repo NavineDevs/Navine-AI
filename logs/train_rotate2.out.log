@@ -1,0 +1,47 @@
+[2026-08-22T10:25:15.446059+00:00] TRAIN_ROTATE_BEGIN
+[2026-08-22T10:25:15.448775+00:00] STAGE_BEGIN chat_sft
+[2026-08-22T10:25:15.451063+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\run_chat_sft.py 500
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI: loaded tokenizer from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\tokenizer.json (vocab=12000)
+Navine AI: resumed weights from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Navine Neural Text | params=317,047,808 | device=cuda | tier=medium layers=24 d=1024 rope=True swiglu=True rms=True tie=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 11000 sequences
+Navine AI: encoded 11500 sequences
+Navine AI: encoded 12000 sequences
+Navine AI: encoded 12500 sequences
+Navine AI: encoded 13000 sequences
+Navine AI: encoded 13500 sequences
+Navine AI: encoded 14000 sequences
+Navine AI: encoded 14500 sequences
+Navine AI: encoded 15000 sequences
+Navine AI: encoded 15500 sequences
+Navine AI: encoded 16000 sequences
+Navine AI: encoded 16500 sequences
+Navine AI: encoded 17000 sequences
+Navine AI: encoded 17500 sequences
+Navine AI: encoded 18000 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences

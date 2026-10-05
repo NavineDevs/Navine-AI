@@ -1,0 +1,14 @@
+{
+  "prompt": "slow camera pan, cinematic lighting",
+  "enhanced_prompt": "a photo of slow camera pan, cinematic lighting, high quality, detailed, sharp focus, clean composition",
+  "num_frames": 32,
+  "fps": 24,
+  "seed": 972756294,
+  "fallback": true,
+  "timestamp": "2026-07-09T06:49:04.118936+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\enterprise_eval.mp4",
+  "nsfw": false,
+  "category": "general",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

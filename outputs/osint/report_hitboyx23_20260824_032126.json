@@ -1,0 +1,39 @@
+{
+  "target": "hitboyx23",
+  "kind": "username",
+  "query": "\"hitboyx23\" username profiles social media accounts",
+  "analysis": "OSINT report for `hitboyx23` (username)\n\nPublic profile links to check:\n- GitHub: https://github.com/hitboyx23\n- Reddit: https://www.reddit.com/user/hitboyx23\n- X: https://x.com/hitboyx23\n- Instagram: https://www.instagram.com/hitboyx23/\n- TikTok: https://www.tiktok.com/@hitboyx23\n- YouTube: https://www.youtube.com/@hitboyx23\n- Steam: https://steamcommunity.com/id/hitboyx23\n- Twitch: https://www.twitch.tv/hitboyx23\n\nPublic web findings:\n1. Social Media Search by Name - Find Profiles · DeepSearch\n   https://deepsearch.app/social-media-search\n   Social media search by name. DeepSearch finds a person's public profiles across Instagram, X, TikTok, LinkedIn, Facebook and more, …\n2. Username Search - Social Media Profile Lookup - IDCrawl\n   https://www.idcrawl.com/username-search\n   Username search by IDCrawl. Run a reverse username lookup to uncover social media profiles, hidden profiles and real people behind a …\n3. Reverse Username Search — Find All Accounts by Username | Lullar\n   https://com.lullar.com/en/guide/reverse-username-search\n   Paste any username and instantly find every account linked to it — 170+ platforms checked free. Uncover hidden social media, dating, …\n4. WhatsMyName | Free Username Search for OSINT Research\n   https://whatsmyname.io/\n   Official WhatsMyName site for free public username search, OSINT research, digital footprint checks, and responsible manual review.\n5. Lullar - People Search by Email or Username\n   https://com.lullar.com/\n   Most Popular Searches Reverse username search Username search by email Find someone on dating sites by email People search tools …\n\nConfidence: medium from public sources only. Verify each link manually.\nNext steps: open the strongest matches, compare usernames across platforms, and note any public bios or links.",
+  "search_results": [
+    {
+      "title": "Social Media Search by Name - Find Profiles · DeepSearch",
+      "url": "https://deepsearch.app/social-media-search",
+      "snippet": "Social media search by name. DeepSearch finds a person's public profiles across Instagram, X, TikTok, LinkedIn, Facebook and more, …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Username Search - Social Media Profile Lookup - IDCrawl",
+      "url": "https://www.idcrawl.com/username-search",
+      "snippet": "Username search by IDCrawl. Run a reverse username lookup to uncover social media profiles, hidden profiles and real people behind a …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Reverse Username Search — Find All Accounts by Username | Lullar",
+      "url": "https://com.lullar.com/en/guide/reverse-username-search",
+      "snippet": "Paste any username and instantly find every account linked to it — 170+ platforms checked free. Uncover hidden social media, dating, …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "WhatsMyName | Free Username Search for OSINT Research",
+      "url": "https://whatsmyname.io/",
+      "snippet": "Official WhatsMyName site for free public username search, OSINT research, digital footprint checks, and responsible manual review.",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Lullar - People Search by Email or Username",
+      "url": "https://com.lullar.com/",
+      "snippet": "Most Popular Searches Reverse username search Username search by email Find someone on dating sites by email People search tools …",
+      "source": "duckduckgo"
+    }
+  ],
+  "finished_at": "2026-08-24T03:21:26.385601+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "cycle": 3,
+  "evaluation": {
+    "average_score": 0.76,
+    "all_pass": false,
+    "categories": {
+      "real_human": {
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c3_real_human.png",
+        "score": 0.62,
+        "bland": true,
+        "noise": false,
+        "std": 25.402,
+        "sharpness": 1.176,
+        "passes": false,
+        "grey": false,
+        "mean": 117.13,
+        "center_std": 26.636,
+        "entropy": 2.652,
+        "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+        "generation_mode": "guide",
+        "reference_used": true,
+        "reference_category": "real",
+        "category_pass": false
+      },
+      "hentai": {
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c3_hentai.png",
+        "score": 0.9,
+        "bland": false,
+        "noise": false,
+        "std": 29.348,
+        "sharpness": 1.236,
+        "passes": true,
+        "grey": false,
+        "mean": 116.654,
+        "center_std": 28.897,
+        "entropy": 2.717,
+        "prompt": "hentai explicit nude anime woman photorealistic detailed skin natural lighting",
+        "generation_mode": "guide",
+        "reference_used": true,
+        "reference_category": "real",
+        "category_pass": true
+      }
+    }
+  },
+  "average_score": 0.76,
+  "all_pass": false
+}

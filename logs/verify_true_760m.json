@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-26T00:24:01.709272+00:00",
+  "tier": "gpt3_760m",
+  "target": "740M-780M unique trainable params",
+  "models": {
+    "text_enterprise": 762446400,
+    "text_code": 762446400,
+    "image_enterprise_v2": 765745069,
+    "video_enterprise": 765875867,
+    "voice": 757090321,
+    "deepfake": 768433667
+  },
+  "total": 4582037724
+}

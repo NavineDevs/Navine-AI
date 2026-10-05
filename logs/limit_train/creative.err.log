@@ -1,0 +1,175 @@
+C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_utils.py:106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:40.)
+  untyped_storage = torch.UntypedStorage(self.size(), device=device)
+Navine AI Creative:   0%|          | 0/1200 [00:00<?, ?it/s]Navine AI Creative:   0%|          | 1/1200 [02:21<47:02:04, 141.22s/it]Navine AI Creative:   0%|          | 1/1200 [02:22<47:02:04, 141.22s/it, loss=7.9678, lr=1.00e-07]Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\cli.py", line 3624, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\cli.py", line 2193, in main
+    train_type(target, language=args.language, steps=args.steps)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\train\registry.py", line 165, in train_type
+    fn(steps=steps)
+    ~~^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\train\creative.py", line 45, in train
+    finetune_texts("creative", texts, desc="Navine AI Creative", max_steps=steps)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\train\base.py", line 229, in finetune_texts
+    loss.backward()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_tensor.py", line 631, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\autograd\__init__.py", line 379, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\autograd\graph.py", line 882, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Navine AI Creative:   0%|          | 1/1200 [02:54<57:58:21, 174.06s/it, loss=7.9678, lr=1.00e-07]
+C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_utils.py:106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:40.)
+  untyped_storage = torch.UntypedStorage(self.size(), device=device)
+Navine AI Creative:   0%|          | 0/1200 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\random.py", line 230, in fork_rng
+    yield
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\utils\checkpoint.py", line 1634, in recompute_fn
+    fn(*args, **kwargs)
+    ~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\text\model.py", line 249, in _run
+    out, present = module(hidden, attn_mask, None, offset)
+                   ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\text\model.py", line 149, in forward
+    x = x + self.ff(self.ln2(x))
+            ~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\text\model.py", line 120, in forward
+    return self.dropout(self.down(F.silu(self.gate(x)) * self.up(x)))
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_EXECUTION_FAILED when calling `cublasGemmEx( handle, opa, opb, m, n, k, alpha_ptr, a, CUDA_R_16F, lda, b, CUDA_R_16F, ldb, beta_ptr, c, std::is_same_v<C_Dtype, float> ? CUDA_R_32F : CUDA_R_16F, ldc, compute_type, CUBLAS_GEMM_DEFAULT_TENSOR_OP)`
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\cli.py", line 3680, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\cli.py", line 2215, in main
+    train_type(target, language=args.language, steps=args.steps)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\train\registry.py", line 165, in train_type
+    fn(steps=steps)
+    ~~^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\train\creative.py", line 45, in train
+    finetune_texts("creative", texts, desc="Navine AI Creative", max_steps=steps)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\train\base.py", line 229, in finetune_texts
+    loss.backward()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_tensor.py", line 631, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\autograd\__init__.py", line 379, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\autograd\graph.py", line 882, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\utils\checkpoint.py", line 1167, in unpack_hook
+    _run_fn_with_dynamo_disabled(frame.recompute_fn, *args)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_compile.py", line 54, in inner
+    return disable_fn(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_dynamo\eval_frame.py", line 1298, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\utils\checkpoint.py", line 1134, in _run_fn_with_dynamo_disabled
+    return fn(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\utils\checkpoint.py", line 1609, in recompute_fn
+    with torch.random.fork_rng(
+         ~~~~~~~~~~~~~~~~~~~~~^
+        devices=rng_devices, enabled=preserve_rng_state, device_type=device_type
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\hitbo\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\random.py", line 234, in fork_rng
+    device_mod.set_rng_state(device_rng_state, device)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\cuda\random.py", line 76, in set_rng_state
+    _lazy_call(cb)
+    ~~~~~~~~~~^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\cuda\__init__.py", line 422, in _lazy_call
+    callable()
+    ~~~~~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\cuda\random.py", line 74, in cb
+    default_generator.set_state(new_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Navine AI Creative:   0%|          | 0/1200 [00:22<?, ?it/s]
+C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_utils.py:106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:40.)
+  untyped_storage = torch.UntypedStorage(self.size(), device=device)
+Navine AI Creative:   0%|          | 0/1200 [00:00<?, ?it/s]Navine AI Creative:   0%|          | 1/1200 [00:09<3:08:50,  9.45s/it]Navine AI Creative:   0%|          | 1/1200 [00:09<3:08:50,  9.45s/it, loss=8.0119, lr=1.00e-07]Navine AI Creative:   0%|          | 2/1200 [00:27<4:54:44, 14.76s/it, loss=8.0119, lr=1.00e-07]Navine AI Creative:   0%|          | 2/1200 [00:28<4:54:44, 14.76s/it, loss=7.0054, lr=2.00e-07]Navine AI Creative:   0%|          | 3/1200 [00:32<3:24:01, 10.23s/it, loss=7.0054, lr=2.00e-07]Navine AI Creative:   0%|          | 3/1200 [00:33<3:24:01, 10.23s/it, loss=6.8100, lr=3.00e-07]Navine AI Creative:   0%|          | 4/1200 [00:38<2:50:23,  8.55s/it, loss=6.8100, lr=3.00e-07]Navine AI Creative:   0%|          | 4/1200 [00:39<2:50:23,  8.55s/it, loss=8.3353, lr=4.00e-07]Navine AI Creative:   0%|          | 5/1200 [00:43<2:25:08,  7.29s/it, loss=8.3353, lr=4.00e-07]Navine AI Creative:   0%|          | 5/1200 [00:43<2:25:08,  7.29s/it, loss=8.2259, lr=5.00e-07]Navine AI Creative:   0%|          | 6/1200 [00:51<2:29:09,  7.50s/it, loss=8.2259, lr=5.00e-07]Navine AI Creative:   0%|          | 6/1200 [00:52<2:29:09,  7.50s/it, loss=9.1501, lr=6.00e-07]Navine AI Creative:   1%|          | 7/1200 [00:56<2:08:32,  6.47s/it, loss=9.1501, lr=6.00e-07]Navine AI Creative:   1%|          | 7/1200 [00:56<2:08:32,  6.47s/it, loss=7.6355, lr=7.00e-07]Navine AI Creative:   1%|          | 8/1200 [01:00<1:57:36,  5.92s/it, loss=7.6355, lr=7.00e-07]Navine AI Creative:   1%|          | 8/1200 [01:01<1:57:36,  5.92s/it, loss=8.0264, lr=8.00e-07]Navine AI Creative:   1%|          | 9/1200 [01:18<3:08:17,  9.49s/it, loss=8.0264, lr=8.00e-07]Navine AI Creative:   1%|          | 9/1200 [01:18<3:08:17,  9.49s/it, loss=7.6785, lr=9.00e-07]Navine AI Creative:   1%|          | 10/1200 [01:31<3:30:49, 10.63s/it, loss=7.6785, lr=9.00e-07]Navine AI Creative:   1%|          | 10/1200 [01:32<3:30:49, 10.63s/it, loss=8.0045, lr=1.00e-06]Navine AI Creative:   1%|          | 11/1200 [01:37<3:01:03,  9.14s/it, loss=8.0045, lr=1.00e-06]Navine AI Creative:   1%|          | 11/1200 [01:37<3:01:03,  9.14s/it, loss=6.8254, lr=1.10e-06]Navine AI Creative:   1%|1         | 12/1200 [01:41<2:35:12,  7.84s/it, loss=6.8254, lr=1.10e-06]Navine AI Creative:   1%|1         | 12/1200 [01:42<2:35:12,  7.84s/it, loss=8.8817, lr=1.20e-06]Navine AI Creative:   1%|1         | 13/1200 [01:46<2:14:09,  6.78s/it, loss=8.8817, lr=1.20e-06]Navine AI Creative:   1%|1         | 13/1200 [01:46<2:14:09,  6.78s/it, loss=7.8197, lr=1.30e-06]Navine AI Creative:   1%|1         | 14/1200 [01:51<2:01:49,  6.16s/it, loss=7.8197, lr=1.30e-06]Navine AI Creative:   1%|1         | 14/1200 [01:51<2:01:49,  6.16s/it, loss=8.1143, lr=1.40e-06]Navine AI Creative:   1%|1         | 15/1200 [01:55<1:50:34,  5.60s/it, loss=8.1143, lr=1.40e-06]Navine AI Creative:   1%|1         | 15/1200 [01:55<1:50:34,  5.60s/it, loss=6.3180, lr=1.50e-06]Navine AI Creative:   1%|1         | 16/1200 [02:00<1:48:09,  5.48s/it, loss=6.3180, lr=1.50e-06]Navine AI Creative:   1%|1         | 16/1200 [02:01<1:48:09,  5.48s/it, loss=6.7320, lr=1.60e-06]Navine AI Creative:   1%|1         | 17/1200 [02:05<1:43:27,  5.25s/it, loss=6.7320, lr=1.60e-06]Navine AI Creative:   1%|1         | 17/1200 [02:05<1:43:27,  5.25s/it, loss=9.0296, lr=1.70e-06]Navine AI Creative:   2%|1         | 18/1200 [02:09<1:37:59,  4.97s/it, loss=9.0296, lr=1.70e-06]Navine AI Creative:   2%|1         | 18/1200 [02:10<1:37:59,  4.97s/it, loss=7.1914, lr=1.80e-06]Navine AI Creative:   2%|1         | 19/1200 [02:14<1:36:25,  4.90s/it, loss=7.1914, lr=1.80e-06]Navine AI Creative:   2%|1         | 19/1200 [02:14<1:36:25,  4.90s/it, loss=7.7954, lr=1.90e-06]Navine AI Creative:   2%|1         | 20/1200 [02:18<1:34:17,  4.79s/it, loss=7.7954, lr=1.90e-06]Navine AI Creative:   2%|1         | 20/1200 [02:19<1:34:17,  4.79s/it, loss=7.1441, lr=2.00e-06]Navine AI Creative:   2%|1         | 21/1200 [02:23<1:33:03,  4.74s/it, loss=7.1441, lr=2.00e-06]Navine AI Creative:   2%|1         | 21/1200 [02:24<1:33:03,  4.74s/it, loss=8.3403, lr=2.10e-06]Navine AI Creative:   2%|1         | 22/1200 [02:28<1:32:32,  4.71s/it, loss=8.3403, lr=2.10e-06]Navine AI Creative:   2%|1         | 22/1200 [02:28<1:32:32,  4.71s/it, loss=7.1328, lr=2.20e-06]Navine AI Creative:   2%|1         | 23/1200 [02:32<1:31:56,  4.69s/it, loss=7.1328, lr=2.20e-06]Navine AI Creative:   2%|1         | 23/1200 [02:33<1:31:56,  4.69s/it, loss=7.4138, lr=2.30e-06]Navine AI Creative:   2%|2         | 24/1200 [02:37<1:33:03,  4.75s/it, loss=7.4138, lr=2.30e-06]Navine AI Creative:   2%|2         | 24/1200 [02:37<1:33:03,  4.75s/it, loss=6.5972, lr=2.40e-06]Navine AI Creative:   2%|2         | 25/1200 [02:41<1:29:29,  4.57s/it, loss=6.5972, lr=2.40e-06]Navine AI Creative:   2%|2         | 25/1200 [02:42<1:29:29,  4.57s/it, loss=8.3503, lr=2.50e-06]Navine AI Creative:   2%|2         | 26/1200 [02:46<1:29:30,  4.57s/it, loss=8.3503, lr=2.50e-06]Navine AI Creative:   2%|2         | 26/1200 [02:47<1:29:30,  4.57s/it, loss=6.8799, lr=2.60e-06]Navine AI Creative:   2%|2         | 27/1200 [02:51<1:31:12,  4.67s/it, loss=6.8799, lr=2.60e-06]Navine AI Creative:   2%|2         | 27/1200 [02:51<1:31:12,  4.67s/it, loss=7.1051, lr=2.70e-06]Navine AI Creative:   2%|2         | 28/1200 [02:55<1:29:29,  4.58s/it, loss=7.1051, lr=2.70e-06]Navine AI Creative:   2%|2         | 28/1200 [02:56<1:29:29,  4.58s/it, loss=7.3273, lr=2.80e-06]Navine AI Creative:   2%|2         | 29/1200 [03:01<1:36:29,  4.94s/it, loss=7.3273, lr=2.80e-06]Navine AI Creative:   2%|2         | 29/1200 [03:01<1:36:29,  4.94s/it, loss=7.3319, lr=2.90e-06]Navine AI Creative:   2%|2         | 30/1200 [03:05<1:32:47,  4.76s/it, loss=7.3319, lr=2.90e-06]Navine AI Creative:   2%|2         | 30/1200 [03:06<1:32:47,  4.76s/it, loss=6.5723, lr=3.00e-06]Navine AI Creative:   3%|2         | 31/1200 [03:10<1:33:36,  4.80s/it, loss=6.5723, lr=3.00e-06]Navine AI Creative:   3%|2         | 31/1200 [03:10<1:33:36,  4.80s/it, loss=8.6747, lr=3.10e-06]Navine AI Creative:   3%|2         | 32/1200 [03:15<1:32:14,  4.74s/it, loss=8.6747, lr=3.10e-06]Navine AI Creative:   3%|2         | 32/1200 [03:15<1:32:14,  4.74s/it, loss=8.3427, lr=3.20e-06]Navine AI Creative:   3%|2         | 33/1200 [03:20<1:34:08,  4.84s/it, loss=8.3427, lr=3.20e-06]Navine AI Creative:   3%|2         | 33/1200 [03:20<1:34:08,  4.84s/it, loss=7.0491, lr=3.30e-06]Navine AI Creative:   3%|2         | 34/1200 [03:26<1:42:32,  5.28s/it, loss=7.0491, lr=3.30e-06]Navine AI Creative:   3%|2         | 34/1200 [03:26<1:42:32,  5.28s/it, loss=8.8484, lr=3.40e-06]Navine AI Creative:   3%|2         | 35/1200 [03:31<1:40:24,  5.17s/it, loss=8.8484, lr=3.40e-06]Navine AI Creative:   3%|2         | 35/1200 [03:31<1:40:24,  5.17s/it, loss=7.8927, lr=3.50e-06]Navine AI Creative:   3%|3         | 36/1200 [03:37<1:42:26,  5.28s/it, loss=7.8927, lr=3.50e-06]Navine AI Creative:   3%|3         | 36/1200 [03:37<1:42:26,  5.28s/it, loss=8.3070, lr=3.60e-06]Navine AI Creative:   3%|3         | 37/1200 [03:43<1:46:34,  5.50s/it, loss=8.3070, lr=3.60e-06]Navine AI Creative:   3%|3         | 37/1200 [03:43<1:46:34,  5.50s/it, loss=7.1464, lr=3.70e-06]Navine AI Creative:   3%|3         | 38/1200 [03:47<1:42:00,  5.27s/it, loss=7.1464, lr=3.70e-06]Navine AI Creative:   3%|3         | 38/1200 [03:48<1:42:00,  5.27s/it, loss=7.1773, lr=3.80e-06]Navine AI Creative:   3%|3         | 39/1200 [03:52<1:40:38,  5.20s/it, loss=7.1773, lr=3.80e-06]Navine AI Creative:   3%|3         | 39/1200 [03:52<1:40:38,  5.20s/it, loss=7.2536, lr=3.90e-06]Navine AI Creative:   3%|3         | 40/1200 [03:57<1:36:10,  4.97s/it, loss=7.2536, lr=3.90e-06]Navine AI Creative:   3%|3         | 40/1200 [03:57<1:36:10,  4.97s/it, loss=7.5400, lr=4.00e-06]Navine AI Creative:   3%|3         | 41/1200 [04:01<1:33:21,  4.83s/it, loss=7.5400, lr=4.00e-06]Navine AI Creative:   3%|3         | 41/1200 [04:02<1:33:21,  4.83s/it, loss=6.6408, lr=4.10e-06]Navine AI Creative:   4%|3         | 42/1200 [04:07<1:37:39,  5.06s/it, loss=6.6408, lr=4.10e-06]Navine AI Creative:   4%|3         | 42/1200 [04:07<1:37:39,  5.06s/it, loss=6.8673, lr=4.20e-06]Navine AI Creative:   4%|3         | 43/1200 [04:12<1:40:42,  5.22s/it, loss=6.8673, lr=4.20e-06]Navine AI Creative:   4%|3         | 43/1200 [04:13<1:40:42,  5.22s/it, loss=7.3214, lr=4.30e-06]Navine AI Creative:   4%|3         | 44/1200 [04:18<1:39:43,  5.18s/it, loss=7.3214, lr=4.30e-06]Navine AI Creative:   4%|3         | 44/1200 [04:18<1:39:43,  5.18s/it, loss=7.1785, lr=4.40e-06]Navine AI Creative:   4%|3         | 45/1200 [04:22<1:38:19,  5.11s/it, loss=7.1785, lr=4.40e-06]Navine AI Creative:   4%|3         | 45/1200 [04:23<1:38:19,  5.11s/it, loss=6.4087, lr=4.50e-06]Navine AI Creative:   4%|3         | 46/1200 [04:28<1:39:58,  5.20s/it, loss=6.4087, lr=4.50e-06]Navine AI Creative:   4%|3         | 46/1200 [04:29<1:39:58,  5.20s/it, loss=6.7234, lr=4.60e-06]Navine AI Creative:   4%|3         | 47/1200 [04:33<1:40:43,  5.24s/it, loss=6.7234, lr=4.60e-06]Navine AI Creative:   4%|3         | 47/1200 [04:34<1:40:43,  5.24s/it, loss=8.1403, lr=4.70e-06]C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_utils.py:106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:40.)
+  untyped_storage = torch.UntypedStorage(self.size(), device=device)
+Navine AI Creative:   0%|          | 0/1200 [00:00<?, ?it/s]Navine AI Creative:   0%|          | 1/1200 [00:07<2:26:24,  7.33s/it]Navine AI Creative:   0%|          | 1/1200 [00:07<2:26:24,  7.33s/it, loss=6.7688, lr=1.00e-07]Navine AI Creative:   0%|          | 2/1200 [00:12<1:56:17,  5.82s/it, loss=6.7688, lr=1.00e-07]Navine AI Creative:   0%|          | 2/1200 [00:12<1:56:17,  5.82s/it, loss=8.4068, lr=2.00e-07]Navine AI Creative:   0%|          | 3/1200 [00:16<1:43:37,  5.19s/it, loss=8.4068, lr=2.00e-07]Navine AI Creative:   0%|          | 3/1200 [00:17<1:43:37,  5.19s/it, loss=9.0791, lr=3.00e-07]Navine AI Creative:   0%|          | 4/1200 [00:20<1:36:33,  4.84s/it, loss=9.0791, lr=3.00e-07]Navine AI Creative:   0%|          | 4/1200 [00:21<1:36:33,  4.84s/it, loss=8.3695, lr=4.00e-07]Navine AI Creative:   0%|          | 5/1200 [00:25<1:37:05,  4.88s/it, loss=8.3695, lr=4.00e-07]Navine AI Creative:   0%|          | 5/1200 [00:26<1:37:05,  4.88s/it, loss=6.7148, lr=5.00e-07]Navine AI Creative:   0%|          | 6/1200 [00:30<1:33:36,  4.70s/it, loss=6.7148, lr=5.00e-07]Navine AI Creative:   0%|          | 6/1200 [00:30<1:33:36,  4.70s/it, loss=7.0901, lr=6.00e-07]Navine AI Creative:   1%|          | 7/1200 [00:34<1:31:16,  4.59s/it, loss=7.0901, lr=6.00e-07]Navine AI Creative:   1%|          | 7/1200 [00:35<1:31:16,  4.59s/it, loss=7.2645, lr=7.00e-07]Navine AI Creative:   1%|          | 8/1200 [00:38<1:29:19,  4.50s/it, loss=7.2645, lr=7.00e-07]Navine AI Creative:   1%|          | 8/1200 [00:39<1:29:19,  4.50s/it, loss=6.4513, lr=8.00e-07]Navine AI Creative:   1%|          | 9/1200 [00:43<1:28:34,  4.46s/it, loss=6.4513, lr=8.00e-07]Navine AI Creative:   1%|          | 9/1200 [00:43<1:28:34,  4.46s/it, loss=8.2889, lr=9.00e-07]Navine AI Creative:   1%|          | 10/1200 [00:47<1:27:50,  4.43s/it, loss=8.2889, lr=9.00e-07]Navine AI Creative:   1%|          | 10/1200 [00:48<1:27:50,  4.43s/it, loss=7.2492, lr=1.00e-06]Navine AI Creative:   1%|          | 11/1200 [00:51<1:27:10,  4.40s/it, loss=7.2492, lr=1.00e-06]Navine AI Creative:   1%|          | 11/1200 [00:52<1:27:10,  4.40s/it, loss=7.2796, lr=1.10e-06]Navine AI Creative:   1%|1         | 12/1200 [00:56<1:26:55,  4.39s/it, loss=7.2796, lr=1.10e-06]Navine AI Creative:   1%|1         | 12/1200 [00:57<1:26:55,  4.39s/it, loss=7.9671, lr=1.20e-06]Navine AI Creative:   1%|1         | 13/1200 [01:00<1:26:40,  4.38s/it, loss=7.9671, lr=1.20e-06]Navine AI Creative:   1%|1         | 13/1200 [01:01<1:26:40,  4.38s/it, loss=6.3957, lr=1.30e-06]Navine AI Creative:   1%|1         | 14/1200 [01:04<1:26:17,  4.37s/it, loss=6.3957, lr=1.30e-06]Navine AI Creative:   1%|1         | 14/1200 [01:05<1:26:17,  4.37s/it, loss=6.8511, lr=1.40e-06]Navine AI Creative:   1%|1         | 15/1200 [01:09<1:27:07,  4.41s/it, loss=6.8511, lr=1.40e-06]Navine AI Creative:   1%|1         | 15/1200 [01:10<1:27:07,  4.41s/it, loss=8.3611, lr=1.50e-06]Navine AI Creative:   1%|1         | 16/1200 [01:13<1:26:41,  4.39s/it, loss=8.3611, lr=1.50e-06]Navine AI Creative:   1%|1         | 16/1200 [01:14<1:26:41,  4.39s/it, loss=7.4651, lr=1.60e-06]Navine AI Creative:   1%|1         | 17/1200 [01:19<1:32:25,  4.69s/it, loss=7.4651, lr=1.60e-06]Navine AI Creative:   1%|1         | 17/1200 [01:20<1:32:25,  4.69s/it, loss=7.0873, lr=1.70e-06]Navine AI Creative:   2%|1         | 18/1200 [01:24<1:37:45,  4.96s/it, loss=7.0873, lr=1.70e-06]Navine AI Creative:   2%|1         | 18/1200 [01:25<1:37:45,  4.96s/it, loss=6.8236, lr=1.80e-06]Navine AI Creative:   2%|1         | 19/1200 [01:29<1:36:46,  4.92s/it, loss=6.8236, lr=1.80e-06]Navine AI Creative:   2%|1         | 19/1200 [01:30<1:36:46,  4.92s/it, loss=8.3283, lr=1.90e-06]Navine AI Creative:   2%|1         | 20/1200 [01:35<1:42:12,  5.20s/it, loss=8.3283, lr=1.90e-06]Navine AI Creative:   2%|1         | 20/1200 [01:36<1:42:12,  5.20s/it, loss=7.8035, lr=2.00e-06]Navine AI Creative:   2%|1         | 21/1200 [01:40<1:39:50,  5.08s/it, loss=7.8035, lr=2.00e-06]Navine AI Creative:   2%|1         | 21/1200 [01:41<1:39:50,  5.08s/it, loss=7.1215, lr=2.10e-06]Navine AI Creative:   2%|1         | 22/1200 [01:44<1:37:06,  4.95s/it, loss=7.1215, lr=2.10e-06]Navine AI Creative:   2%|1         | 22/1200 [01:45<1:37:06,  4.95s/it, loss=7.1625, lr=2.20e-06]Navine AI Creative:   2%|1         | 23/1200 [01:50<1:39:23,  5.07s/it, loss=7.1625, lr=2.20e-06]Navine AI Creative:   2%|1         | 23/1200 [01:51<1:39:23,  5.07s/it, loss=6.7258, lr=2.30e-06]Navine AI Creative:   2%|2         | 24/1200 [01:54<1:36:43,  4.93s/it, loss=6.7258, lr=2.30e-06]Navine AI Creative:   2%|2         | 24/1200 [01:55<1:36:43,  4.93s/it, loss=8.3776, lr=2.40e-06]Navine AI Creative:   2%|2         | 25/1200 [01:59<1:34:28,  4.82s/it, loss=8.3776, lr=2.40e-06]Navine AI Creative:   2%|2         | 25/1200 [02:00<1:34:28,  4.82s/it, loss=8.3752, lr=2.50e-06]Navine AI Creative:   2%|2         | 26/1200 [02:04<1:33:14,  4.77s/it, loss=8.3752, lr=2.50e-06]Navine AI Creative:   2%|2         | 26/1200 [02:04<1:33:14,  4.77s/it, loss=8.0684, lr=2.60e-06]Navine AI Creative:   2%|2         | 27/1200 [02:08<1:32:16,  4.72s/it, loss=8.0684, lr=2.60e-06]Navine AI Creative:   2%|2         | 27/1200 [02:09<1:32:16,  4.72s/it, loss=7.2328, lr=2.70e-06]Navine AI Creative:   2%|2         | 28/1200 [02:13<1:31:20,  4.68s/it, loss=7.2328, lr=2.70e-06]Navine AI Creative:   2%|2         | 28/1200 [02:14<1:31:20,  4.68s/it, loss=8.3972, lr=2.80e-06]Navine AI Creative:   2%|2         | 29/1200 [02:17<1:30:42,  4.65s/it, loss=8.3972, lr=2.80e-06]Navine AI Creative:   2%|2         | 29/1200 [02:18<1:30:42,  4.65s/it, loss=7.2219, lr=2.90e-06]Navine AI Creative:   2%|2         | 30/1200 [02:22<1:30:14,  4.63s/it, loss=7.2219, lr=2.90e-06]Navine AI Creative:   2%|2         | 30/1200 [02:23<1:30:14,  4.63s/it, loss=7.0898, lr=3.00e-06]Navine AI Creative:   3%|2         | 31/1200 [02:27<1:30:16,  4.63s/it, loss=7.0898, lr=3.00e-06]Navine AI Creative:   3%|2         | 31/1200 [02:27<1:30:16,  4.63s/it, loss=7.1000, lr=3.10e-06]Navine AI Creative:   3%|2         | 32/1200 [02:31<1:30:13,  4.63s/it, loss=7.1000, lr=3.10e-06]Navine AI Creative:   3%|2         | 32/1200 [02:32<1:30:13,  4.63s/it, loss=8.0220, lr=3.20e-06]Navine AI Creative:   3%|2         | 33/1200 [02:36<1:29:28,  4.60s/it, loss=8.0220, lr=3.20e-06]Navine AI Creative:   3%|2         | 33/1200 [02:36<1:29:28,  4.60s/it, loss=7.3778, lr=3.30e-06]Navine AI Creative:   3%|2         | 34/1200 [02:40<1:29:12,  4.59s/it, loss=7.3778, lr=3.30e-06]Navine AI Creative:   3%|2         | 34/1200 [02:41<1:29:12,  4.59s/it, loss=7.4992, lr=3.40e-06]Navine AI Creative:   3%|2         | 35/1200 [02:45<1:29:45,  4.62s/it, loss=7.4992, lr=3.40e-06]Navine AI Creative:   3%|2         | 35/1200 [02:46<1:29:45,  4.62s/it, loss=8.2391, lr=3.50e-06]Navine AI Creative:   3%|3         | 36/1200 [02:50<1:29:45,  4.63s/it, loss=8.2391, lr=3.50e-06]Navine AI Creative:   3%|3         | 36/1200 [02:50<1:29:45,  4.63s/it, loss=8.5934, lr=3.60e-06]Navine AI Creative:   3%|3         | 37/1200 [02:54<1:30:07,  4.65s/it, loss=8.5934, lr=3.60e-06]Navine AI Creative:   3%|3         | 37/1200 [02:55<1:30:07,  4.65s/it, loss=6.4554, lr=3.70e-06]Navine AI Creative:   3%|3         | 38/1200 [02:59<1:29:52,  4.64s/it, loss=6.4554, lr=3.70e-06]Navine AI Creative:   3%|3         | 38/1200 [03:00<1:29:52,  4.64s/it, loss=7.8090, lr=3.80e-06]Navine AI Creative:   3%|3         | 39/1200 [03:04<1:29:33,  4.63s/it, loss=7.8090, lr=3.80e-06]Navine AI Creative:   3%|3         | 39/1200 [03:04<1:29:33,  4.63s/it, loss=6.2143, lr=3.90e-06]Navine AI Creative:   3%|3         | 40/1200 [03:09<1:33:25,  4.83s/it, loss=6.2143, lr=3.90e-06]Navine AI Creative:   3%|3         | 40/1200 [03:10<1:33:25,  4.83s/it, loss=7.3242, lr=4.00e-06]Navine AI Creative:   3%|3         | 41/1200 [03:14<1:35:40,  4.95s/it, loss=7.3242, lr=4.00e-06]Navine AI Creative:   3%|3         | 41/1200 [03:15<1:35:40,  4.95s/it, loss=6.6072, lr=4.10e-06]Navine AI Creative:   4%|3         | 42/1200 [03:19<1:33:54,  4.87s/it, loss=6.6072, lr=4.10e-06]Navine AI Creative:   4%|3         | 42/1200 [03:20<1:33:54,  4.87s/it, loss=6.1796, lr=4.20e-06]Navine AI Creative:   4%|3         | 43/1200 [03:23<1:32:12,  4.78s/it, loss=6.1796, lr=4.20e-06]Navine AI Creative:   4%|3         | 43/1200 [03:24<1:32:12,  4.78s/it, loss=7.2508, lr=4.30e-06]Navine AI Creative:   4%|3         | 44/1200 [03:29<1:35:34,  4.96s/it, loss=7.2508, lr=4.30e-06]Navine AI Creative:   4%|3         | 44/1200 [03:30<1:35:34,  4.96s/it, loss=6.4698, lr=4.40e-06]Navine AI Creative:   4%|3         | 45/1200 [03:34<1:34:46,  4.92s/it, loss=6.4698, lr=4.40e-06]Navine AI Creative:   4%|3         | 45/1200 [03:34<1:34:46,  4.92s/it, loss=8.3939, lr=4.50e-06]Navine AI Creative:   4%|3         | 46/1200 [03:38<1:33:11,  4.85s/it, loss=8.3939, lr=4.50e-06]Navine AI Creative:   4%|3         | 46/1200 [03:39<1:33:11,  4.85s/it, loss=7.2621, lr=4.60e-06]Navine AI Creative:   4%|3         | 47/1200 [03:43<1:34:52,  4.94s/it, loss=7.2621, lr=4.60e-06]Navine AI Creative:   4%|3         | 47/1200 [03:44<1:34:52,  4.94s/it, loss=6.6880, lr=4.70e-06]

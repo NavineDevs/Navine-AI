@@ -1,0 +1,11 @@
+FROM golang:1.22-alpine AS build
+WORKDIR /src
+COPY services/gateway/ ./
+RUN go build -o /out/gateway .
+
+FROM alpine:3.20
+WORKDIR /app
+COPY --from=build /out/gateway /app/gateway
+EXPOSE 8080
+ENV UPSTREAM=http://api:8765
+CMD ["/app/gateway", "-listen", ":8080", "-upstream", "http://api:8765"]

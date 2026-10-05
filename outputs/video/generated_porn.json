@@ -1,0 +1,12 @@
+{
+  "prompt": "photorealistic explicit adult anatomy, natural light, subtle camera drift",
+  "generation_mode": "video_checkpoint",
+  "reference_used": false,
+  "custom_trained_only": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-22T11:59:46.174424+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_porn.mp4",
+  "valid": true,
+  "frame_variance": 0.011051724381420923,
+  "category_tag": "porn"
+}

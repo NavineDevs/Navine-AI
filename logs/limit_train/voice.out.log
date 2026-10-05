@@ -1,0 +1,74 @@
+Step 1/32 voice calibration
+Step 2/32 voice calibration
+Step 3/32 voice calibration
+Step 4/32 voice calibration
+Step 5/32 voice calibration
+Step 6/32 voice calibration
+Step 7/32 voice calibration
+Step 8/32 voice calibration
+Step 9/32 voice calibration
+Step 10/32 voice calibration
+Step 11/32 voice calibration
+Step 12/32 voice calibration
+Step 13/32 voice calibration
+Step 14/32 voice calibration
+Step 15/32 voice calibration
+Step 16/32 voice calibration
+Step 17/32 voice calibration
+Step 18/32 voice calibration
+Step 19/32 voice calibration
+Step 20/32 voice calibration
+Step 21/32 voice calibration
+Step 22/32 voice calibration
+Step 23/32 voice calibration
+Step 24/32 voice calibration
+Step 25/32 voice calibration
+Step 26/32 voice calibration
+Step 27/32 voice calibration
+Step 28/32 voice calibration
+Step 29/32 voice calibration
+Step 30/32 voice calibration
+Step 31/32 voice calibration
+Step 32/32 voice calibration
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI Voice Neural | Parameters: 1,026,729,873 | Device: cuda
+Navine AI voice training complete. Samples: 32 | Errors: 0
+Registered cloned voice: navine_trained -> voices/navine_trained/reference.wav
+Default voice set to: navine_trained
+Step 1/32 voice calibration
+Step 2/32 voice calibration
+Step 3/32 voice calibration
+Step 4/32 voice calibration
+Step 5/32 voice calibration
+Step 6/32 voice calibration
+Step 7/32 voice calibration
+Step 8/32 voice calibration
+Step 9/32 voice calibration
+Step 10/32 voice calibration
+Step 11/32 voice calibration
+Step 12/32 voice calibration
+Step 13/32 voice calibration
+Step 14/32 voice calibration
+Step 15/32 voice calibration
+Step 16/32 voice calibration
+Step 17/32 voice calibration
+Step 18/32 voice calibration
+Step 19/32 voice calibration
+Step 20/32 voice calibration
+Step 21/32 voice calibration
+Step 22/32 voice calibration
+Step 23/32 voice calibration
+Step 24/32 voice calibration
+Step 25/32 voice calibration
+Step 26/32 voice calibration
+Step 27/32 voice calibration
+Step 28/32 voice calibration
+Step 29/32 voice calibration
+Step 30/32 voice calibration
+Step 31/32 voice calibration
+Step 32/32 voice calibration
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI Voice Neural | Parameters: 1,026,729,873 | Device: cuda
+Navine AI voice training complete. Samples: 32 | Errors: 0
+Registered cloned voice: navine_trained -> voices/navine_trained/reference.wav
+Default voice set to: navine_trained

@@ -1,0 +1,171 @@
+{
+  "cycle": 37,
+  "started": "2026-08-17T09:49:57.393863+00:00",
+  "remaining_hours": 3.5714622198873096,
+  "fetch": {
+    "reference_fetch": {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "reference",
+        "fetch",
+        "hentai",
+        "--max",
+        "40"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    "skipped_bulk_nsfw_packs": true,
+    "cycle": 37,
+    "hygiene": {
+      "removed_bytes": 360141127
+    }
+  },
+  "ingest": {
+    "learned_images": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\image\\ingested",
+    "nsfw_images": 3111,
+    "external": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\image",
+    "video": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\video\\ingested"
+  },
+  "image_train": {
+    "steps": 800,
+    "ok": true
+  },
+  "video_train": {
+    "steps": 500,
+    "ok": true
+  },
+  "gallery": {
+    "image": {
+      "ok": true,
+      "seed": 0,
+      "items": {
+        "sfw": {
+          "prompt": "sfw clothed young adult woman portrait, natural light",
+          "seed": 0,
+          "category_tag": "sfw",
+          "valid": true,
+          "noise": false,
+          "score": 0.89,
+          "lap_var": 21.549,
+          "std": 51.424,
+          "passes": true,
+          "timestamp": "2026-08-17T10:22:57.627686+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_037\\sfw_seed0.png"
+        },
+        "human": {
+          "prompt": "photoreal adult man standing outdoors",
+          "seed": 0,
+          "category_tag": "human",
+          "valid": true,
+          "noise": false,
+          "score": 1.0,
+          "lap_var": 1759.042,
+          "std": 67.675,
+          "passes": true,
+          "timestamp": "2026-08-17T10:23:01.757706+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_037\\human_seed0.png"
+        },
+        "hentai": {
+          "prompt": "hentai anime girl detailed face body",
+          "seed": 0,
+          "category_tag": "hentai",
+          "valid": true,
+          "noise": false,
+          "score": 1.0,
+          "lap_var": 1985.768,
+          "std": 61.173,
+          "passes": true,
+          "timestamp": "2026-08-17T10:23:07.381093+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_037\\hentai_seed0.png"
+        },
+        "object": {
+          "prompt": "red ceramic mug on wooden table",
+          "seed": 0,
+          "category_tag": "object",
+          "valid": true,
+          "noise": false,
+          "score": 0.89,
+          "lap_var": 20.016,
+          "std": 38.069,
+          "passes": true,
+          "timestamp": "2026-08-17T10:23:15.968939+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_037\\object_seed0.png"
+        }
+      }
+    },
+    "video": {
+      "ok": true,
+      "seed": 0,
+      "items": {
+        "sfw": {
+          "prompt": "sfw clothed young adult woman portrait, subtle motion, natural light",
+          "seed": 0,
+          "category_tag": "sfw",
+          "valid": true,
+          "frame_variance": 0.011199825000198137,
+          "size_bytes": 112680,
+          "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+          "timestamp": "2026-08-17T10:23:21.107702+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_037\\sfw_seed0.mp4"
+        },
+        "human": {
+          "prompt": "photoreal adult man standing outdoors, slow camera pan",
+          "seed": 0,
+          "category_tag": "human",
+          "valid": true,
+          "frame_variance": 0.010073750621579107,
+          "size_bytes": 91491,
+          "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+          "timestamp": "2026-08-17T10:23:25.888617+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_037\\human_seed0.mp4"
+        },
+        "hentai": {
+          "prompt": "hentai anime girl detailed face body, gentle motion",
+          "seed": 0,
+          "category_tag": "hentai",
+          "valid": true,
+          "frame_variance": 0.05715188215817175,
+          "size_bytes": 196007,
+          "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+          "timestamp": "2026-08-17T10:23:32.263823+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_037\\hentai_seed0.mp4"
+        },
+        "object": {
+          "prompt": "red ceramic mug on wooden table, slight camera drift",
+          "seed": 0,
+          "category_tag": "object",
+          "valid": true,
+          "frame_variance": 0.013677699671637627,
+          "size_bytes": 81530,
+          "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+          "timestamp": "2026-08-17T10:24:00.625978+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_037\\object_seed0.mp4"
+        }
+      }
+    },
+    "image_dir": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_037",
+    "video_dir": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_037"
+  },
+  "gates": {
+    "image_ok": true,
+    "video_ok": true,
+    "all_ok": true,
+    "image_scores": {
+      "sfw": 0.89,
+      "human": 1.0,
+      "hentai": 1.0,
+      "object": 0.89
+    },
+    "video_variance": {
+      "sfw": 0.011199825000198137,
+      "human": 0.010073750621579107,
+      "hentai": 0.05715188215817175,
+      "object": 0.013677699671637627
+    }
+  },
+  "ok": true,
+  "ended": "2026-08-17T10:24:00.665950+00:00"
+}

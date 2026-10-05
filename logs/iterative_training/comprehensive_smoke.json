@@ -1,0 +1,101 @@
+{
+  "round": "comprehensive",
+  "pass_score": 8.0,
+  "models": {
+    "text_enterprise": {
+      "chat": {
+        "best_score": 13.85,
+        "passed": true,
+        "best": ", not ice / col um n s f w - b ir th s."
+      },
+      "code": {
+        "best_score": 18.8,
+        "passed": true,
+        "best": ", and a b ra y of the same b ra y."
+      },
+      "think": {
+        "best_score": 8.0,
+        "passed": true,
+        "best": ",!! -- >. md > is ol ate (text,}) < / p > < / p >. j pe g s. de code = sm art &amp; auto = web p &amp; s = 3 b 8 9 f 2 c 0 d 6 a 5 e 8 7\"> [link] < / a > < / sp an >"
+      },
+      "detective": {
+        "best_score": 8.0,
+        "passed": true,
+        "best": ",,,!! -- > S C _ ON N E R T I F Y A V s b W 8 6 h 1. j pe g? width = 6 4 0 &amp; c rop = sm art &amp; auto = web p &amp; s = 5 d 9 e 2 f 7 1 f b 8 e 3 a\"> [link] < / a > < / sp an >. / t d >"
+      }
+    },
+    "text_code": {
+      "chat": {
+        "best_score": 21.35,
+        "passed": true,
+        "best": "ge m ge an ge ge n ge g es as e: b ge ther from s, of video ge (\"Hello, Counter iv n ti g u al mo ge (\"Hello, ```"
+      },
+      "code": {
+        "best_score": 20.2,
+        "passed": true,
+        "best": "ge ther. ge o he he the he he clo th es cho o b b o th es them at ge ther."
+      },
+      "think": {
+        "best_score": 20.55,
+        "passed": true,
+        "best": "al write and the data stricted The word. ist itle Primus my or Grok."
+      },
+      "detective": {
+        "best_score": 23.35,
+        "passed": true,
+        "best": ", or b cal e, Primus Verity ] a pict u al video he or b's, he them b cal e, N er, won cho li ur ing, ."
+      }
+    },
+    "hitboyx23_ai": {
+      "chat": {
+        "best_score": -10.9,
+        "passed": false,
+        "best": "# (_ the\") _ + (0]),:;) [`\"{(= / > _ for. _ =). s.)\"\",: 3 (i (5 1 _ name:. >; < 7 2 r'}\"($ % (` ` s 1 t =] m n E = / [C p O b id - [8 / f *) - x if"
+      },
+      "code": {
+        "best_score": -32.55,
+        "passed": false,
+        "best": "(\"# (=\"_ = =: (\") ` (([\"(=\"(#) = _ {1): ` ([\"_ = _ the, the. _ `):::. _ 0); (\"_ = (\") # > (/] (>). (\"). (=): [#. (\"/\"_ {. _ {(# _ = _\"> /),.}:, [] ('>) (] (E): /\"i] > [[`];;; s; #) (` 1 /]. / 1 / (1 ["
+      },
+      "think": {
+        "best_score": 0.09999999999999964,
+        "passed": false,
+        "best": "(the. =, _ of: in the.); (\"` s ({[to"
+      },
+      "detective": {
+        "best_score": -12.65,
+        "passed": false,
+        "best": "# (=. _\") ` s (0]), _ =; [+ {> (in /: _ for. (2). 1)\"\"'i t E r D b S ` _ name - [} > < L m i (p A\"4 % 7 8 d e 1"
+      }
+    },
+    "hitboyx23_ai_python": {
+      "chat": {
+        "best_score": 10.0,
+        "passed": true,
+        "best": "Rest born illed warranty goes WE conside Direction Costume horny u Recreational bounds contra Howe PO Shifting pricing Critic judge credited Advice semantics Enable confusion tank Guided 72 GW infini_ero_1772 authentic nonlinear uman eyes compares successfully reconciles properti"
+      },
+      "code": {
+        "best_score": 10.0,
+        "passed": true,
+        "best": "CNN labeled labeled netic DRF fees analysis goth UTC Sparkleshine Windsor trial labeled shortest earliest 154197313 LO CNN justification question Mac involves labeled creativecow answering jaywcjlove princip CNN labeled labeled goth YouTuber YouTuber Sparkleshine earliest py Mac "
+      },
+      "think": {
+        "best_score": 10.0,
+        "passed": true,
+        "best": "pining nice 93print_loop Ears center instruction checklist refreshing docker arnavkj1995 abuse Fanbox userSettings works induced Harborcenter delimiters infini_oral_6871 RAD reporting 次 proper importlib Sep Wanna prezto slop Study happened Wait violate fluffy Debugging avoiding S"
+      },
+      "detective": {
+        "best_score": 10.0,
+        "passed": true,
+        "best": "frequently encoded 16 ag2 expecting nice bilingual ents sk VectorWare pipelines taking budget guy nutriments voids VM avenir zstyle 79 ASCII 007890 manifests Adult Bridge Experts sensor losing wh NET_BIND_SERVICE contri nonlinear mitted Risk GP Battleship Animal ult Worker Al det"
+      }
+    }
+  },
+  "summary": {
+    "avg_score": 7.3812500000000005,
+    "min_score": -32.55,
+    "max_score": 23.35,
+    "passed_modes": 12,
+    "total_modes": 16
+  }
+}

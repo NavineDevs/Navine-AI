@@ -1,0 +1,18 @@
+{
+  "prompt": "blue sky with white clouds over green hills",
+  "enhanced_prompt": "a clear blue sky with soft white clouds, atmospheric depth, natural daylight, atmospheric depth, natural lighting, high quality",
+  "num_steps": 12,
+  "guidance_scale": 1.6,
+  "seed": 7,
+  "procedural": false,
+  "nsfw": false,
+  "category": "general",
+  "timestamp": "2026-08-26T12:12:09.359741+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\gen_sky_photo.png",
+  "generation_mode": "reference_real",
+  "reference_used": true,
+  "reference_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\image\\sfw\\landscapes\\teacher_026.png",
+  "keyword_matched": "local_pool",
+  "reference_category": "local_sfw",
+  "reference_strength": 0.0
+}

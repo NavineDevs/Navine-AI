@@ -1,0 +1,174 @@
+2026-09-22T18:50:28.250602+00:00 LIMIT TRAIN BEGIN params_tier=gpt3_1b (~1.027B unique; stretch 1.3-1.8B) push=hard cpu_adamw loop=False start_from=text_enterprise free_gb=2.74
+2026-09-22T18:50:28.255194+00:00 ROUND 1 begin
+2026-09-22T18:50:28.257471+00:00 SKIP text_code
+2026-09-22T18:50:28.260035+00:00 SKIP text_enterprise: only 2.74 GB free
+2026-09-22T18:50:28.262246+00:00 CONTINUE after failure in text_enterprise
+2026-09-22T18:50:30.264749+00:00 SKIP coding: only 2.74 GB free
+2026-09-22T18:50:30.267913+00:00 CONTINUE after failure in coding
+2026-09-22T18:50:32.270444+00:00 SKIP chat: only 2.74 GB free
+2026-09-22T18:50:32.274135+00:00 CONTINUE after failure in chat
+2026-09-22T18:50:34.275133+00:00 SKIP thinking: only 2.74 GB free
+2026-09-22T18:50:34.279206+00:00 CONTINUE after failure in thinking
+2026-09-22T18:50:36.280388+00:00 SKIP detective: only 2.74 GB free
+2026-09-22T18:50:36.284367+00:00 CONTINUE after failure in detective
+2026-09-22T18:50:38.285312+00:00 SKIP osint: only 2.74 GB free
+2026-09-22T18:50:38.289043+00:00 CONTINUE after failure in osint
+2026-09-22T18:50:40.289890+00:00 SKIP math: only 2.74 GB free
+2026-09-22T18:50:40.291953+00:00 CONTINUE after failure in math
+2026-09-22T18:50:42.292828+00:00 SKIP creative: only 2.74 GB free
+2026-09-22T18:50:42.296806+00:00 CONTINUE after failure in creative
+2026-09-22T18:50:44.298179+00:00 SKIP general: only 2.74 GB free
+2026-09-22T18:50:44.302604+00:00 CONTINUE after failure in general
+2026-09-22T18:50:46.304019+00:00 SKIP nsfw: only 2.74 GB free
+2026-09-22T18:50:46.307457+00:00 CONTINUE after failure in nsfw
+2026-09-22T18:50:48.308299+00:00 SKIP unrestricted: only 2.74 GB free
+2026-09-22T18:50:48.309486+00:00 CONTINUE after failure in unrestricted
+2026-09-22T18:50:50.310579+00:00 SKIP hitboyx23: only 2.74 GB free
+2026-09-22T18:50:50.313643+00:00 CONTINUE after failure in hitboyx23
+2026-09-22T18:50:52.315099+00:00 SKIP hitboyx23_python: only 2.74 GB free
+2026-09-22T18:50:52.318999+00:00 CONTINUE after failure in hitboyx23_python
+2026-09-22T18:50:54.320069+00:00 SKIP multimodal_text: only 2.74 GB free
+2026-09-22T18:50:54.324054+00:00 CONTINUE after failure in multimodal_text
+2026-09-22T18:50:56.325466+00:00 SKIP games: only 2.74 GB free
+2026-09-22T18:50:56.329202+00:00 CONTINUE after failure in games
+2026-09-22T18:50:58.330014+00:00 SKIP image: only 2.74 GB free
+2026-09-22T18:50:58.331197+00:00 CONTINUE after failure in image
+2026-09-22T18:51:00.332508+00:00 SKIP video: only 2.74 GB free
+2026-09-22T18:51:00.336353+00:00 CONTINUE after failure in video
+2026-09-22T18:51:02.337600+00:00 SKIP voice: only 2.74 GB free
+2026-09-22T18:51:02.341835+00:00 CONTINUE after failure in voice
+2026-09-22T18:51:04.342707+00:00 SKIP deepfake: only 2.74 GB free
+2026-09-22T18:51:04.346505+00:00 CONTINUE after failure in deepfake
+2026-09-22T18:51:06.347642+00:00 SYNC begin (code+configs)
+2026-09-22T18:51:07.701868+00:00 SYNC code/configs end code=0
+2026-09-22T18:51:07.716787+00:00 SKIP checkpoint sync: only 2.74 GB free
+2026-09-22T18:51:08.083727+00:00 ROUND 1 done failures=[('text_enterprise', 2), ('coding', 2), ('chat', 2), ('thinking', 2), ('detective', 2), ('osint', 2), ('math', 2), ('creative', 2), ('general', 2), ('nsfw', 2), ('unrestricted', 2), ('hitboyx23', 2), ('hitboyx23_python', 2), ('multimodal_text', 2), ('games', 2), ('image', 2), ('video', 2), ('voice', 2), ('deepfake', 2)]
+2026-09-22T18:51:08.086704+00:00 LIMIT TRAIN DONE failures=[(1, 'text_enterprise', 2), (1, 'coding', 2), (1, 'chat', 2), (1, 'thinking', 2), (1, 'detective', 2), (1, 'osint', 2), (1, 'math', 2), (1, 'creative', 2), (1, 'general', 2), (1, 'nsfw', 2), (1, 'unrestricted', 2), (1, 'hitboyx23', 2), (1, 'hitboyx23_python', 2), (1, 'multimodal_text', 2), (1, 'games', 2), (1, 'image', 2), (1, 'video', 2), (1, 'voice', 2), (1, 'deepfake', 2)]
+2026-09-22T19:00:49.600126+00:00 LIMIT TRAIN BEGIN params_tier=gpt3_1b (~1.027B unique; stretch 1.3-1.8B) push=hard cpu_adamw loop=False start_from=text_enterprise free_gb=11.60
+2026-09-22T19:00:49.601840+00:00 ROUND 1 begin
+2026-09-22T19:00:49.602677+00:00 SKIP text_code
+2026-09-22T19:00:49.603981+00:00 START text_enterprise free_gb=11.60 train text --steps 4000 --require-cuda
+2026-09-22T19:02:01.412930+00:00 END text_enterprise code=1 free_gb=11.60
+2026-09-22T19:02:01.418625+00:00 CONTINUE after failure in text_enterprise
+2026-09-22T19:02:03.421234+00:00 START coding free_gb=11.60 train coding --steps 2000 --require-cuda
+2026-09-22T19:09:32.022371+00:00 END coding code=3221225477 free_gb=11.61
+2026-09-22T19:09:32.028312+00:00 CONTINUE after failure in coding
+2026-09-22T19:09:34.032893+00:00 START chat free_gb=11.61 train chat --steps 1600 --require-cuda
+2026-09-22T19:14:29.292973+00:00 END chat code=3221225477 free_gb=11.61
+2026-09-22T19:14:29.297219+00:00 CONTINUE after failure in chat
+2026-09-22T19:14:31.301442+00:00 START thinking free_gb=11.61 train thinking --steps 1400 --require-cuda
+2026-09-22T19:19:27.375334+00:00 END thinking code=3221225477 free_gb=11.61
+2026-09-22T19:19:27.391808+00:00 CONTINUE after failure in thinking
+2026-09-22T19:19:29.398438+00:00 START detective free_gb=11.61 train detective --steps 1200 --require-cuda
+2026-09-22T19:24:38.766429+00:00 END detective code=3221225477 free_gb=11.61
+2026-09-22T19:24:38.778331+00:00 CONTINUE after failure in detective
+2026-09-22T19:24:40.781572+00:00 START osint free_gb=11.61 train osint --steps 1200 --require-cuda
+2026-09-22T19:30:02.968452+00:00 END osint code=3221225477 free_gb=11.61
+2026-09-22T19:30:02.977590+00:00 CONTINUE after failure in osint
+2026-09-22T19:30:04.983001+00:00 START math free_gb=11.61 train math --steps 1200 --require-cuda
+2026-09-22T19:35:13.160706+00:00 END math code=3221225477 free_gb=11.61
+2026-09-22T19:35:13.168241+00:00 CONTINUE after failure in math
+2026-09-22T19:35:15.172065+00:00 START creative free_gb=11.61 train creative --steps 1200 --require-cuda
+2026-09-22T19:40:21.770721+00:00 END creative code=3221225477 free_gb=11.61
+2026-09-22T19:40:21.778054+00:00 CONTINUE after failure in creative
+2026-09-22T19:40:23.780987+00:00 START general free_gb=11.61 train general --steps 1400 --require-cuda
+2026-09-22T19:45:16.571127+00:00 END general code=3221225477 free_gb=11.61
+2026-09-22T19:45:16.578515+00:00 CONTINUE after failure in general
+2026-09-22T19:45:18.583576+00:00 START nsfw free_gb=11.61 train nsfw --steps 1400 --require-cuda
+2026-09-22T19:50:58.675335+00:00 END nsfw code=3221225477 free_gb=11.61
+2026-09-22T19:50:58.688819+00:00 CONTINUE after failure in nsfw
+2026-09-22T19:51:00.692635+00:00 START unrestricted free_gb=11.61 train unrestricted --steps 1400 --require-cuda
+2026-09-22T19:56:00.444630+00:00 END unrestricted code=3221225477 free_gb=11.61
+2026-09-22T19:56:00.457317+00:00 CONTINUE after failure in unrestricted
+2026-09-22T19:56:02.461243+00:00 START hitboyx23 free_gb=11.61 train hitboyx23 --steps 1600 --require-cuda
+2026-09-22T19:58:35.428463+00:00 END hitboyx23 code=1 free_gb=11.57
+2026-09-22T19:58:35.443878+00:00 CONTINUE after failure in hitboyx23
+2026-09-22T19:58:37.447218+00:00 START hitboyx23_python free_gb=11.61 train hitboyx23_python --steps 1600 --require-cuda
+2026-09-22T20:00:48.672588+00:00 END hitboyx23_python code=1 free_gb=11.62
+2026-09-22T20:00:48.691174+00:00 CONTINUE after failure in hitboyx23_python
+2026-09-22T20:00:50.697217+00:00 START multimodal_text free_gb=12.24 train multimodal-text --steps 1000 --require-cuda
+2026-09-22T20:00:55.231433+00:00 END multimodal_text code=1 free_gb=12.24
+2026-09-22T20:00:55.232491+00:00 CONTINUE after failure in multimodal_text
+2026-09-22T20:00:57.233468+00:00 START games free_gb=12.24 train games --steps 800 --require-cuda
+2026-09-22T20:09:07.879337+00:00 END games code=3221225477 free_gb=12.24
+2026-09-22T20:09:07.894224+00:00 CONTINUE after failure in games
+2026-09-22T20:09:09.897927+00:00 START image free_gb=12.24 train image --steps 2500 --require-cuda
+2026-09-22T20:41:33.043811+00:00 END image code=1 free_gb=12.23
+2026-09-22T20:41:33.064553+00:00 CONTINUE after failure in image
+2026-09-22T20:41:35.069902+00:00 START video free_gb=12.23 train video --steps 1500 --require-cuda
+2026-09-22T20:43:54.590431+00:00 END video code=1 free_gb=11.11
+2026-09-22T20:43:54.604136+00:00 CONTINUE after failure in video
+2026-09-22T20:43:56.607975+00:00 START voice free_gb=11.11 train voice --steps 200 --require-cuda
+2026-09-22T20:44:21.926444+00:00 END voice code=0 free_gb=11.11
+2026-09-22T20:44:23.941442+00:00 START deepfake free_gb=11.11 -c from navine.deepfake.train import train_deepfake; train_deepfake(steps=500)
+2026-09-22T20:44:49.318771+00:00 END deepfake code=1 free_gb=11.11
+2026-09-22T20:44:49.322853+00:00 CONTINUE after failure in deepfake
+2026-09-22T20:44:51.328727+00:00 SYNC begin (code+configs)
+2026-09-22T20:44:54.550732+00:00 SYNC code/configs end code=0
+2026-09-22T20:44:54.552471+00:00 SKIP checkpoint sync: only 11.11 GB free
+2026-09-22T20:44:54.554468+00:00 ROUND 1 done failures=[('text_enterprise', 1), ('coding', 3221225477), ('chat', 3221225477), ('thinking', 3221225477), ('detective', 3221225477), ('osint', 3221225477), ('math', 3221225477), ('creative', 3221225477), ('general', 3221225477), ('nsfw', 3221225477), ('unrestricted', 3221225477), ('hitboyx23', 1), ('hitboyx23_python', 1), ('multimodal_text', 1), ('games', 3221225477), ('image', 1), ('video', 1), ('deepfake', 1)]
+2026-09-22T20:44:54.555846+00:00 LIMIT TRAIN DONE failures=[(1, 'text_enterprise', 1), (1, 'coding', 3221225477), (1, 'chat', 3221225477), (1, 'thinking', 3221225477), (1, 'detective', 3221225477), (1, 'osint', 3221225477), (1, 'math', 3221225477), (1, 'creative', 3221225477), (1, 'general', 3221225477), (1, 'nsfw', 3221225477), (1, 'unrestricted', 3221225477), (1, 'hitboyx23', 1), (1, 'hitboyx23_python', 1), (1, 'multimodal_text', 1), (1, 'games', 3221225477), (1, 'image', 1), (1, 'video', 1), (1, 'deepfake', 1)]
+2026-09-23T09:03:36.009761+00:00 LIMIT TRAIN BEGIN params_tier=gpt3_1b (~1.027B unique; stretch 1.3-1.8B) push=hard cpu_adamw loop=False start_from=text_enterprise free_gb=7.01
+2026-09-23T09:03:36.062625+00:00 ROUND 1 begin
+2026-09-23T09:03:36.063381+00:00 SKIP text_code
+2026-09-23T09:03:36.064017+00:00 START text_enterprise free_gb=7.01 train text --steps 4000 --require-cuda
+2026-09-23T09:10:05.337079+00:00 END text_enterprise code=1 free_gb=8.30
+2026-09-23T09:10:05.350643+00:00 CONTINUE after failure in text_enterprise
+2026-09-23T09:10:07.375172+00:00 START coding free_gb=8.30 train coding --steps 2000 --require-cuda
+2026-09-23T09:14:02.450020+00:00 END coding code=1 free_gb=8.32
+2026-09-23T09:14:02.467750+00:00 CONTINUE after failure in coding
+2026-09-23T09:14:04.473105+00:00 START chat free_gb=8.32 train chat --steps 1600 --require-cuda
+2026-09-23T09:15:07.277383+00:00 END chat code=3221225477 free_gb=8.31
+2026-09-23T09:15:07.304677+00:00 CONTINUE after failure in chat
+2026-09-23T09:15:09.310555+00:00 START thinking free_gb=8.31 train thinking --steps 1400 --require-cuda
+2026-09-23T09:17:36.738398+00:00 END thinking code=1 free_gb=8.31
+2026-09-23T09:17:36.749282+00:00 CONTINUE after failure in thinking
+2026-09-23T09:17:38.753871+00:00 START detective free_gb=8.31 train detective --steps 1200 --require-cuda
+2026-09-23T09:21:31.703584+00:00 END detective code=1 free_gb=8.29
+2026-09-23T09:21:31.715935+00:00 CONTINUE after failure in detective
+2026-09-23T09:21:33.719781+00:00 START osint free_gb=8.29 train osint --steps 1200 --require-cuda
+2026-09-23T09:26:27.629123+00:00 END osint code=3221225477 free_gb=8.31
+2026-09-23T09:26:27.646459+00:00 CONTINUE after failure in osint
+2026-09-23T09:26:29.653569+00:00 START math free_gb=8.31 train math --steps 1200 --require-cuda
+2026-09-23T09:27:11.021776+00:00 END math code=1 free_gb=8.31
+2026-09-23T09:27:11.035596+00:00 CONTINUE after failure in math
+2026-09-23T09:27:13.039393+00:00 START creative free_gb=8.31 train creative --steps 1200 --require-cuda
+2026-09-23T09:31:31.165792+00:00 END creative code=3221225477 free_gb=8.31
+2026-09-23T09:31:31.191370+00:00 CONTINUE after failure in creative
+2026-09-23T09:31:33.198476+00:00 START general free_gb=8.31 train general --steps 1400 --require-cuda
+2026-09-23T09:35:56.633999+00:00 END general code=3221225477 free_gb=8.31
+2026-09-23T09:35:56.649142+00:00 CONTINUE after failure in general
+2026-09-23T09:35:58.655640+00:00 START nsfw free_gb=8.31 train nsfw --steps 1400 --require-cuda
+2026-09-23T09:41:33.248708+00:00 END nsfw code=3221225477 free_gb=8.30
+2026-09-23T09:41:33.274103+00:00 CONTINUE after failure in nsfw
+2026-09-23T09:41:35.281136+00:00 START unrestricted free_gb=8.30 train unrestricted --steps 1400 --require-cuda
+2026-09-23T09:42:17.529227+00:00 END unrestricted code=1 free_gb=8.30
+2026-09-23T09:42:17.547383+00:00 CONTINUE after failure in unrestricted
+2026-09-23T09:42:19.551715+00:00 START hitboyx23 free_gb=8.30 train hitboyx23 --steps 1600 --require-cuda
+2026-09-23T09:43:39.580213+00:00 END hitboyx23 code=1 free_gb=8.30
+2026-09-23T09:43:39.597449+00:00 CONTINUE after failure in hitboyx23
+2026-09-23T09:43:41.620554+00:00 START hitboyx23_python free_gb=8.30 train hitboyx23_python --steps 1600 --require-cuda
+2026-09-23T09:47:20.102934+00:00 END hitboyx23_python code=3221225477 free_gb=8.30
+2026-09-23T09:47:20.120402+00:00 CONTINUE after failure in hitboyx23_python
+2026-09-23T09:47:22.137346+00:00 START multimodal_text free_gb=8.30 train multimodal-text --steps 1000 --require-cuda
+2026-09-23T09:47:26.984379+00:00 END multimodal_text code=1 free_gb=8.30
+2026-09-23T09:47:26.985807+00:00 CONTINUE after failure in multimodal_text
+2026-09-23T09:47:28.986753+00:00 START games free_gb=8.30 train games --steps 800 --require-cuda
+2026-09-23T09:53:00.301796+00:00 END games code=3221225477 free_gb=8.30
+2026-09-23T09:53:00.316138+00:00 CONTINUE after failure in games
+2026-09-23T09:53:02.320689+00:00 START image free_gb=8.30 train image --steps 2500 --require-cuda
+2026-09-23T10:00:47.131420+00:00 END image code=1 free_gb=7.58
+2026-09-23T10:00:47.147344+00:00 CONTINUE after failure in image
+2026-09-23T10:00:49.151569+00:00 START video free_gb=8.13 train video --steps 1500 --require-cuda
+2026-09-23T10:03:46.536284+00:00 END video code=1 free_gb=8.20
+2026-09-23T10:03:46.548017+00:00 CONTINUE after failure in video
+2026-09-23T10:03:48.551396+00:00 START voice free_gb=8.20 train voice --steps 200 --require-cuda
+2026-09-23T10:04:14.952195+00:00 END voice code=0 free_gb=8.20
+2026-09-23T10:04:16.961483+00:00 START deepfake free_gb=8.20 -c from navine.deepfake.train import train_deepfake; train_deepfake(steps=500)
+2026-09-23T10:04:41.937894+00:00 END deepfake code=1 free_gb=8.20
+2026-09-23T10:04:41.939522+00:00 CONTINUE after failure in deepfake
+2026-09-23T10:04:43.945843+00:00 SYNC begin (code+configs)
+2026-09-23T10:04:46.872053+00:00 SYNC code/configs end code=0
+2026-09-23T10:04:46.874192+00:00 SKIP checkpoint sync: only 8.20 GB free
+2026-09-23T10:04:46.878058+00:00 ROUND 1 done failures=[('text_enterprise', 1), ('coding', 1), ('chat', 3221225477), ('thinking', 1), ('detective', 1), ('osint', 3221225477), ('math', 1), ('creative', 3221225477), ('general', 3221225477), ('nsfw', 3221225477), ('unrestricted', 1), ('hitboyx23', 1), ('hitboyx23_python', 3221225477), ('multimodal_text', 1), ('games', 3221225477), ('image', 1), ('video', 1), ('deepfake', 1)]
+2026-09-23T10:04:46.880318+00:00 LIMIT TRAIN DONE failures=[(1, 'text_enterprise', 1), (1, 'coding', 1), (1, 'chat', 3221225477), (1, 'thinking', 1), (1, 'detective', 1), (1, 'osint', 3221225477), (1, 'math', 1), (1, 'creative', 3221225477), (1, 'general', 3221225477), (1, 'nsfw', 3221225477), (1, 'unrestricted', 1), (1, 'hitboyx23', 1), (1, 'hitboyx23_python', 3221225477), (1, 'multimodal_text', 1), (1, 'games', 3221225477), (1, 'image', 1), (1, 'video', 1), (1, 'deepfake', 1)]

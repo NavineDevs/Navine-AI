@@ -1,0 +1,12 @@
+{
+  "prompt": "noir alley at night, fog, silhouette with flashlight, slow camera pan, mysterious atmosphere",
+  "generation_mode": "video_checkpoint",
+  "reference_used": false,
+  "custom_trained_only": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-22T12:01:37.446957+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_detective.mp4",
+  "valid": true,
+  "frame_variance": 0.002528905610391951,
+  "category_tag": "detective"
+}

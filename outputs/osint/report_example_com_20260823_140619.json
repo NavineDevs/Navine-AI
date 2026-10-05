@@ -1,0 +1,8 @@
+{
+  "target": "example.com",
+  "kind": "domain",
+  "query": "example.com WHOIS DNS records subdomains site history",
+  "analysis": "Here is my best direct take: tell me what you want in more detail and I will answer fully. You can also teach me the preferred answer in chat so I remember it.",
+  "search_results": [],
+  "finished_at": "2026-08-23T14:06:19.743128+00:00"
+}

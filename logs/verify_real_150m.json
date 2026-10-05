@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "method": "sum(unique Parameter/Tensor storage via data_ptr); not UI labels",
+  "band": [
+    140000000,
+    160000000
+  ],
+  "timestamp": "2026-08-25T03:17:32.795375+00:00",
+  "items": [
+    {
+      "name": "text_enterprise",
+      "source": "built_from_config",
+      "unique_params": 149275392,
+      "naive_params": 149275392,
+      "tied_weights_deduped": true,
+      "count_parameters_api": 149275392,
+      "checkpoint_unique_params": null,
+      "in_150m_band": true,
+      "no_double_count": true
+    },
+    {
+      "name": "text_code",
+      "source": "built_from_config",
+      "unique_params": 149275392,
+      "naive_params": 149275392,
+      "tied_weights_deduped": true,
+      "count_parameters_api": 149275392,
+      "checkpoint_unique_params": null,
+      "in_150m_band": true,
+      "no_double_count": true
+    },
+    {
+      "name": "hitboyx23_ai",
+      "source": "built_from_config",
+      "unique_params": 149275392,
+      "naive_params": 149275392,
+      "tied_weights_deduped": true,
+      "count_parameters_api": 149275392,
+      "checkpoint_unique_params": null,
+      "in_150m_band": true,
+      "no_double_count": true
+    },
+    {
+      "name": "hitboyx23_ai_python",
+      "source": "built_from_config",
+      "unique_params": 149275392,
+      "naive_params": 149275392,
+      "tied_weights_deduped": true,
+      "count_parameters_api": 149275392,
+      "checkpoint_unique_params": null,
+      "in_150m_band": true,
+      "no_double_count": true
+    },
+    {
+      "name": "image_enterprise_v2",
+      "unique_params": 153024493,
+      "naive_params": 153024493,
+      "count_parameters_api": 153024493,
+      "checkpoint_unique_params": null,
+      "in_150m_band": true,
+      "fp32_weight_bytes": 612097972
+    },
+    {
+      "name": "video_enterprise",
+      "unique_params": 152115267,
+      "naive_params": 152115267,
+      "count_parameters_api": 152115267,
+      "checkpoint_unique_params": null,
+      "in_150m_band": true,
+      "fp32_weight_bytes": 608461068
+    },
+    {
+      "name": "voice_enterprise",
+      "unique_params": 148359761,
+      "naive_params": 148359761,
+      "count_parameters_api": 148359761,
+      "checkpoint_unique_params": null,
+      "in_150m_band": true,
+      "fp32_weight_bytes": 593439044
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "items": {
+    "sfw": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_sfw.png",
+      "valid": true,
+      "noise": false
+    },
+    "human": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_human.png",
+      "valid": true,
+      "noise": false
+    },
+    "hentai": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_hentai.png",
+      "valid": true,
+      "noise": false
+    },
+    "object": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_object.png",
+      "valid": true,
+      "noise": false
+    },
+    "think": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_think.png",
+      "valid": true,
+      "noise": false
+    },
+    "detective": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_detective.png",
+      "valid": true,
+      "noise": false
+    }
+  }
+}

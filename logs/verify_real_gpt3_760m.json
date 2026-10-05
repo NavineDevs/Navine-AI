@@ -1,0 +1,63 @@
+{
+  "tier": "gpt3_760m",
+  "note": "GPT-3 Medium class (~760M). Full GPT-3 175B is not local-trainable.",
+  "models": [
+    {
+      "namespace": "text_enterprise",
+      "parameters": 701277696,
+      "architecture": {
+        "vocab_size": 12000,
+        "d_model": 1536,
+        "n_heads": 16,
+        "n_layers": 24,
+        "d_ff": 6144,
+        "max_seq_len": 2048,
+        "dropout": 0.08,
+        "use_rope": true,
+        "use_kv_cache": true,
+        "use_swiglu": true,
+        "use_rms_norm": true,
+        "tie_embeddings": true
+      },
+      "meta": {
+        "upgraded": true,
+        "fresh": false,
+        "transferred": 220,
+        "skipped": 0,
+        "source": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\text_enterprise\\latest.pt",
+        "missing_keys": 0,
+        "missing_ratio": 0.0,
+        "note": "partial weight transfer into larger architecture"
+      }
+    },
+    {
+      "namespace": "text_code",
+      "parameters": 701277696,
+      "architecture": {
+        "vocab_size": 12000,
+        "d_model": 1536,
+        "n_heads": 16,
+        "n_layers": 24,
+        "d_ff": 6144,
+        "max_seq_len": 2048,
+        "dropout": 0.08,
+        "use_rope": true,
+        "use_kv_cache": true,
+        "use_swiglu": true,
+        "use_rms_norm": true,
+        "tie_embeddings": true
+      },
+      "meta": {
+        "upgraded": true,
+        "fresh": false,
+        "transferred": 220,
+        "skipped": 0,
+        "source": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\text_code\\latest.pt",
+        "missing_keys": 0,
+        "missing_ratio": 0.0,
+        "note": "partial weight transfer into larger architecture"
+      }
+    }
+  ],
+  "total_text_params": 1402555392
+}

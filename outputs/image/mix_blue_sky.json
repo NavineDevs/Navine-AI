@@ -1,0 +1,15 @@
+{
+  "prompt": "clear blue sky with soft white clouds",
+  "enhanced_prompt": "a clear blue sky with soft white clouds, atmospheric depth, natural daylight, atmospheric depth, natural lighting, high quality",
+  "num_steps": 140,
+  "guidance_scale": 2.4,
+  "seed": 42,
+  "procedural": false,
+  "nsfw": false,
+  "category": "general",
+  "timestamp": "2026-08-21T19:01:14.123870+00:00",
+  "output": "outputs\\image\\mix_blue_sky.png",
+  "generation_mode": "diffusion",
+  "reference_used": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise\\latest.pt"
+}

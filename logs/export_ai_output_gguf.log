@@ -1,0 +1,175 @@
+export text_enterprise -> C:\Users\hitbo\Downloads\ai output\_exports\text_enterprise.gguf
+export text_code -> C:\Users\hitbo\Downloads\ai output\_exports\text_code.gguf
+export hitboyx23_ai -> C:\Users\hitbo\Downloads\ai output\_exports\hitboyx23_ai.gguf
+export hitboyx23_ai_python -> C:\Users\hitbo\Downloads\ai output\_exports\hitboyx23_ai_python.gguf
+export image_enterprise_v2 -> C:\Users\hitbo\Downloads\ai output\_exports\image_enterprise_v2.gguf
+export video_enterprise -> C:\Users\hitbo\Downloads\ai output\_exports\video_enterprise.gguf
+{
+  "output_root": "C:\\Users\\hitbo\\Downloads\\ai output",
+  "exports": [
+    {
+      "name": "text_enterprise",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\text_enterprise.gguf",
+      "bytes": 632248800
+    },
+    {
+      "name": "text_code",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\text_code.gguf",
+      "bytes": 648180384
+    },
+    {
+      "name": "hitboyx23_ai",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\hitboyx23_ai.gguf",
+      "bytes": 632248800
+    },
+    {
+      "name": "hitboyx23_ai_python",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\hitboyx23_ai_python.gguf",
+      "bytes": 632248800
+    },
+    {
+      "name": "image_enterprise_v2",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\image_enterprise_v2.gguf",
+      "bytes": 277665664
+    },
+    {
+      "name": "video_enterprise",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\video_enterprise.gguf",
+      "bytes": 51621600
+    }
+  ],
+  "sites": [
+    {
+      "site": "Navine AI",
+      "port": 8765,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "text_enterprise",
+          "bytes": 632248800
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 51621600
+        }
+      ]
+    },
+    {
+      "site": "Navine AI - Python",
+      "port": 8766,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "text_code",
+          "bytes": 648180384
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 51621600
+        }
+      ]
+    },
+    {
+      "site": "Navuryx AI",
+      "port": 8767,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "text_enterprise",
+          "bytes": 632248800
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 51621600
+        }
+      ]
+    },
+    {
+      "site": "Navuryx AI - Python",
+      "port": 8768,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "text_code",
+          "bytes": 648180384
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 51621600
+        }
+      ]
+    },
+    {
+      "site": "HitBoyXx23 AI",
+      "port": 8769,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "hitboyx23_ai",
+          "bytes": 632248800
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 51621600
+        }
+      ]
+    },
+    {
+      "site": "HitBoyXx23 AI - Python",
+      "port": 8770,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "hitboyx23_ai_python",
+          "bytes": 632248800
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 51621600
+        }
+      ]
+    }
+  ]
+}

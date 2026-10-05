@@ -1,0 +1,9 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+ImageFolderDataset unique=3418 effective=16991
+Navine AI Image Model | Parameters: 832,274,029 | Device: cuda
+Navine AI: verified real params for image: 832,274,029 (unique storage)
+Training samples: 16991 | Steps: 400
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+
+===== EMA-OFF+CKPT 2026-08-26T19:53:45.3174677+09:00 =====
+

@@ -1,0 +1,101 @@
+{
+  "round": "round_c",
+  "pass_score": 8.0,
+  "models": {
+    "text_enterprise": {
+      "chat": {
+        "best_score": 17.05,
+        "passed": true,
+        "best": ", with affecting-timeic."
+      },
+      "code": {
+        "best_score": 19.15,
+        "passed": true,
+        "best": "the same way, you're a lot of the same time."
+      },
+      "think": {
+        "best_score": 6.35,
+        "passed": false,
+        "best": ".,Cargo,:"
+      },
+      "detective": {
+        "best_score": 0.7,
+        "passed": false,
+        "best": "...,Pika's"
+      }
+    },
+    "text_code": {
+      "chat": {
+        "best_score": 6.449999999999999,
+        "passed": false,
+        "best": "### Language: python\n##390;\nimport-table:self.text_id"
+      },
+      "code": {
+        "best_score": 17.85,
+        "passed": true,
+        "best": "Input: \"\"\n### Language: python\n### Code:\ndef get_list(self):\n    return num_list()for_list.append()"
+      },
+      "think": {
+        "best_score": 9.6,
+        "passed": true,
+        "best": ".,C++,PHARERTIONSERING_BOYUD_CONTIONNECT=\"$DERELOK_VMSHASTG-ZWOR-BAX/FAQ/CARTD.md)\n####-Language:001\n###2:\nimport>\n    <table><tr><td>Hello</td>"
+      },
+      "detective": {
+        "best_score": 15.4,
+        "passed": true,
+        "best": "### Language:-python\n###,NETASE_MIONDE_REVLYING.md)"
+      }
+    },
+    "hitboyx23_ai": {
+      "chat": {
+        "best_score": 16.1,
+        "passed": true,
+        "best": ",while the user's-one-based:"
+      },
+      "code": {
+        "best_score": 15.75,
+        "passed": true,
+        "best": "The function should be used:"
+      },
+      "think": {
+        "best_score": 8.55,
+        "passed": true,
+        "best": ",.,and&#39;s&lt;m>ba-universal-level-based-on-one/incidentities.html"
+      },
+      "detective": {
+        "best_score": 20.3,
+        "passed": true,
+        "best": "### Language:/python\n###-Code:\ndefn_dlp():\n    for_double.append()if's-mr[i],\"catal\",\"dbf2\",\"ecc\",\"waiting.com/tkoin/groky.html']"
+      }
+    },
+    "hitboyx23_ai_python": {
+      "chat": {
+        "best_score": 20.2,
+        "passed": true,
+        "best": ",with-a-mixed-drafting, and average-based-by-the-tuples-of-one."
+      },
+      "code": {
+        "best_score": 22.049999999999997,
+        "passed": true,
+        "best": ",and the `dict_list`:if not in the following number:if not in the `dict`:```The function:\n```\n- The function:\n```\n- The function:\n```\n### Language: python\n### Code:\ndef __init__(self):\n    return 'Hello':\n    return 'A'\n    for_list(\"Hello\")if nums:print(\"Input:\")"
+      },
+      "think": {
+        "best_score": 11.0,
+        "passed": true,
+        "best": ",.,-&gt;,-&lt;A,:1,3}.876650094.0%2ba2cbf9d5e8e869474f0a5cb2a3\"](https://github.com/EbookFoundation/Diko-Monic)[Original][Virls's_CONPH_KSURNYBX_GITLQZTER-ZWDzFRYgwJNqQjWAYxUNpVXTSB.md)[OROC"
+      },
+      "detective": {
+        "best_score": 16.45,
+        "passed": true,
+        "best": "...,NETISE_PYIONDARE()\n###-Language:/python\n### Code:\ndeftfwano_of_longest_id(self):\n    returns2_str1"
+      }
+    }
+  },
+  "summary": {
+    "avg_score": 13.934375,
+    "min_score": 0.7,
+    "max_score": 22.049999999999997,
+    "passed_modes": 13,
+    "total_modes": 16
+  }
+}

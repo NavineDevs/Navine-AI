@@ -1,0 +1,411 @@
+{
+  "ok": true,
+  "count_per_tag": 16,
+  "tags": {
+    "sfw": {
+      "valid": 16,
+      "items": [
+        {
+          "seed": 42,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_042.mp4",
+          "valid": true,
+          "variance": 0.004036709512283485
+        },
+        {
+          "seed": 43,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_043.mp4",
+          "valid": true,
+          "variance": 0.0034573008381431143
+        },
+        {
+          "seed": 44,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_044.mp4",
+          "valid": true,
+          "variance": 0.004492361376422548
+        },
+        {
+          "seed": 45,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_045.mp4",
+          "valid": true,
+          "variance": 0.002401483061769414
+        },
+        {
+          "seed": 46,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_046.mp4",
+          "valid": true,
+          "variance": 0.004157738309473761
+        },
+        {
+          "seed": 47,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_047.mp4",
+          "valid": true,
+          "variance": 0.0023183569801697177
+        },
+        {
+          "seed": 48,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_048.mp4",
+          "valid": true,
+          "variance": 0.0031404724436616825
+        },
+        {
+          "seed": 49,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_049.mp4",
+          "valid": true,
+          "variance": 0.004382382702803419
+        },
+        {
+          "seed": 50,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_050.mp4",
+          "valid": true,
+          "variance": 0.00440704912292741
+        },
+        {
+          "seed": 51,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_051.mp4",
+          "valid": true,
+          "variance": 0.0025952619535312424
+        },
+        {
+          "seed": 52,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_052.mp4",
+          "valid": true,
+          "variance": 0.004691524731536065
+        },
+        {
+          "seed": 53,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_053.mp4",
+          "valid": true,
+          "variance": 0.003654407591731738
+        },
+        {
+          "seed": 54,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_054.mp4",
+          "valid": true,
+          "variance": 0.00419037145066766
+        },
+        {
+          "seed": 55,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_055.mp4",
+          "valid": true,
+          "variance": 0.003370839673856784
+        },
+        {
+          "seed": 56,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_056.mp4",
+          "valid": true,
+          "variance": 0.00261280526530989
+        },
+        {
+          "seed": 57,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\sfw\\sfw_057.mp4",
+          "valid": true,
+          "variance": 0.004211941345279376
+        }
+      ]
+    },
+    "human": {
+      "valid": 16,
+      "items": [
+        {
+          "seed": 42,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_042.mp4",
+          "valid": true,
+          "variance": 0.0038423331007511625
+        },
+        {
+          "seed": 43,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_043.mp4",
+          "valid": true,
+          "variance": 0.0033921586324258016
+        },
+        {
+          "seed": 44,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_044.mp4",
+          "valid": true,
+          "variance": 0.004485591419882352
+        },
+        {
+          "seed": 45,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_045.mp4",
+          "valid": true,
+          "variance": 0.0023417696210080684
+        },
+        {
+          "seed": 46,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_046.mp4",
+          "valid": true,
+          "variance": 0.004188081181998695
+        },
+        {
+          "seed": 47,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_047.mp4",
+          "valid": true,
+          "variance": 0.0023101841461832537
+        },
+        {
+          "seed": 48,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_048.mp4",
+          "valid": true,
+          "variance": 0.0030186690184505535
+        },
+        {
+          "seed": 49,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_049.mp4",
+          "valid": true,
+          "variance": 0.004292248376464892
+        },
+        {
+          "seed": 50,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_050.mp4",
+          "valid": true,
+          "variance": 0.0036967256962652166
+        },
+        {
+          "seed": 51,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_051.mp4",
+          "valid": true,
+          "variance": 0.002791763012810993
+        },
+        {
+          "seed": 52,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_052.mp4",
+          "valid": true,
+          "variance": 0.00382802672609086
+        },
+        {
+          "seed": 53,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_053.mp4",
+          "valid": true,
+          "variance": 0.003653551994976888
+        },
+        {
+          "seed": 54,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_054.mp4",
+          "valid": true,
+          "variance": 0.004225602730237428
+        },
+        {
+          "seed": 55,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_055.mp4",
+          "valid": true,
+          "variance": 0.0033284494673998487
+        },
+        {
+          "seed": 56,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_056.mp4",
+          "valid": true,
+          "variance": 0.0025534518206240457
+        },
+        {
+          "seed": 57,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\human\\human_057.mp4",
+          "valid": true,
+          "variance": 0.003983900194138949
+        }
+      ]
+    },
+    "hentai": {
+      "valid": 16,
+      "items": [
+        {
+          "seed": 42,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_042.mp4",
+          "valid": true,
+          "variance": 0.004767611179681074
+        },
+        {
+          "seed": 43,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_043.mp4",
+          "valid": true,
+          "variance": 0.00267363738508251
+        },
+        {
+          "seed": 44,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_044.mp4",
+          "valid": true,
+          "variance": 0.003989058188087638
+        },
+        {
+          "seed": 45,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_045.mp4",
+          "valid": true,
+          "variance": 0.002340022267426614
+        },
+        {
+          "seed": 46,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_046.mp4",
+          "valid": true,
+          "variance": 0.0035092348989564925
+        },
+        {
+          "seed": 47,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_047.mp4",
+          "valid": true,
+          "variance": 0.0024009107541308867
+        },
+        {
+          "seed": 48,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_048.mp4",
+          "valid": true,
+          "variance": 0.002534781393390609
+        },
+        {
+          "seed": 49,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_049.mp4",
+          "valid": true,
+          "variance": 0.003865160819728889
+        },
+        {
+          "seed": 50,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_050.mp4",
+          "valid": true,
+          "variance": 0.0044178616052733795
+        },
+        {
+          "seed": 51,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_051.mp4",
+          "valid": true,
+          "variance": 0.002948447317272263
+        },
+        {
+          "seed": 52,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_052.mp4",
+          "valid": true,
+          "variance": 0.004332192692785493
+        },
+        {
+          "seed": 53,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_053.mp4",
+          "valid": true,
+          "variance": 0.002935816488154101
+        },
+        {
+          "seed": 54,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_054.mp4",
+          "valid": true,
+          "variance": 0.0035526568779811986
+        },
+        {
+          "seed": 55,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_055.mp4",
+          "valid": true,
+          "variance": 0.002722842390686574
+        },
+        {
+          "seed": 56,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_056.mp4",
+          "valid": true,
+          "variance": 0.0023563884997788737
+        },
+        {
+          "seed": 57,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\hentai\\hentai_057.mp4",
+          "valid": true,
+          "variance": 0.004931391712518469
+        }
+      ]
+    },
+    "object": {
+      "valid": 16,
+      "items": [
+        {
+          "seed": 42,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_042.mp4",
+          "valid": true,
+          "variance": 0.003910401226734863
+        },
+        {
+          "seed": 43,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_043.mp4",
+          "valid": true,
+          "variance": 0.0032040545906526067
+        },
+        {
+          "seed": 44,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_044.mp4",
+          "valid": true,
+          "variance": 0.0045316384264057685
+        },
+        {
+          "seed": 45,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_045.mp4",
+          "valid": true,
+          "variance": 0.0023087794488087492
+        },
+        {
+          "seed": 46,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_046.mp4",
+          "valid": true,
+          "variance": 0.004160720554570998
+        },
+        {
+          "seed": 47,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_047.mp4",
+          "valid": true,
+          "variance": 0.0022917384552373177
+        },
+        {
+          "seed": 48,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_048.mp4",
+          "valid": true,
+          "variance": 0.002885677644723816
+        },
+        {
+          "seed": 49,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_049.mp4",
+          "valid": true,
+          "variance": 0.004399846304177998
+        },
+        {
+          "seed": 50,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_050.mp4",
+          "valid": true,
+          "variance": 0.00476594342504658
+        },
+        {
+          "seed": 51,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_051.mp4",
+          "valid": true,
+          "variance": 0.0028556506238659966
+        },
+        {
+          "seed": 52,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_052.mp4",
+          "valid": true,
+          "variance": 0.004730453072566419
+        },
+        {
+          "seed": 53,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_053.mp4",
+          "valid": true,
+          "variance": 0.003528238267115798
+        },
+        {
+          "seed": 54,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_054.mp4",
+          "valid": true,
+          "variance": 0.004253111513061149
+        },
+        {
+          "seed": 55,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_055.mp4",
+          "valid": true,
+          "variance": 0.0032210747256965168
+        },
+        {
+          "seed": 56,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_056.mp4",
+          "valid": true,
+          "variance": 0.0025002931890353904
+        },
+        {
+          "seed": 57,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\batch\\object\\object_057.mp4",
+          "valid": true,
+          "variance": 0.004043945975999739
+        }
+      ]
+    }
+  },
+  "total": 64
+}

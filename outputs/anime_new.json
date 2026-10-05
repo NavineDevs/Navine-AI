@@ -1,0 +1,15 @@
+{
+  "prompt": "anime girl with long blue hair, detailed illustration, vibrant colors",
+  "enhanced_prompt": "an anime girl with long blue hair, detailed illustration, vibrant colors, anime illustration, stylized character art, vibrant colors, detailed linework",
+  "num_steps": 200,
+  "guidance_scale": 1.8,
+  "seed": 123,
+  "procedural": false,
+  "nsfw": true,
+  "category": "anime",
+  "timestamp": "2026-07-02T14:38:27.040870+00:00",
+  "output": "outputs\\anime_new.png",
+  "generation_mode": "diffusers",
+  "reference_used": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image\\latest.pt"
+}

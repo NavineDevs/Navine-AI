@@ -1,0 +1,13 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+VideoFrameDataset unique=2051 effective=10453
+Navine AI Video Model | Parameters: 1,029,453,023 | Device: cuda
+Navine AI: verified real params for video: 1,029,453,023 (unique storage)
+Training sequences: 10453 | frame_size=160 | Steps: 7000
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to C:\Users\hitbo/.cache\torch\hub\checkpoints\vgg16-397923af.pth
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+VideoFrameDataset unique=2051 effective=10453
+Navine AI Video Model | Parameters: 1,029,453,023 | Device: cuda
+Navine AI: verified real params for video: 1,029,453,023 (unique storage)
+Training sequences: 10453 | frame_size=160 | Steps: 7000
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}

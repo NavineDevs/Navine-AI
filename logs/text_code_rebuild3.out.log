@@ -1,0 +1,3 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Code SFT corpus: 2500 examples
+Building BPE tokenizer vocab=32000 on 2375 samples...

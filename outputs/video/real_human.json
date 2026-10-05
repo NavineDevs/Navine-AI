@@ -1,0 +1,18 @@
+{
+  "prompt": "photorealistic real woman natural motion cinematic lighting slow movement amateur video realistic skin",
+  "enhanced_prompt": "a photorealistic real woman natural motion cinematic lighting slow movement amateur video realistic skin",
+  "num_frames": 32,
+  "fps": 24,
+  "seed": 1990838819,
+  "fallback": true,
+  "timestamp": "2026-07-09T06:38:48.752856+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\real_human.mp4",
+  "nsfw": false,
+  "category": "real",
+  "reference_used": true,
+  "reference_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\local\\real\\b_1781418906413127.png",
+  "keyword_matched": "photorealistic",
+  "reference_category": "real",
+  "reference_strength": 0.58,
+  "generation_mode": "guide"
+}

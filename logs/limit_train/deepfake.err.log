@@ -1,0 +1,70 @@
+C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py:1369: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:40.)
+  return t.to(
+C:\Users\hitbo\Downloads\Navine AI\navine\deepfake\train.py:46: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler(enabled=device.type == "cuda" and bool(train_cfg.get("mixed_precision", True)))
+C:\Users\hitbo\Downloads\Navine AI\navine\deepfake\train.py:55: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=scaler.is_enabled()):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from navine.deepfake.train import train_deepfake; train_deepfake(steps=500)
+                                                      ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\deepfake\train.py", line 64, in train_deepfake
+    scaler.step(opt)
+    ~~~~~~~~~~~^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\amp\grad_scaler.py", line 478, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\amp\grad_scaler.py", line 372, in _maybe_opt_step
+    retval = optimizer.step(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\optim\optimizer.py", line 535, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\optim\optimizer.py", line 80, in _use_grad
+    ret = func(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\optim\adam.py", line 238, in step
+    has_complex = self._init_group(
+        group,
+    ...<5 lines>...
+        state_steps,
+    )
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\optim\adam.py", line 182, in _init_group
+    state["exp_avg_sq"] = torch.zeros_like(
+                          ~~~~~~~~~~~~~~~~^
+        p, memory_format=torch.preserve_format
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 58.00 MiB. GPU 0 has a total capacity of 8.00 GiB of which 0 bytes is free. Of the allocated memory 15.06 GiB is allocated by PyTorch, and 483.99 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py:1369: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:40.)
+  return t.to(
+C:\Users\hitbo\Downloads\Navine AI\navine\deepfake\train.py:46: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler(enabled=device.type == "cuda" and bool(train_cfg.get("mixed_precision", True)))
+C:\Users\hitbo\Downloads\Navine AI\navine\deepfake\train.py:55: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=scaler.is_enabled()):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from navine.deepfake.train import train_deepfake; train_deepfake(steps=500)
+                                                      ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\deepfake\train.py", line 64, in train_deepfake
+    scaler.step(opt)
+    ~~~~~~~~~~~^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\amp\grad_scaler.py", line 478, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\amp\grad_scaler.py", line 372, in _maybe_opt_step
+    retval = optimizer.step(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\optim\optimizer.py", line 535, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\optim\optimizer.py", line 80, in _use_grad
+    ret = func(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\optim\adam.py", line 238, in step
+    has_complex = self._init_group(
+        group,
+    ...<5 lines>...
+        state_steps,
+    )
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\optim\adam.py", line 182, in _init_group
+    state["exp_avg_sq"] = torch.zeros_like(
+                          ~~~~~~~~~~~~~~~~^
+        p, memory_format=torch.preserve_format
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 58.00 MiB. GPU 0 has a total capacity of 8.00 GiB of which 0 bytes is free. Of the allocated memory 15.06 GiB is allocated by PyTorch, and 483.99 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

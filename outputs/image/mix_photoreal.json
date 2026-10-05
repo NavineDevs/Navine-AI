@@ -1,0 +1,15 @@
+{
+  "prompt": "photorealistic adult woman portrait outdoors, natural light, detailed skin",
+  "enhanced_prompt": "a photorealistic adult woman portrait outdoors, natural light, detailed skin",
+  "num_steps": 140,
+  "guidance_scale": 2.4,
+  "seed": 42,
+  "procedural": false,
+  "nsfw": true,
+  "category": "real",
+  "timestamp": "2026-08-21T19:01:32.727934+00:00",
+  "output": "outputs\\image\\mix_photoreal.png",
+  "generation_mode": "diffusion",
+  "reference_used": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise\\latest.pt"
+}

@@ -1,0 +1,101 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI: loaded tokenizer from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\tokenizer.json (vocab=12000)
+Navine AI: resumed weights from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Navine Neural Text | params=1,026,869,376 | device=cuda | tier=gpt3_1b layers=30 d=1664 rope=True swiglu=True rms=True tie=True
+Navine AI: verified real params for text:text_enterprise: 1,026,869,376 (unique storage)
+Navine AI: gradient checkpointing enabled
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 11000 sequences
+Navine AI: encoded 11500 sequences
+Navine AI: encoded 12000 sequences
+Navine AI: encoded 12500 sequences
+Navine AI: encoded 13000 sequences
+Navine AI: encoded 13500 sequences
+Navine AI: encoded 14000 sequences
+Navine AI: encoded 14500 sequences
+Navine AI: encoded 15000 sequences
+Navine AI: encoded 15500 sequences
+Navine AI: encoded 16000 sequences
+Navine AI: encoded 16500 sequences
+Navine AI: encoded 17000 sequences
+Navine AI: encoded 17500 sequences
+Navine AI: encoded 18000 sequences
+Navine AI: encoded 18500 sequences
+Navine AI: encoded 19000 sequences
+Navine AI: encoded 19500 sequences
+Navine AI: encoded 20000 sequences
+Navine AI: encoded 20500 sequences
+Navine AI: encoded 21000 sequences
+Navine AI: encoded 21500 sequences
+Navine AI: encoded 22000 sequences
+Navine AI: encoded 22500 sequences
+Navine AI: encoded 23000 sequences
+Navine AI: encoded 23500 sequences
+Navine AI: encoded 24000 sequences
+Navine AI: encoded 24500 sequences
+Navine AI: encoded 25000 sequences
+Navine AI: encoded 25500 sequences
+Navine AI: encoded 26000 sequences
+Navine AI: encoded 26500 sequences
+Navine AI: encoded 27000 sequences
+Navine AI: encoded 27500 sequences
+Navine AI: encoded 28000 sequences
+Navine AI: encoded 28500 sequences
+Navine AI: encoded 29000 sequences
+Navine AI: encoded 29500 sequences
+Navine AI: encoded 30000 sequences
+Navine AI: encoded 30500 sequences
+Navine AI: encoded 31000 sequences
+Navine AI: encoded 31500 sequences
+Navine AI: encoded 32000 sequences
+Navine AI: encoded 32500 sequences
+Navine AI: encoded 33000 sequences
+Navine AI: encoded 33500 sequences
+Navine AI: encoded 34000 sequences
+Navine AI: encoded 34500 sequences
+Navine AI: encoded 35000 sequences
+Navine AI: encoded 35500 sequences
+Navine AI: encoded 36000 sequences
+Navine AI: encoded 36500 sequences
+Navine AI: encoded 37000 sequences
+Navine AI: encoded 37500 sequences
+Navine AI: encoded 38000 sequences
+Navine AI: encoded 38500 sequences
+Navine AI: encoded 39000 sequences
+Navine AI: encoded 39500 sequences
+Navine AI: encoded 40000 sequences
+Navine AI: encoded 40500 sequences
+Navine AI: encoded 41000 sequences
+Navine AI: encoded 41500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+PROGRESS steps=1/4000
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI: loaded tokenizer from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\tokenizer.json (vocab=12000)

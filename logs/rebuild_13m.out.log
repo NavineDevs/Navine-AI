@@ -1,0 +1,303 @@
+[2026-08-22T10:30:15.094566+00:00] REBUILD_13M_BEGIN
+[2026-08-22T10:30:18.548192+00:00] TARGET text=13,860,480 image=13,451,207 video=13,486,988 total=40,798,675
+[2026-08-22T10:30:19.554152+00:00] CKPT text_enterprise params=329,335,808 bytes=1,268,262,493
+[2026-08-22T10:30:21.439573+00:00] CKPT text_code params=344,798,208 bytes=1,379,264,303
+[2026-08-22T10:30:21.860740+00:00] CKPT image_enterprise_v2 params=138,815,213 bytes=555,407,897
+[2026-08-22T10:30:22.022394+00:00] CKPT video_enterprise params=25,808,723 bytes=103,246,333
+[2026-08-22T10:30:24.558930+00:00] archived text_enterprise -> _archive_pre13m_text_enterprise_20260822_103022
+[2026-08-22T10:30:27.963904+00:00] archived text_code -> _archive_pre13m_text_code_20260822_103024
+[2026-08-22T10:31:19.419299+00:00] archived hitboyx23_ai -> _archive_pre13m_hitboyx23_ai_20260822_103027
+[2026-08-22T10:32:54.428063+00:00] archived hitboyx23_ai_python -> _archive_pre13m_hitboyx23_ai_python_20260822_103120
+[2026-08-22T10:34:49.101767+00:00] archived image_enterprise_v2 -> _archive_pre13m_image_enterprise_v2_20260822_103254
+[2026-08-22T10:34:49.656427+00:00] archived video_enterprise -> _archive_pre13m_video_enterprise_20260822_103449
+[2026-08-22T10:34:49.766793+00:00] STAGE_BEGIN text_enterprise
+[2026-08-22T10:34:49.772676+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe -m navine.cli train text --steps 4000
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI: loaded tokenizer from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\tokenizer.json (vocab=12000)
+Navine Neural Text | params=13,860,480 | device=cuda | tier=compact layers=5 d=384 rope=True swiglu=True rms=True tie=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 11000 sequences
+Navine AI: encoded 11500 sequences
+Navine AI: encoded 12000 sequences
+Navine AI: encoded 12500 sequences
+Navine AI: encoded 13000 sequences
+Navine AI: encoded 13500 sequences
+Navine AI: encoded 14000 sequences
+Navine AI: encoded 14500 sequences
+Navine AI: encoded 15000 sequences
+Navine AI: encoded 15500 sequences
+Navine AI: encoded 16000 sequences
+Navine AI: encoded 16500 sequences
+Navine AI: encoded 17000 sequences
+Navine AI: encoded 17500 sequences
+Navine AI: encoded 18000 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Step 200 | Val Loss: 5.7286
+Step 400 | Val Loss: 4.8804
+Step 600 | Val Loss: 4.6280
+Step 800 | Val Loss: 4.4657
+Step 1000 | Val Loss: 4.3620
+Step 1200 | Val Loss: 4.2580
+Step 1400 | Val Loss: 4.1849
+Step 1600 | Val Loss: 4.1247
+Step 1800 | Val Loss: 4.0724
+Step 2000 | Val Loss: 4.0314
+Step 2200 | Val Loss: 4.0005
+Step 2400 | Val Loss: 3.9759
+Step 2600 | Val Loss: 3.9474
+Step 2800 | Val Loss: 3.9276
+Step 3000 | Val Loss: 3.9122
+Step 3200 | Val Loss: 3.9002
+Step 3400 | Val Loss: 3.8923
+Step 3600 | Val Loss: 3.8883
+Step 3800 | Val Loss: 3.8862
+Step 4000 | Val Loss: 3.8859
+Training complete. Checkpoint saved to C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+[2026-08-22T10:39:41.672022+00:00] STAGE_END text_enterprise code=0
+[2026-08-22T10:39:41.713746+00:00] copied checkpoint text_enterprise -> hitboyx23_ai
+[2026-08-22T10:39:44.715315+00:00] STAGE_BEGIN text_code
+[2026-08-22T10:39:44.729017+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\train_text_code_specialist.py --steps 2500
+[2026-08-22T10:39:47.031970+00:00] STAGE_END text_code code=1
+[2026-08-22T10:39:47.042923+00:00] STAGE_FAIL text_code
+[2026-08-22T10:39:50.044233+00:00] STAGE_BEGIN image_v2
+[2026-08-22T10:39:50.051813+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\run_image_mix_steps.py 800
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+ImageFolderDataset unique=62 effective=368
+Navine AI Image Model | Parameters: 138,814,413 | Device: cuda
+Training samples: 368 | Steps: 4000
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Navine AI: refreshed noise schedule T=200 abar_T=6.07172e-08
+Navine AI: EMA disabled for this run
+Training complete. Checkpoint saved to C:\Users\hitbo\Downloads\Navine AI\checkpoints\image_enterprise_v2\latest.pt
+smoke sfw: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_sfw.png
+smoke human: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_human.png
+smoke hentai: valid=False noise=True -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_hentai.png
+smoke object: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_object.png
+smoke think: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_think.png
+smoke detective: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_detective.png
+Image smoke eval ok=False report=C:\Users\hitbo\Downloads\Navine AI\logs\image_smoke_eval.json
+[2026-08-22T11:42:13.444685+00:00] STAGE_END image_v2 code=0
+[2026-08-22T11:42:16.450217+00:00] STAGE_BEGIN video
+[2026-08-22T11:42:16.452316+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe -m navine.cli train video --steps 1200
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+VideoFrameDataset unique=1152 effective=6430
+Navine AI Video Model | Parameters: 13,486,988 | Device: cuda
+Training sequences: 6430 | frame_size=128 | Steps: 3000
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Training complete. Checkpoint saved to C:\Users\hitbo\Downloads\Navine AI\checkpoints\video_enterprise\latest.pt
+smoke sky: valid=True variance=0.01400 -> C:\Users\hitbo\Downloads\Navine AI\outputs\video\generated_sky.mp4
+smoke human: valid=True variance=0.01341 -> C:\Users\hitbo\Downloads\Navine AI\outputs\video\generated_human.mp4
+smoke hentai: valid=True variance=0.06765 -> C:\Users\hitbo\Downloads\Navine AI\outputs\video\generated_hentai.mp4
+smoke porn: valid=True variance=0.01105 -> C:\Users\hitbo\Downloads\Navine AI\outputs\video\generated_porn.mp4
+smoke think: valid=True variance=0.00963 -> C:\Users\hitbo\Downloads\Navine AI\outputs\video\generated_think.mp4
+smoke detective: valid=True variance=0.00253 -> C:\Users\hitbo\Downloads\Navine AI\outputs\video\generated_detective.mp4
+Video smoke eval ok=True report=C:\Users\hitbo\Downloads\Navine AI\logs\video_smoke_eval.json
+[2026-08-22T12:01:38.348778+00:00] STAGE_END video code=0
+[2026-08-22T12:01:41.352349+00:00] STAGE_BEGIN gguf_export
+[2026-08-22T12:01:41.353805+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\export_ai_output_gguf.py
+export text_enterprise -> C:\Users\hitbo\Downloads\ai output\_exports\text_enterprise.gguf
+export text_code -> C:\Users\hitbo\Downloads\ai output\_exports\text_code.gguf
+FAIL text_code: Missing weights or tokenizer for text_code
+export hitboyx23_ai -> C:\Users\hitbo\Downloads\ai output\_exports\hitboyx23_ai.gguf
+export hitboyx23_ai_python -> C:\Users\hitbo\Downloads\ai output\_exports\hitboyx23_ai_python.gguf
+FAIL hitboyx23_ai_python: Missing weights or tokenizer for hitboyx23_ai_python
+export image_enterprise_v2 -> C:\Users\hitbo\Downloads\ai output\_exports\image_enterprise_v2.gguf
+export video_enterprise -> C:\Users\hitbo\Downloads\ai output\_exports\video_enterprise.gguf
+{
+  "output_root": "C:\\Users\\hitbo\\Downloads\\ai output",
+  "exports": [
+    {
+      "name": "text_enterprise",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\text_enterprise.gguf",
+      "bytes": 27154752
+    },
+    {
+      "name": "text_code",
+      "ok": false,
+      "error": "Missing weights or tokenizer for text_code"
+    },
+    {
+      "name": "hitboyx23_ai",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\hitboyx23_ai.gguf",
+      "bytes": 27154752
+    },
+    {
+      "name": "hitboyx23_ai_python",
+      "ok": false,
+      "error": "Missing weights or tokenizer for hitboyx23_ai_python"
+    },
+    {
+      "name": "image_enterprise_v2",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\image_enterprise_v2.gguf",
+      "bytes": 277665664
+    },
+    {
+      "name": "video_enterprise",
+      "ok": true,
+      "path": "C:\\Users\\hitbo\\Downloads\\ai output\\_exports\\video_enterprise.gguf",
+      "bytes": 26978048
+    }
+  ],
+  "sites": [
+    {
+      "site": "Navine AI",
+      "port": 8765,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "text_enterprise",
+          "bytes": 27154752
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 26978048
+        }
+      ]
+    },
+    {
+      "site": "Navine AI - Python",
+      "port": 8766,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "text_code",
+          "bytes": 647979168
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 26978048
+        }
+      ]
+    },
+    {
+      "site": "Navuryx AI",
+      "port": 8767,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "text_enterprise",
+          "bytes": 27154752
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 26978048
+        }
+      ]
+    },
+    {
+      "site": "Navuryx AI - Python",
+      "port": 8768,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "text_code",
+          "bytes": 647979168
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 26978048
+        }
+      ]
+    },
+    {
+      "site": "HitBoyXx23 AI",
+      "port": 8769,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "hitboyx23_ai",
+          "bytes": 27154752
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 26978048
+        }
+      ]
+    },
+    {
+      "site": "HitBoyXx23 AI - Python",
+      "port": 8770,
+      "files": [
+        {
+          "file": "text.gguf",
+          "source": "hitboyx23_ai_python",
+          "bytes": 632047616
+        },
+        {
+          "file": "image.gguf",
+          "source": "image_enterprise_v2",
+          "bytes": 277665664
+        },
+        {
+          "file": "video.gguf",
+          "source": "video_enterprise",
+          "bytes": 26978048
+        }
+      ]
+    }
+  ]
+}
+[2026-08-22T12:01:44.824518+00:00] STAGE_END gguf_export code=1
+[2026-08-22T12:01:44.889030+00:00] STAGE_FAIL gguf_export
+[2026-08-22T12:01:48.345690+00:00] TARGET text=13,860,480 image=13,451,207 video=13,486,988 total=40,798,675
+[2026-08-22T12:01:48.418919+00:00] CKPT text_enterprise params=18,468,480 bytes=55,458,379
+[2026-08-22T12:01:48.420193+00:00] MISSING text_code
+[2026-08-22T12:01:49.029638+00:00] CKPT image_enterprise_v2 params=138,815,213 bytes=555,407,897
+[2026-08-22T12:01:49.055412+00:00] CKPT video_enterprise params=13,486,988 bytes=53,958,853
+[2026-08-22T12:01:49.056675+00:00] REBUILD_13M_COMPLETE

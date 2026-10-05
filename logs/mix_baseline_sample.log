@@ -1,0 +1,22 @@
+C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py:260: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+blue_sky: C:\Users\hitbo\Downloads\Navine AI\outputs\image\mix_baseline_pure\blue_sky_seed0.png
+photoreal: C:\Users\hitbo\Downloads\Navine AI\outputs\image\mix_baseline_pure\photoreal_seed0.png
+hentai_nude: C:\Users\hitbo\Downloads\Navine AI\outputs\image\mix_baseline_pure\hentai_nude_seed0.png
+porn_explicit: C:\Users\hitbo\Downloads\Navine AI\outputs\image\mix_baseline_pure\porn_explicit_seed0.png
+{
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise_v2\\latest.pt",
+  "config": "image_enterprise_v2_mix",
+  "tag": "mix_baseline",
+  "seed": 0,
+  "steps": 200,
+  "guidance": 1.5,
+  "scheduler": "ddpm",
+  "params": 138814413,
+  "outputs": {
+    "blue_sky": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\mix_baseline_pure\\blue_sky_seed0.png",
+    "photoreal": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\mix_baseline_pure\\photoreal_seed0.png",
+    "hentai_nude": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\mix_baseline_pure\\hentai_nude_seed0.png",
+    "porn_explicit": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\mix_baseline_pure\\porn_explicit_seed0.png"
+  }
+}

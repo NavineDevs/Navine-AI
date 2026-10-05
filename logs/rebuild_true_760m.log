@@ -1,0 +1,15 @@
+2026-08-26 09:24:01 === rebuild true ~760M start ===
+2026-08-26 09:24:01 archived text_enterprise -> _archive_true760m_text_enterprise_20260826_002401
+2026-08-26 09:24:18 seeded text_enterprise 762,446,400
+2026-08-26 09:24:18 archived text_code -> _archive_true760m_text_code_20260826_002418
+2026-08-26 09:24:32 seeded text_code 762,446,400
+2026-08-26 09:24:32 archived image_enterprise_v2 -> _archive_true760m_image_enterprise_v2_20260826_002432
+2026-08-26 09:24:32 archived video_enterprise -> _archive_true760m_video_enterprise_20260826_002432
+2026-08-26 09:24:32 archived voice -> _archive_true760m_voice_20260826_002432
+2026-08-26 09:24:32 archived deepfake -> _archive_true760m_deepfake_20260826_002432
+2026-08-26 09:24:39 seeded image_enterprise_v2 765,745,069
+2026-08-26 09:26:59 seeded video_enterprise 765,875,867
+2026-08-26 09:28:46 seeded voice 757,090,321
+2026-08-26 09:30:13 seeded deepfake 768,433,667
+2026-08-26 09:30:14 proof -> C:\Users\hitbo\Downloads\Navine AI\logs\verify_true_760m.json total=4,582,037,724
+2026-08-26 09:30:14 === rebuild true ~760M done ===

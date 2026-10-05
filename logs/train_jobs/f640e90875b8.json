@@ -1,0 +1,14 @@
+{
+  "id": "f640e90875b8",
+  "target": "voice",
+  "steps": 4,
+  "config": null,
+  "language": null,
+  "require_cuda": false,
+  "custom": null,
+  "started_by": "HitBoy",
+  "started_at": "2026-08-23T11:44:09.001681+00:00",
+  "status": "completed",
+  "log": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\train_jobs\\f640e90875b8.log",
+  "finished_at": "2026-08-23T11:44:15.715890+00:00"
+}

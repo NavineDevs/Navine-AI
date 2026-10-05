@@ -1,0 +1,18 @@
+{
+  "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture detailed portrait",
+  "enhanced_prompt": "a photorealistic real amateur nude woman explicit photo natural skin texture detailed portrait",
+  "num_frames": 24,
+  "fps": 15,
+  "seed": 42,
+  "fallback": true,
+  "timestamp": "2026-06-23T08:04:13.672653+00:00",
+  "output": "outputs\\video\\hentai_porn_real.mp4",
+  "nsfw": true,
+  "category": "real",
+  "reference_used": true,
+  "reference_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\local\\real\\hc_1779199002495222.jpg",
+  "keyword_matched": "photorealistic",
+  "reference_category": "real",
+  "reference_strength": 0.58,
+  "generation_mode": "guide"
+}

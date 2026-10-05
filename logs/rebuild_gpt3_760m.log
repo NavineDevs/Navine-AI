@@ -1,0 +1,5 @@
+2026-08-25 22:27:23 === rebuild_gpt3_760m start ===
+2026-08-25 22:28:24 text_enterprise: seeded 701,277,696 real params
+2026-08-25 22:29:37 text_code: seeded 701,277,696 real params
+2026-08-25 22:29:37 proof -> C:\Users\hitbo\Downloads\Navine AI\logs\verify_real_gpt3_760m.json
+2026-08-25 22:29:37 === rebuild_gpt3_760m done ===

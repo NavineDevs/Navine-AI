@@ -1,0 +1,15 @@
+VIDEO: ChatGPT vs Claude Make AI Chatbot From Scratch
+id: 4fHI7pgG6UI | words: 20279
+keyword hits: chatbot=10, from scratch=3, architecture=2
+
+VIDEO: I Made AI Make AI Image Gen Model
+id: CphIiwsVxIo | words: 21900
+keyword hits: diffusion=8, caption=4, ddpm=3, image gen=3, lora=2, pytorch=1, cuda=1, loss=1, from scratch=1, architecture=1
+
+VIDEO: AI Makes AI Video Generation Model
+id: D8K9yA3KQyk | words: 21155
+keyword hits: clip=3, from scratch=2, pytorch=1, video generation=1
+
+VIDEO: Can You Build an LLM from Scratch with $0? I Did.
+id: ZaBJ2VwDvPI | words: 43265
+keyword hits: attention=24, transformer=20, jax=6, embedding=2, cuda=2, architecture=2, positional=2, pytorch=1, rope=1, softmax=1, from scratch=1

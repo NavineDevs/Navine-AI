@@ -1,0 +1,14 @@
+{
+  "prompt": "blue sky",
+  "enhanced_prompt": "a blue a beautiful sky, digital art, high quality, detailed, sharp focus, clean composition",
+  "num_steps": 20,
+  "guidance_scale": 1.8,
+  "seed": 7,
+  "procedural": true,
+  "nsfw": false,
+  "category": "general",
+  "timestamp": "2026-08-21T16:35:29.545468+00:00",
+  "output": "outputs\\image\\skyfix_blue_sky.png",
+  "generation_mode": "procedural",
+  "reference_used": false
+}

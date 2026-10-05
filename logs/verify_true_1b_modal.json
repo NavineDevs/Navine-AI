@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-09-22T18:54:05.545885+00:00",
+  "tier": "gpt3_1b",
+  "target": "1.00B+ unique trainable params",
+  "models": {
+    "image_enterprise_v2": 1010719309,
+    "video_enterprise": 1029453023,
+    "voice": 1026729873,
+    "deepfake": 1031615107
+  },
+  "total": 4098517312
+}

@@ -1,0 +1,56 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 8} ram=15.7GB usable=14.95GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Detective | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 8}
+Navine AI: capping train seq 2048 -> 256 for VRAM safety
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/1200
+PROGRESS steps=5/1200
+PROGRESS steps=10/1200
+PROGRESS steps=15/1200
+PROGRESS steps=20/1200
+PROGRESS steps=25/1200
+PROGRESS steps=30/1200
+PROGRESS steps=35/1200
+PROGRESS steps=40/1200
+PROGRESS steps=45/1200
+PROGRESS steps=50/1200
+PROGRESS steps=55/1200
+PROGRESS steps=60/1200
+PROGRESS steps=65/1200
+PROGRESS steps=70/1200
+PROGRESS steps=75/1200
+PROGRESS steps=80/1200
+PROGRESS steps=85/1200
+PROGRESS steps=90/1200
+PROGRESS steps=95/1200
+PROGRESS steps=100/1200
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Loaded NN | layers=30 d=1664 swiglu=True rms=True
+Navine AI Detective | Parameters: 1,026,869,376 | Device: cuda | tier=gpt3_1b arch L30/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 96 for VRAM safety
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/1200
+PROGRESS steps=5/1200
+PROGRESS steps=10/1200
+PROGRESS steps=15/1200
+PROGRESS steps=20/1200
+PROGRESS steps=25/1200
+PROGRESS steps=30/1200
+PROGRESS steps=35/1200
+PROGRESS steps=40/1200
+PROGRESS steps=45/1200
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Loaded NN | layers=30 d=1664 swiglu=True rms=True
+Navine AI Detective | Parameters: 1,026,869,376 | Device: cuda | tier=gpt3_1b arch L30/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 96 for VRAM safety
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/1200

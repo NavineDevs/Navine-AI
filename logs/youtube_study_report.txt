@@ -1,0 +1,29 @@
+========================================================================
+ChatGPT vs Claude Make AI Chatbot From Scratch (4fHI7pgG6UI)
+words: 57
+snippets:
+  - ChatGPT vs Claude Make AI Chatbot From Scratch
+  - I challenged GPT 5.3 Codex and Claude Opus 4.6 to create an AI Chatbot from scratch.
+  - 🎥 6 AIs WORK TOGETHER to Make Need For Speed From Scratch
+
+========================================================================
+I Made AI Make AI Image Gen Model (CphIiwsVxIo)
+words: 79
+snippets:
+  - I put ChatGPT, Gemini, Claude, Composer 2, and more models to a challenge to make an AI Image Gen Model (DDPM) from scratch.
+
+========================================================================
+AI Makes AI Video Generation Model (D8K9yA3KQyk)
+words: 63
+snippets:
+  - I put GPT 5.6, Claude Fable 5, Opus 4.8, and more models to a challenge to make a AI (Video Gen Model) from scratch.
+  - 🎥 5 AIs WORK TOGETHER to Build An Operating System From Scratch
+
+========================================================================
+Can You Build an LLM from Scratch with $0? I Did. (ZaBJ2VwDvPI)
+words: 86
+snippets:
+  - Can You Build an LLM from Scratch with $0? I Did.
+  - ing **GIANT** — my own implementation of a standard Large Language Model (LLM), using the JAX machine learning framework.
+  - This is the first video in a series where I explore building a mini-framework of machine learning models — not limited to text. GIANT is a standard Transformer implementation that I’l
+  - #jax #ai #llm #transformer #chatgpt #machinelearning #programmingmemes

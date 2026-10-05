@@ -1,0 +1,12 @@
+{
+  "prompt": "nude hentai anime girl detailed face body, gentle motion",
+  "generation_mode": "video_checkpoint",
+  "reference_used": false,
+  "custom_trained_only": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-22T11:57:55.300083+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_hentai.mp4",
+  "valid": true,
+  "frame_variance": 0.0676456033454641,
+  "category_tag": "hentai"
+}

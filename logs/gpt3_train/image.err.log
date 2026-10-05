@@ -1,0 +1,57 @@
+C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_utils.py:106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:40.)
+  untyped_storage = torch.UntypedStorage(self.size(), device=device)
+C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py:260: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+Fine-tuning Navine AI Image:   0%|          | 0/800 [00:00<?, ?it/s]C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_utils.py:106: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:40.)
+  untyped_storage = torch.UntypedStorage(self.size(), device=device)
+C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py:260: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+Fine-tuning Navine AI Image:   0%|          | 0/800 [00:00<?, ?it/s]ptxas fatal   : Memory allocation failure
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\cli.py", line 3565, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\cli.py", line 2102, in main
+    train(
+    ~~~~~^
+        config_path=modality_config_name("image"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        require_cuda=bool(getattr(args, "require_cuda", False)),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\image\train.py", line 299, in train
+    _train_impl(config_path, finetune, finetune_steps, require_cuda=require_cuda)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\image\train.py", line 447, in _train_impl
+    scaler.scale(loss).backward()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_tensor.py", line 631, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\autograd\__init__.py", line 379, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\autograd\graph.py", line 882, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+RuntimeError: bad allocation
+Fine-tuning Navine AI Image:   0%|          | 0/800 [18:45<?, ?it/s]

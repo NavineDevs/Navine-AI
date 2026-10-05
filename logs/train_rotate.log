@@ -1,0 +1,21 @@
+[2026-08-22T06:58:29.020504+00:00] TRAIN_ROTATE_BEGIN
+[2026-08-22T06:58:29.023740+00:00] STAGE_BEGIN chat_sft
+[2026-08-22T06:58:29.026818+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\run_chat_sft.py 300
+[2026-08-22T07:21:33.324982+00:00] STAGE_END chat_sft code=0
+[2026-08-22T07:21:38.326370+00:00] STAGE_BEGIN image_mix
+[2026-08-22T07:21:38.330335+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\run_image_mix_steps.py 400
+[2026-08-22T07:33:00.256675+00:00] STAGE_END image_mix code=0
+[2026-08-22T07:33:05.258103+00:00] STAGE_BEGIN video_ft
+[2026-08-22T07:33:05.262585+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe -m navine.cli train video --steps 500
+[2026-08-22T07:50:50.331572+00:00] STAGE_END video_ft code=0
+[2026-08-22T07:50:55.336364+00:00] STAGE_BEGIN text_code
+[2026-08-22T07:50:55.341057+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\train_text_code_specialist.py --steps 800
+[2026-08-22T07:50:57.408083+00:00] STAGE_END text_code code=1
+[2026-08-22T07:50:57.411863+00:00] STAGE_FAIL text_code
+[2026-08-22T07:51:02.413033+00:00] STAGE_BEGIN gguf_export
+[2026-08-22T07:51:02.417922+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\export_ai_output_gguf.py
+[2026-08-22T07:51:27.622783+00:00] STAGE_END gguf_export code=0
+[2026-08-22T07:51:32.626044+00:00] TRAIN_ROTATE_COMPLETE
+[2026-08-22T10:25:15.446059+00:00] TRAIN_ROTATE_BEGIN
+[2026-08-22T10:25:15.448775+00:00] STAGE_BEGIN chat_sft
+[2026-08-22T10:25:15.451063+00:00] RUN C:\Users\hitbo\Downloads\Navine AI\venv\Scripts\python.exe C:\Users\hitbo\Downloads\Navine AI\scripts\run_chat_sft.py 500

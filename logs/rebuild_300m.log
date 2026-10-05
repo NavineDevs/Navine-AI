@@ -1,0 +1,25 @@
+[2026-08-25T12:03:23.303104+00:00] === rebuild_300m_all start ===
+[2026-08-25T12:04:18.694464+00:00] archived text_enterprise -> _archive_pre300m_text_enterprise_20260825_120323
+[2026-08-25T12:05:09.838296+00:00] archived text_code -> _archive_pre300m_text_code_20260825_120418
+[2026-08-25T12:08:11.693275+00:00] archived image_enterprise_v2 -> _archive_pre300m_image_enterprise_v2_20260825_120509
+[2026-08-25T12:08:51.286692+00:00] archived video_enterprise -> _archive_pre300m_video_enterprise_20260825_120811
+[2026-08-25T12:09:11.882075+00:00] archived voice -> _archive_pre300m_voice_20260825_120851
+[2026-08-25T12:09:11.906253+00:00] archived voice_enterprise -> _archive_pre300m_voice_enterprise_20260825_120911
+[2026-08-25T12:09:11.972660+00:00] archived deepfake -> _archive_pre300m_deepfake_20260825_120911
+[2026-08-25T12:09:52.538506+00:00] seeded text_enterprise 317,047,808
+[2026-08-25T12:10:19.549426+00:00] === rebuild_300m_all start ===
+[2026-08-25T12:11:30.215932+00:00] archived text_enterprise -> _archive_pre300m_text_enterprise_20260825_121019
+[2026-08-25T12:11:34.585934+00:00] archived text_code -> _archive_pre300m_text_code_20260825_121130
+[2026-08-25T12:13:44.132949+00:00] archived image_enterprise_v2 -> _archive_pre300m_image_enterprise_v2_20260825_121134
+[2026-08-25T12:13:44.135490+00:00] archived video_enterprise -> _archive_pre300m_video_enterprise_20260825_121344
+[2026-08-25T12:13:44.266204+00:00] archived voice -> _archive_pre300m_voice_20260825_121344
+[2026-08-25T12:13:44.268331+00:00] archived voice_enterprise -> _archive_pre300m_voice_enterprise_20260825_121344
+[2026-08-25T12:13:44.270825+00:00] archived deepfake -> _archive_pre300m_deepfake_20260825_121344
+[2026-08-25T12:14:29.267480+00:00] seeded text_enterprise 317,047,808
+[2026-08-25T12:15:14.507744+00:00] seeded text_code 337,527,808
+[2026-08-25T12:16:02.253952+00:00] seeded image_enterprise_v2 312,125,773
+[2026-08-25T12:16:54.411429+00:00] seeded video_enterprise 306,632,261
+[2026-08-25T12:17:16.477751+00:00] seeded voice 311,470,289
+[2026-08-25T12:17:53.225532+00:00] seeded deepfake 300,363,555
+[2026-08-25T12:17:53.262858+00:00] proof written C:\Users\hitbo\Downloads\Navine AI\logs\verify_real_300m.json total=1,885,167,494
+[2026-08-25T12:17:53.566889+00:00] DONE text_enterprise=317,047,808, text_code=337,527,808, image_enterprise_v2=312,125,773, video_enterprise=306,632,261, voice=311,470,289, deepfake=300,363,555 total=1,885,167,494

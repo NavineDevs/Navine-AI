@@ -1,0 +1,14 @@
+{
+  "prompt": "night sky with a bright blue moon and stars, photorealistic",
+  "enhanced_prompt": "a night sky with a bright blue moon and stars, photorealistic, high quality, detailed skin texture, sharp focus",
+  "num_steps": 4,
+  "guidance_scale": 1.8,
+  "seed": 42,
+  "procedural": true,
+  "nsfw": false,
+  "category": "real",
+  "timestamp": "2026-08-21T17:43:53.081155+00:00",
+  "output": "outputs\\image\\real_blue_moon.png",
+  "generation_mode": "procedural",
+  "reference_used": false
+}

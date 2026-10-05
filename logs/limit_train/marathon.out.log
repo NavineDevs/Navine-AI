@@ -1,0 +1,93 @@
+2026-09-23T09:03:36.009761+00:00 LIMIT TRAIN BEGIN params_tier=gpt3_1b (~1.027B unique; stretch 1.3-1.8B) push=hard cpu_adamw loop=False start_from=text_enterprise free_gb=7.01
+2026-09-23T09:03:36.062625+00:00 ROUND 1 begin
+2026-09-23T09:03:36.063381+00:00 SKIP text_code
+2026-09-23T09:03:36.064017+00:00 START text_enterprise free_gb=7.01 train text --steps 4000 --require-cuda
+2026-09-23T09:10:05.337079+00:00 END text_enterprise code=1 free_gb=8.30
+2026-09-23T09:10:05.350643+00:00 CONTINUE after failure in text_enterprise
+2026-09-23T09:10:07.375172+00:00 START coding free_gb=8.30 train coding --steps 2000 --require-cuda
+2026-09-23T09:14:02.450020+00:00 END coding code=1 free_gb=8.32
+2026-09-23T09:14:02.467750+00:00 CONTINUE after failure in coding
+2026-09-23T09:14:04.473105+00:00 START chat free_gb=8.32 train chat --steps 1600 --require-cuda
+2026-09-23T09:15:07.277383+00:00 END chat code=3221225477 free_gb=8.31
+2026-09-23T09:15:07.304677+00:00 CONTINUE after failure in chat
+2026-09-23T09:15:09.310555+00:00 START thinking free_gb=8.31 train thinking --steps 1400 --require-cuda
+2026-09-23T09:17:36.738398+00:00 END thinking code=1 free_gb=8.31
+2026-09-23T09:17:36.749282+00:00 CONTINUE after failure in thinking
+2026-09-23T09:17:38.753871+00:00 START detective free_gb=8.31 train detective --steps 1200 --require-cuda
+2026-09-23T09:21:31.703584+00:00 END detective code=1 free_gb=8.29
+2026-09-23T09:21:31.715935+00:00 CONTINUE after failure in detective
+2026-09-23T09:21:33.719781+00:00 START osint free_gb=8.29 train osint --steps 1200 --require-cuda
+2026-09-23T09:26:27.629123+00:00 END osint code=3221225477 free_gb=8.31
+2026-09-23T09:26:27.646459+00:00 CONTINUE after failure in osint
+2026-09-23T09:26:29.653569+00:00 START math free_gb=8.31 train math --steps 1200 --require-cuda
+2026-09-23T09:27:11.021776+00:00 END math code=1 free_gb=8.31
+2026-09-23T09:27:11.035596+00:00 CONTINUE after failure in math
+2026-09-23T09:27:13.039393+00:00 START creative free_gb=8.31 train creative --steps 1200 --require-cuda
+2026-09-23T09:31:31.165792+00:00 END creative code=3221225477 free_gb=8.31
+2026-09-23T09:31:31.191370+00:00 CONTINUE after failure in creative
+2026-09-23T09:31:33.198476+00:00 START general free_gb=8.31 train general --steps 1400 --require-cuda
+2026-09-23T09:35:56.633999+00:00 END general code=3221225477 free_gb=8.31
+2026-09-23T09:35:56.649142+00:00 CONTINUE after failure in general
+2026-09-23T09:35:58.655640+00:00 START nsfw free_gb=8.31 train nsfw --steps 1400 --require-cuda
+2026-09-23T09:41:33.248708+00:00 END nsfw code=3221225477 free_gb=8.30
+2026-09-23T09:41:33.274103+00:00 CONTINUE after failure in nsfw
+2026-09-23T09:41:35.281136+00:00 START unrestricted free_gb=8.30 train unrestricted --steps 1400 --require-cuda
+2026-09-23T09:42:17.529227+00:00 END unrestricted code=1 free_gb=8.30
+2026-09-23T09:42:17.547383+00:00 CONTINUE after failure in unrestricted
+2026-09-23T09:42:19.551715+00:00 START hitboyx23 free_gb=8.30 train hitboyx23 --steps 1600 --require-cuda
+2026-09-23T09:43:39.580213+00:00 END hitboyx23 code=1 free_gb=8.30
+2026-09-23T09:43:39.597449+00:00 CONTINUE after failure in hitboyx23
+2026-09-23T09:43:41.620554+00:00 START hitboyx23_python free_gb=8.30 train hitboyx23_python --steps 1600 --require-cuda
+2026-09-23T09:47:20.102934+00:00 END hitboyx23_python code=3221225477 free_gb=8.30
+2026-09-23T09:47:20.120402+00:00 CONTINUE after failure in hitboyx23_python
+2026-09-23T09:47:22.137346+00:00 START multimodal_text free_gb=8.30 train multimodal-text --steps 1000 --require-cuda
+2026-09-23T09:47:26.984379+00:00 END multimodal_text code=1 free_gb=8.30
+2026-09-23T09:47:26.985807+00:00 CONTINUE after failure in multimodal_text
+2026-09-23T09:47:28.986753+00:00 START games free_gb=8.30 train games --steps 800 --require-cuda
+2026-09-23T09:53:00.301796+00:00 END games code=3221225477 free_gb=8.30
+2026-09-23T09:53:00.316138+00:00 CONTINUE after failure in games
+2026-09-23T09:53:02.320689+00:00 START image free_gb=8.30 train image --steps 2500 --require-cuda
+2026-09-23T10:00:47.131420+00:00 END image code=1 free_gb=7.58
+2026-09-23T10:00:47.147344+00:00 CONTINUE after failure in image
+2026-09-23T10:00:49.151569+00:00 START video free_gb=8.13 train video --steps 1500 --require-cuda
+2026-09-23T10:03:46.536284+00:00 END video code=1 free_gb=8.20
+2026-09-23T10:03:46.548017+00:00 CONTINUE after failure in video
+2026-09-23T10:03:48.551396+00:00 START voice free_gb=8.20 train voice --steps 200 --require-cuda
+2026-09-23T10:04:14.952195+00:00 END voice code=0 free_gb=8.20
+2026-09-23T10:04:16.961483+00:00 START deepfake free_gb=8.20 -c from navine.deepfake.train import train_deepfake; train_deepfake(steps=500)
+2026-09-23T10:04:41.937894+00:00 END deepfake code=1 free_gb=8.20
+2026-09-23T10:04:41.939522+00:00 CONTINUE after failure in deepfake
+2026-09-23T10:04:43.945843+00:00 SYNC begin (code+configs)
+Sync source: C:\Users\hitbo\Downloads\Navine AI
+Targets: 5
+
+== Navine AI - Python ==
+  code: 207 files updated in Navine AI - Python
+  configs: 50 items -> Navine AI - Python
+
+== Navuryx AI ==
+  code: 255 files updated in Navuryx AI
+  configs: 48 items -> Navuryx AI
+
+== Navuryx AI - Python ==
+  code: 255 files updated in Navuryx AI - Python
+  configs: 48 items -> Navuryx AI - Python
+
+== HitBoyXx23 AI ==
+  code: 255 files updated in HitBoyXx23 AI
+  configs: 48 items -> HitBoyXx23 AI
+
+== HitBoyXx23 AI - Python ==
+  code: 255 files updated in HitBoyXx23 AI - Python
+  configs: 48 items -> HitBoyXx23 AI - Python
+
+Summary written to C:\Users\hitbo\Downloads\Navine AI\logs\sync_all_six\sync_20260923_190446.json
+  Navine AI - Python: 5/6 checkpoints, 6 runners
+  Navuryx AI: 6/6 checkpoints, 6 runners
+  Navuryx AI - Python: 6/6 checkpoints, 6 runners
+  HitBoyXx23 AI: 6/6 checkpoints, 6 runners
+  HitBoyXx23 AI - Python: 6/6 checkpoints, 6 runners
+2026-09-23T10:04:46.872053+00:00 SYNC code/configs end code=0
+2026-09-23T10:04:46.874192+00:00 SKIP checkpoint sync: only 8.20 GB free
+2026-09-23T10:04:46.878058+00:00 ROUND 1 done failures=[('text_enterprise', 1), ('coding', 1), ('chat', 3221225477), ('thinking', 1), ('detective', 1), ('osint', 3221225477), ('math', 1), ('creative', 3221225477), ('general', 3221225477), ('nsfw', 3221225477), ('unrestricted', 1), ('hitboyx23', 1), ('hitboyx23_python', 3221225477), ('multimodal_text', 1), ('games', 3221225477), ('image', 1), ('video', 1), ('deepfake', 1)]
+2026-09-23T10:04:46.880318+00:00 LIMIT TRAIN DONE failures=[(1, 'text_enterprise', 1), (1, 'coding', 1), (1, 'chat', 3221225477), (1, 'thinking', 1), (1, 'detective', 1), (1, 'osint', 3221225477), (1, 'math', 1), (1, 'creative', 3221225477), (1, 'general', 3221225477), (1, 'nsfw', 3221225477), (1, 'unrestricted', 1), (1, 'hitboyx23', 1), (1, 'hitboyx23_python', 3221225477), (1, 'multimodal_text', 1), (1, 'games', 3221225477), (1, 'image', 1), (1, 'video', 1), (1, 'deepfake', 1)]

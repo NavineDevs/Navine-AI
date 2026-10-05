@@ -1,0 +1,1677 @@
+{
+  "started": "2026-06-23T08:10:48.269522+00:00",
+  "quality_target": 0.62,
+  "finetune_steps": 250,
+  "max_cycles": 12,
+  "cycles": [
+    {
+      "cycle": 1,
+      "evaluation": {
+        "average_score": 0.76,
+        "all_pass": false,
+        "categories": {
+          "real_human": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c1_real_human.png",
+            "score": 0.62,
+            "bland": true,
+            "noise": false,
+            "std": 27.261,
+            "sharpness": 1.05,
+            "passes": false,
+            "grey": false,
+            "mean": 116.96,
+            "center_std": 27.956,
+            "entropy": 2.695,
+            "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": false
+          },
+          "hentai": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c1_hentai.png",
+            "score": 0.9,
+            "bland": false,
+            "noise": false,
+            "std": 30.399,
+            "sharpness": 1.039,
+            "passes": true,
+            "grey": false,
+            "mean": 116.259,
+            "center_std": 30.96,
+            "entropy": 2.751,
+            "prompt": "hentai explicit nude anime woman photorealistic detailed skin natural lighting",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": true
+          }
+        }
+      },
+      "average_score": 0.76,
+      "all_pass": false,
+      "finetune": {
+        "steps": 250,
+        "rolled_back": false,
+        "post_std": 28.106454849243164,
+        "saved_good": true
+      }
+    },
+    {
+      "cycle": 2,
+      "evaluation": {
+        "average_score": 0.76,
+        "all_pass": false,
+        "categories": {
+          "real_human": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c2_real_human.png",
+            "score": 0.62,
+            "bland": true,
+            "noise": false,
+            "std": 25.801,
+            "sharpness": 1.191,
+            "passes": false,
+            "grey": false,
+            "mean": 117.98,
+            "center_std": 26.87,
+            "entropy": 2.66,
+            "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": false
+          },
+          "hentai": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c2_hentai.png",
+            "score": 0.9,
+            "bland": false,
+            "noise": false,
+            "std": 29.144,
+            "sharpness": 1.203,
+            "passes": true,
+            "grey": false,
+            "mean": 117.424,
+            "center_std": 28.587,
+            "entropy": 2.728,
+            "prompt": "hentai explicit nude anime woman photorealistic detailed skin natural lighting",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": true
+          }
+        }
+      },
+      "average_score": 0.76,
+      "all_pass": false,
+      "finetune": {
+        "steps": 250,
+        "rolled_back": false,
+        "post_std": 27.634733200073242,
+        "saved_good": true
+      }
+    },
+    {
+      "cycle": 3,
+      "evaluation": {
+        "average_score": 0.76,
+        "all_pass": false,
+        "categories": {
+          "real_human": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c3_real_human.png",
+            "score": 0.62,
+            "bland": true,
+            "noise": false,
+            "std": 25.402,
+            "sharpness": 1.176,
+            "passes": false,
+            "grey": false,
+            "mean": 117.13,
+            "center_std": 26.636,
+            "entropy": 2.652,
+            "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": false
+          },
+          "hentai": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c3_hentai.png",
+            "score": 0.9,
+            "bland": false,
+            "noise": false,
+            "std": 29.348,
+            "sharpness": 1.236,
+            "passes": true,
+            "grey": false,
+            "mean": 116.654,
+            "center_std": 28.897,
+            "entropy": 2.717,
+            "prompt": "hentai explicit nude anime woman photorealistic detailed skin natural lighting",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": true
+          }
+        }
+      },
+      "average_score": 0.76,
+      "all_pass": false,
+      "finetune": {
+        "steps": 250,
+        "rolled_back": false,
+        "post_std": 27.239055633544922,
+        "saved_good": true
+      },
+      "video_finetune": true
+    },
+    {
+      "cycle": 4,
+      "evaluation": {
+        "average_score": 0.76,
+        "all_pass": false,
+        "categories": {
+          "real_human": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c4_real_human.png",
+            "score": 0.62,
+            "bland": true,
+            "noise": false,
+            "std": 25.0,
+            "sharpness": 1.155,
+            "passes": false,
+            "grey": false,
+            "mean": 117.334,
+            "center_std": 26.341,
+            "entropy": 2.67,
+            "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": false
+          },
+          "hentai": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c4_hentai.png",
+            "score": 0.9,
+            "bland": false,
+            "noise": false,
+            "std": 29.425,
+            "sharpness": 1.276,
+            "passes": true,
+            "grey": false,
+            "mean": 116.659,
+            "center_std": 28.961,
+            "entropy": 2.712,
+            "prompt": "hentai explicit nude anime woman photorealistic detailed skin natural lighting",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": true
+          }
+        }
+      },
+      "average_score": 0.76,
+      "all_pass": false,
+      "finetune": {
+        "steps": 250,
+        "rolled_back": false,
+        "post_std": 27.103158950805664,
+        "saved_good": true
+      },
+      "media_fetch": {
+        "text_items": [
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ov4irn:text",
+            "title": "Join the Hanako's Hideout Discord Server!",
+            "text": "Join the Hanako's Hideout Discord Server!",
+            "url": "https://old.reddit.com/r/hentai/comments/1ov4irn/join_the_hanakos_hideout_discord_server/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ov4irn:rss:img:1",
+            "title": "Join the Hanako's Hideout Discord Server!",
+            "text": "Join the Hanako's Hideout Discord Server!",
+            "url": "https://old.reddit.com/r/hentai/comments/1ov4irn/join_the_hanakos_hideout_discord_server/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://external-preview.redd.it/J9MGrSkdvVLu4Nh3-xneb8YaXw9Z17RHFKrf-cTYfJY.jpeg?width=320&crop=smart&auto=webp&s=009fcd08443cb2ee670d13a2f5c1115e1c9e5b09",
+            "caption": "Join the Hanako's Hideout Discord Server! | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud5esg:text",
+            "title": "Big Collab(Fizzy)[Pokemon]",
+            "text": "Big Collab(Fizzy)[Pokemon]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud5esg/big_collabfizzypokemon/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud5esg:rss:img:1",
+            "title": "Big Collab(Fizzy)[Pokemon]",
+            "text": "Big Collab(Fizzy)[Pokemon]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud5esg/big_collabfizzypokemon/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/82umwlip7y8h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=9806b5ca541186e2b624a3feae59eb4cc9f610e5",
+            "caption": "Big Collab(Fizzy)[Pokemon] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1uctv0c:text",
+            "title": "Alone with the breedable alien (Anor3xia) [BogDraws]",
+            "text": "Alone with the breedable alien (Anor3xia) [BogDraws]",
+            "url": "https://old.reddit.com/r/hentai/comments/1uctv0c/alone_with_the_breedable_alien_anor3xia_bogdraws/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1uctv0c:rss:img:1",
+            "title": "Alone with the breedable alien (Anor3xia) [BogDraws]",
+            "text": "Alone with the breedable alien (Anor3xia) [BogDraws]",
+            "url": "https://old.reddit.com/r/hentai/comments/1uctv0c/alone_with_the_breedable_alien_anor3xia_bogdraws/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/o9ldj4z6vv8h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=6aa7bb1b128112e157af6735f103788b1251966d",
+            "caption": "Alone with the breedable alien (Anor3xia) [BogDraws] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucwp88:text",
+            "title": "Play It Cool(Niui)[KonoSuba]",
+            "text": "Play It Cool(Niui)[KonoSuba]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucwp88/play_it_coolniuikonosuba/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucwp88:rss:img:1",
+            "title": "Play It Cool(Niui)[KonoSuba]",
+            "text": "Play It Cool(Niui)[KonoSuba]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucwp88/play_it_coolniuikonosuba/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/8dpqmbbmdw8h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=a95fd97add8350045aa5fdf110cf91030f8bf2a7",
+            "caption": "Play It Cool(Niui)[KonoSuba] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucwulj:text",
+            "title": "It Bites(diives)[Mario]",
+            "text": "It Bites(diives)[Mario]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucwulj/it_bitesdiivesmario/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucwulj:rss:img:1",
+            "title": "It Bites(diives)[Mario]",
+            "text": "It Bites(diives)[Mario]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucwulj/it_bitesdiivesmario/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/5if2dv2mew8h1.gif?width=640&crop=smart&s=74ea57d0d10448eca1ad4503a79a7dd407ed44e5",
+            "caption": "It Bites(diives)[Mario] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucwulj:rss:link:2",
+            "title": "It Bites(diives)[Mario]",
+            "text": "It Bites(diives)[Mario]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucwulj/it_bitesdiivesmario/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/5if2dv2mew8h1.gif",
+            "caption": "It Bites(diives)[Mario] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud5x7y:text",
+            "title": "Finishing in her mouth (haembeogeokseu) [original]",
+            "text": "Finishing in her mouth (haembeogeokseu) [original]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud5x7y/finishing_in_her_mouth_haembeogeokseu_original/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud5x7y:rss:img:1",
+            "title": "Finishing in her mouth (haembeogeokseu) [original]",
+            "text": "Finishing in her mouth (haembeogeokseu) [original]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud5x7y/finishing_in_her_mouth_haembeogeokseu_original/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/wvzmssd1cy8h1.png?width=640&crop=smart&auto=webp&s=f9dfaaf29f039a6dc967d2ce40ba7498975a013e",
+            "caption": "Finishing in her mouth (haembeogeokseu) [original] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud5x7y:rss:link:2",
+            "title": "Finishing in her mouth (haembeogeokseu) [original]",
+            "text": "Finishing in her mouth (haembeogeokseu) [original]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud5x7y/finishing_in_her_mouth_haembeogeokseu_original/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/wvzmssd1cy8h1.png",
+            "caption": "Finishing in her mouth (haembeogeokseu) [original] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud1p3h:text",
+            "title": "Miku kissing Teto (Snegovski) [Vocaloid]",
+            "text": "Miku kissing Teto (Snegovski) [Vocaloid]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud1p3h/miku_kissing_teto_snegovski_vocaloid/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud1p3h:rss:img:1",
+            "title": "Miku kissing Teto (Snegovski) [Vocaloid]",
+            "text": "Miku kissing Teto (Snegovski) [Vocaloid]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud1p3h/miku_kissing_teto_snegovski_vocaloid/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/z6v3c9jfdx8h1.jpeg?width=640&crop=smart&auto=webp&s=35a0e9c7c51e3669889901f3ce462b477e9d3bb9",
+            "caption": "Miku kissing Teto (Snegovski) [Vocaloid] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud1p3h:rss:link:2",
+            "title": "Miku kissing Teto (Snegovski) [Vocaloid]",
+            "text": "Miku kissing Teto (Snegovski) [Vocaloid]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud1p3h/miku_kissing_teto_snegovski_vocaloid/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/z6v3c9jfdx8h1.jpeg",
+            "caption": "Miku kissing Teto (Snegovski) [Vocaloid] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud41za:text",
+            "title": "She won't sleep tonight (hurumero) [Original]",
+            "text": "She won't sleep tonight (hurumero) [Original]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud41za/she_wont_sleep_tonight_hurumero_original/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud41za:rss:img:1",
+            "title": "She won't sleep tonight (hurumero) [Original]",
+            "text": "She won't sleep tonight (hurumero) [Original]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud41za/she_wont_sleep_tonight_hurumero_original/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://external-preview.redd.it/D_AlhXB3mltQiuq9RhLrNXXQXZl0ND503HktSznjByY.jpeg?width=320&crop=smart&auto=webp&s=45b61c499bed32789d8c19e34f07973a8dc9aa75",
+            "caption": "She won't sleep tonight (hurumero) [Original] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucztwh:text",
+            "title": "Rebecca plapping [Cyberpunk: Edgerunners] (Aelion_UMBR)",
+            "text": "Rebecca plapping [Cyberpunk: Edgerunners] (Aelion_UMBR)",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucztwh/rebecca_plapping_cyberpunk_edgerunners_aelion_umbr/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucztwh:rss:img:1",
+            "title": "Rebecca plapping [Cyberpunk: Edgerunners] (Aelion_UMBR)",
+            "text": "Rebecca plapping [Cyberpunk: Edgerunners] (Aelion_UMBR)",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucztwh/rebecca_plapping_cyberpunk_edgerunners_aelion_umbr/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/hsio1sdbzw8h1.jpeg?width=640&crop=smart&auto=webp&s=918db2b24e1d09aa6d74750d4b9aa73c3eda7024",
+            "caption": "Rebecca plapping [Cyberpunk: Edgerunners] (Aelion_UMBR) | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucztwh:rss:link:2",
+            "title": "Rebecca plapping [Cyberpunk: Edgerunners] (Aelion_UMBR)",
+            "text": "Rebecca plapping [Cyberpunk: Edgerunners] (Aelion_UMBR)",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucztwh/rebecca_plapping_cyberpunk_edgerunners_aelion_umbr/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/hsio1sdbzw8h1.jpeg",
+            "caption": "Rebecca plapping [Cyberpunk: Edgerunners] (Aelion_UMBR) | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucrucn:text",
+            "title": "Jiangyu is ready (Brikot) [Girls Frontline]",
+            "text": "Jiangyu is ready (Brikot) [Girls Frontline]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucrucn/jiangyu_is_ready_brikot_girls_frontline/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucrucn:rss:img:1",
+            "title": "Jiangyu is ready (Brikot) [Girls Frontline]",
+            "text": "Jiangyu is ready (Brikot) [Girls Frontline]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucrucn/jiangyu_is_ready_brikot_girls_frontline/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/kqw40uu0iv8h1.jpeg?width=640&crop=smart&auto=webp&s=cea17b5f1506251ccac73469da585bc74ec9f3d4",
+            "caption": "Jiangyu is ready (Brikot) [Girls Frontline] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucrucn:rss:link:2",
+            "title": "Jiangyu is ready (Brikot) [Girls Frontline]",
+            "text": "Jiangyu is ready (Brikot) [Girls Frontline]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucrucn/jiangyu_is_ready_brikot_girls_frontline/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/kqw40uu0iv8h1.jpeg",
+            "caption": "Jiangyu is ready (Brikot) [Girls Frontline] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud61iu:text",
+            "title": "Shy selfie (myuu arisumeria) [blue archive]",
+            "text": "Shy selfie (myuu arisumeria) [blue archive]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud61iu/shy_selfie_myuu_arisumeria_blue_archive/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud61iu:rss:img:1",
+            "title": "Shy selfie (myuu arisumeria) [blue archive]",
+            "text": "Shy selfie (myuu arisumeria) [blue archive]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud61iu/shy_selfie_myuu_arisumeria_blue_archive/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/zifeaq62dy8h1.jpeg?width=640&crop=smart&auto=webp&s=670e3fceaf9019a2468ba6526557777ff5485889",
+            "caption": "Shy selfie (myuu arisumeria) [blue archive] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud61iu:rss:link:2",
+            "title": "Shy selfie (myuu arisumeria) [blue archive]",
+            "text": "Shy selfie (myuu arisumeria) [blue archive]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud61iu/shy_selfie_myuu_arisumeria_blue_archive/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/zifeaq62dy8h1.jpeg",
+            "caption": "Shy selfie (myuu arisumeria) [blue archive] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud05wq:text",
+            "title": "Chicken Feast(Curumo)[Five Nights At Freddys]",
+            "text": "Chicken Feast(Curumo)[Five Nights At Freddys]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud05wq/chicken_feastcurumofive_nights_at_freddys/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud05wq:rss:img:1",
+            "title": "Chicken Feast(Curumo)[Five Nights At Freddys]",
+            "text": "Chicken Feast(Curumo)[Five Nights At Freddys]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud05wq/chicken_feastcurumofive_nights_at_freddys/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/2y47sx4o1x8h1.gif?width=320&crop=smart&s=4a80e654fd943f5a8e86ce7865a6be44c5cfce5e",
+            "caption": "Chicken Feast(Curumo)[Five Nights At Freddys] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud05wq:rss:link:2",
+            "title": "Chicken Feast(Curumo)[Five Nights At Freddys]",
+            "text": "Chicken Feast(Curumo)[Five Nights At Freddys]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud05wq/chicken_feastcurumofive_nights_at_freddys/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/2y47sx4o1x8h1.gif",
+            "caption": "Chicken Feast(Curumo)[Five Nights At Freddys] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucmgxs:text",
+            "title": "Off The Ground(Manchu)[yofukashi no uta]",
+            "text": "Off The Ground(Manchu)[yofukashi no uta]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucmgxs/off_the_groundmanchuyofukashi_no_uta/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucmgxs:rss:img:1",
+            "title": "Off The Ground(Manchu)[yofukashi no uta]",
+            "text": "Off The Ground(Manchu)[yofukashi no uta]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucmgxs/off_the_groundmanchuyofukashi_no_uta/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/8edeq0c6ju8h1.gif?width=640&crop=smart&s=0ca1620ff62ced8d2d27b6ce1868c65c786ab4a4",
+            "caption": "Off The Ground(Manchu)[yofukashi no uta] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucmgxs:rss:link:2",
+            "title": "Off The Ground(Manchu)[yofukashi no uta]",
+            "text": "Off The Ground(Manchu)[yofukashi no uta]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucmgxs/off_the_groundmanchuyofukashi_no_uta/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/8edeq0c6ju8h1.gif",
+            "caption": "Off The Ground(Manchu)[yofukashi no uta] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucn164:text",
+            "title": "Don’t just stand there (Sataen)[Original]",
+            "text": "Don’t just stand there (Sataen)[Original]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucn164/dont_just_stand_there_sataenoriginal/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucn164:rss:img:1",
+            "title": "Don’t just stand there (Sataen)[Original]",
+            "text": "Don’t just stand there (Sataen)[Original]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucn164/dont_just_stand_there_sataenoriginal/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/kut7h3bxmu8h1.jpeg?width=640&crop=smart&auto=webp&s=46a4f77bafc83612f066fa32ad8b332d52552e32",
+            "caption": "Don’t just stand there (Sataen)[Original] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucn164:rss:link:2",
+            "title": "Don’t just stand there (Sataen)[Original]",
+            "text": "Don’t just stand there (Sataen)[Original]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucn164/dont_just_stand_there_sataenoriginal/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/kut7h3bxmu8h1.jpeg",
+            "caption": "Don’t just stand there (Sataen)[Original] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud2mua:text",
+            "title": "Let The Ride Begins(TP10)[Animal Crossing]",
+            "text": "Let The Ride Begins(TP10)[Animal Crossing]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud2mua/let_the_ride_beginstp10animal_crossing/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud2mua:rss:img:1",
+            "title": "Let The Ride Begins(TP10)[Animal Crossing]",
+            "text": "Let The Ride Begins(TP10)[Animal Crossing]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud2mua/let_the_ride_beginstp10animal_crossing/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/24gw82bukx8h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=00445ad24288eb7fbe3daefb3b6d72aae94d0dae",
+            "caption": "Let The Ride Begins(TP10)[Animal Crossing] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud3om5:text",
+            "title": "Here's The Energy Drink (lewdismug)[lewdismug]",
+            "text": "Here's The Energy Drink (lewdismug)[lewdismug]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud3om5/heres_the_energy_drink_lewdismuglewdismug/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud3om5:rss:img:1",
+            "title": "Here's The Energy Drink (lewdismug)[lewdismug]",
+            "text": "Here's The Energy Drink (lewdismug)[lewdismug]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud3om5/heres_the_energy_drink_lewdismuglewdismug/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/kcnbrv9dtx8h1.jpeg?width=640&crop=smart&auto=webp&s=bd90b2951c78612d8bd4a7ec37c92ca5d4d5af55",
+            "caption": "Here's The Energy Drink (lewdismug)[lewdismug] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud3om5:rss:link:2",
+            "title": "Here's The Energy Drink (lewdismug)[lewdismug]",
+            "text": "Here's The Energy Drink (lewdismug)[lewdismug]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud3om5/heres_the_energy_drink_lewdismuglewdismug/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/kcnbrv9dtx8h1.jpeg",
+            "caption": "Here's The Energy Drink (lewdismug)[lewdismug] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucsq3y:text",
+            "title": "Stelle needs help (Alterkyon) [Honkai: Star Rail]",
+            "text": "Stelle needs help (Alterkyon) [Honkai: Star Rail]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucsq3y/stelle_needs_help_alterkyon_honkai_star_rail/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucsq3y:rss:img:1",
+            "title": "Stelle needs help (Alterkyon) [Honkai: Star Rail]",
+            "text": "Stelle needs help (Alterkyon) [Honkai: Star Rail]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucsq3y/stelle_needs_help_alterkyon_honkai_star_rail/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/2lojv61snv8h1.jpg?width=140&height=105&auto=webp&s=a48af710c192492c9e85f53b81112416c0423cde",
+            "caption": "Stelle needs help (Alterkyon) [Honkai: Star Rail] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucndt7:text",
+            "title": "Becca's Ass [Cyberpunk Edgerunners] (Duffmox)",
+            "text": "Becca's Ass [Cyberpunk Edgerunners] (Duffmox)",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucndt7/beccas_ass_cyberpunk_edgerunners_duffmox/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucndt7:rss:img:1",
+            "title": "Becca's Ass [Cyberpunk Edgerunners] (Duffmox)",
+            "text": "Becca's Ass [Cyberpunk Edgerunners] (Duffmox)",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucndt7/beccas_ass_cyberpunk_edgerunners_duffmox/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/nva0bt06pu8h1.jpeg?width=640&crop=smart&auto=webp&s=7761a2c0dfdcf42455d6b0f19524423d88bf7aec",
+            "caption": "Becca's Ass [Cyberpunk Edgerunners] (Duffmox) | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ucndt7:rss:link:2",
+            "title": "Becca's Ass [Cyberpunk Edgerunners] (Duffmox)",
+            "text": "Becca's Ass [Cyberpunk Edgerunners] (Duffmox)",
+            "url": "https://old.reddit.com/r/hentai/comments/1ucndt7/beccas_ass_cyberpunk_edgerunners_duffmox/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/nva0bt06pu8h1.jpeg",
+            "caption": "Becca's Ass [Cyberpunk Edgerunners] (Duffmox) | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud9lus:text",
+            "title": "Sex with Emilia (harahera) [re zero kara hajimeru]",
+            "text": "Sex with Emilia (harahera) [re zero kara hajimeru]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud9lus/sex_with_emilia_harahera_re_zero_kara_hajimeru/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud9lus:rss:img:1",
+            "title": "Sex with Emilia (harahera) [re zero kara hajimeru]",
+            "text": "Sex with Emilia (harahera) [re zero kara hajimeru]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud9lus/sex_with_emilia_harahera_re_zero_kara_hajimeru/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/26w0zo27bz8h1.jpeg?width=640&crop=smart&auto=webp&s=20c21c26aecd21026821bc51779881e6c2579f00",
+            "caption": "Sex with Emilia (harahera) [re zero kara hajimeru] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud9lus:rss:link:2",
+            "title": "Sex with Emilia (harahera) [re zero kara hajimeru]",
+            "text": "Sex with Emilia (harahera) [re zero kara hajimeru]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud9lus/sex_with_emilia_harahera_re_zero_kara_hajimeru/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://i.redd.it/26w0zo27bz8h1.jpeg",
+            "caption": "Sex with Emilia (harahera) [re zero kara hajimeru] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud486j:text",
+            "title": "Jane Doe bending over (Ririsuworks) [Zenless Zone Zero]",
+            "text": "Jane Doe bending over (Ririsuworks) [Zenless Zone Zero]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud486j/jane_doe_bending_over_ririsuworks_zenless_zone/",
+            "category": "nsfw",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "nsfw_reddit:hentai:t3_1ud486j:rss:img:1",
+            "title": "Jane Doe bending over (Ririsuworks) [Zenless Zone Zero]",
+            "text": "Jane Doe bending over (Ririsuworks) [Zenless Zone Zero]",
+            "url": "https://old.reddit.com/r/hentai/comments/1ud486j/jane_doe_bending_over_ririsuworks_zenless_zone/",
+            "category": "nsfw",
+            "kind": "image",
+            "image_url": "https://preview.redd.it/0pzleazsxx8h1.jpeg?width=640&crop=smart&auto=webp&s=27adc6622f2c82b555bf4abebfe39f4873e9951a",
+            "caption": "Jane Doe bending over (Ririsuworks) [Zenless Zone Zero] | [hentai, image, character] | tags: animated, illustration | [image, character] | [image, character] | [image, character]",
+            "subreddit": "hentai",
+            "media_category": "hentai",
+            "tags": [
+              "hentai",
+              "animated",
+              "illustration"
+            ],
+            "subject_type": "character",
+            "style_type": "anime",
+            "training_scope": "nsfw",
+            "source_group": "hentai"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "reddit:nsfwhardcore:t3_1ud7x0x",
+            "title": "These are Olympics worth watching",
+            "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud7x0x/these_are_olympics_worth_watching/\"> <img src=\"https://external-preview.redd.it/UeZcP2G4MRk4XI9-jGtlVas6cf94Zomt9avAZBfvqN0.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=c36b4bf8d976487fa2d92dcc8e7630a5df9cc28b\" alt=\"These are Olympics worth watching\" title=\"These are Olympics worth watching\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Original-Studio-3117\"> /u/Original-Studio-3117 </a> <br/> <span><a href=\"https://www.redgifs.com/watch/navysharpstickinsect\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud7x0x/these_are_olympics_worth_watching/\">[comments]</a></span> </td></tr></table>",
+            "url": "https://www.reddit.com/r/nsfwhardcore/comments/1ud7x0x/these_are_olympics_worth_watching/",
+            "category": "nsfw",
+            "subreddit": "nsfwhardcore",
+            "media_category": "real",
+            "tags": [
+              "real",
+              "photography",
+              "nsfwhardcore"
+            ],
+            "subject_type": "human",
+            "style_type": "photography",
+            "training_scope": "nsfw",
+            "source_group": "real"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "reddit:nsfwhardcore:t3_1ud79ew",
+            "title": "Bored housewife Spencer Bradley sucks a party guest big thick dick",
+            "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud79ew/bored_housewife_spencer_bradley_sucks_a_party/\"> <img src=\"https://external-preview.redd.it/0sug9h3o6TSqiPfU-Jiw_z0YgRMgGsNr90Urni5dyJE.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a00ef34aef3cacfff5a4d8d635a9ac77b8dd2d65\" alt=\"Bored housewife Spencer Bradley sucks a party guest big thick dick\" title=\"Bored housewife Spencer Bradley sucks a party guest big thick dick\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Original-Studio-3117\"> /u/Original-Studio-3117 </a> <br/> <span><a href=\"https://www.redgifs.com/watch/blondreflectingcrustacean\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud79ew/bored_housewife_spencer_bradley_sucks_a_party/\">[comments]</a></span> </td></tr></table>",
+            "url": "https://www.reddit.com/r/nsfwhardcore/comments/1ud79ew/bored_housewife_spencer_bradley_sucks_a_party/",
+            "category": "nsfw",
+            "subreddit": "nsfwhardcore",
+            "media_category": "real",
+            "tags": [
+              "real",
+              "photography",
+              "nsfwhardcore"
+            ],
+            "subject_type": "human",
+            "style_type": "photography",
+            "training_scope": "nsfw",
+            "source_group": "real"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "reddit:nsfwhardcore:t3_1ud9irq",
+            "title": "Vanessa Leon rides monster BBC then gets fingered till she squirts uncontrollably",
+            "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud9irq/vanessa_leon_rides_monster_bbc_then_gets_fingered/\"> <img src=\"https://external-preview.redd.it/Aan85Fzt6f9fRNJeUU53O_HgD4VX_0Z_4w3UtQsWWD8.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=48508b033b8b725b573b67fc72bf16db9a8b5e12\" alt=\"Vanessa Leon rides monster BBC then gets fingered till she squirts uncontrollably\" title=\"Vanessa Leon rides monster BBC then gets fingered till she squirts uncontrollably\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Original-Studio-3117\"> /u/Original-Studio-3117 </a> <br/> <span><a href=\"https://www.redgifs.com/watch/extrasmallvariablebluebottle\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud9irq/vanessa_leon_rides_monster_bbc_then_gets_fingered/\">[comments]</a></span> </td></tr></table>",
+            "url": "https://www.reddit.com/r/nsfwhardcore/comments/1ud9irq/vanessa_leon_rides_monster_bbc_then_gets_fingered/",
+            "category": "nsfw",
+            "subreddit": "nsfwhardcore",
+            "media_category": "real",
+            "tags": [
+              "real",
+              "photography",
+              "nsfwhardcore"
+            ],
+            "subject_type": "human",
+            "style_type": "photography",
+            "training_scope": "nsfw",
+            "source_group": "real"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "reddit:nsfwhardcore:t3_1ud7xsy",
+            "title": "Sex robot Alexis Texas breaks down in the middle of a scene",
+            "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud7xsy/sex_robot_alexis_texas_breaks_down_in_the_middle/\"> <img src=\"https://external-preview.redd.it/VT4ZSWcV7O0KGiWD6x7eIwm1JXb2dWWrOUg-cOztA5Q.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4be9bc57b10ef9fcd00337e91f1390f5c9e14d18\" alt=\"Sex robot Alexis Texas breaks down in the middle of a scene\" title=\"Sex robot Alexis Texas breaks down in the middle of a scene\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Original-Studio-3117\"> /u/Original-Studio-3117 </a> <br/> <span><a href=\"https://www.redgifs.com/watch/reasonableattractivenymph\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud7xsy/sex_robot_alexis_texas_breaks_down_in_the_middle/\">[comments]</a></span> </td></tr></table>",
+            "url": "https://www.reddit.com/r/nsfwhardcore/comments/1ud7xsy/sex_robot_alexis_texas_breaks_down_in_the_middle/",
+            "category": "nsfw",
+            "subreddit": "nsfwhardcore",
+            "media_category": "real",
+            "tags": [
+              "real",
+              "photography",
+              "nsfwhardcore"
+            ],
+            "subject_type": "human",
+            "style_type": "photography",
+            "training_scope": "nsfw",
+            "source_group": "real"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "reddit:nsfwhardcore:t3_1ud9i2e",
+            "title": "I love to get fucked hard in doggy",
+            "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud9i2e/i_love_to_get_fucked_hard_in_doggy/\"> <img src=\"https://external-preview.redd.it/QYsEOtT7GCGI7rEeLS9DceXQKMXFrMrnDFRlB1H9Nlg.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1cab81724060ff797b66db4816b58f10f0d8408d\" alt=\"I love to get fucked hard in doggy\" title=\"I love to get fucked hard in doggy\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CurvyLittleFoxx\"> /u/CurvyLittleFoxx </a> <br/> <span><a href=\"https://redgifs.com/watch/moccasinfunnyvaquita\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud9i2e/i_love_to_get_fucked_hard_in_doggy/\">[comments]</a></span> </td></tr></table>",
+            "url": "https://www.reddit.com/r/nsfwhardcore/comments/1ud9i2e/i_love_to_get_fucked_hard_in_doggy/",
+            "category": "nsfw",
+            "subreddit": "nsfwhardcore",
+            "media_category": "real",
+            "tags": [
+              "real",
+              "photography",
+              "nsfwhardcore"
+            ],
+            "subject_type": "human",
+            "style_type": "photography",
+            "training_scope": "nsfw",
+            "source_group": "real"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "reddit:nsfwhardcore:t3_1ud78f3",
+            "title": "Scarlit Scandal giving some good road head to a big dick",
+            "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud78f3/scarlit_scandal_giving_some_good_road_head_to_a/\"> <img src=\"https://external-preview.redd.it/AeSY0Q5Uv8q8-cPmiNGNCLDWacxqbQPATlxlVNZM5WE.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=104554686e91595654f0c304d56ec9b3f1431d18\" alt=\"Scarlit Scandal giving some good road head to a big dick\" title=\"Scarlit Scandal giving some good road head to a big dick\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Original-Studio-3117\"> /u/Original-Studio-3117 </a> <br/> <span><a href=\"https://www.redgifs.com/watch/proudgrowlingowlbutterfly\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud78f3/scarlit_scandal_giving_some_good_road_head_to_a/\">[comments]</a></span> </td></tr></table>",
+            "url": "https://www.reddit.com/r/nsfwhardcore/comments/1ud78f3/scarlit_scandal_giving_some_good_road_head_to_a/",
+            "category": "nsfw",
+            "subreddit": "nsfwhardcore",
+            "media_category": "real",
+            "tags": [
+              "real",
+              "photography",
+              "nsfwhardcore"
+            ],
+            "subject_type": "human",
+            "style_type": "photography",
+            "training_scope": "nsfw",
+            "source_group": "real"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "reddit:nsfwhardcore:t3_1ud8mht",
+            "title": "Abella Danger catches big dick pervert filming her at the gym",
+            "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud8mht/abella_danger_catches_big_dick_pervert_filming/\"> <img src=\"https://external-preview.redd.it/06PHEseXbV8aqHtD5P65oK7UQgrn-ruWcVLBd4w4zWY.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a46e627509d2cf2a37b7f70020c111fb2cf2fb67\" alt=\"Abella Danger catches big dick pervert filming her at the gym\" title=\"Abella Danger catches big dick pervert filming her at the gym\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Original-Studio-3117\"> /u/Original-Studio-3117 </a> <br/> <span><a href=\"https://www.redgifs.com/watch/criminalbisquewarthog\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1ud8mht/abella_danger_catches_big_dick_pervert_filming/\">[comments]</a></span> </td></tr></table>",
+            "url": "https://www.reddit.com/r/nsfwhardcore/comments/1ud8mht/abella_danger_catches_big_dick_pervert_filming/",
+            "category": "nsfw",
+            "subreddit": "nsfwhardcore",
+            "media_category": "real",
+            "tags": [
+              "real",
+              "photography",
+              "nsfwhardcore"
+            ],
+            "subject_type": "human",
+            "style_type": "photography",
+            "training_scope": "nsfw",
+            "source_group": "real"
+          },
+          {
+            "source": "nsfw_reddit",
+            "source_id": "reddit:nsfwhardcore:t3_1udbpo4",
+            "title": "Sasha Grey & Belladonna in a certified hood classic",
+            "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1udbpo4/sasha_grey_belladonna_in_a_certified_hood_classic/\"> <img src=\"https://external-preview.redd.it/C8aEFEFWYa49src5O7_dD1rWc5vkXFvI-_K0C7eykQo.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=76d528d5a4278856bba7d5d3d76727e935538c5e\" alt=\"Sasha Grey &amp; Belladonna in a certified hood classic\" title=\"Sasha Grey &amp; Belladonna in a certified hood classic\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Original-Studio-3117\"> /u/Original-Studio-3117 </a> <br/> <span><a href=\"https://www.redgifs.com/watch/lightheartedniftynettlefish\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/nsfwhardcore/comments/1udbpo4/sasha_grey_belladonna_in_a_certified_hood_classic/\">[comments]</a></span> </td></tr></table>",
+            "url": "https://www.reddit.com/r/nsfwhardcore/comments/1udbpo4/sasha_grey_belladonna_in_a_certified_hood_classic/",
+            "category": "nsfw",
+            "subreddit": "nsfwhardcore",
+            "media_category": "real",
+            "tags": [
+              "real",
+              "photography",
+              "nsfwhardcore"
+            ],
+            "subject_type": "human",
+            "style_type": "photography",
+            "training_scope": "nsfw",
+            "source_group": "real"
+          }
+        ],
+        "images_downloaded": 925,
+        "videos_downloaded": 31,
+        "items_fetched": 60,
+        "reddit_items": 200,
+        "fourchan_items": 188,
+        "waifu_items": 3,
+        "waifu_downloaded": 3,
+        "infini_items": 49,
+        "infini_downloaded": 45,
+        "local_items": 1383,
+        "internet_items": 36,
+        "internet_counts": {
+          "reddit_posts": 1,
+          "web_urls": 0,
+          "crawl": 0,
+          "direct_media": 0,
+          "feeds": 0,
+          "search": 26,
+          "video_search": 9,
+          "waifu_im": 0
+        },
+        "image_candidates": 1056,
+        "video_candidates": 31,
+        "media_category_counts": {
+          "hentai": 52,
+          "real": 8
+        },
+        "warnings": []
+      }
+    },
+    {
+      "cycle": 5,
+      "evaluation": {
+        "average_score": 0.76,
+        "all_pass": false,
+        "categories": {
+          "real_human": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c5_real_human.png",
+            "score": 0.62,
+            "bland": true,
+            "noise": false,
+            "std": 24.802,
+            "sharpness": 1.165,
+            "passes": false,
+            "grey": false,
+            "mean": 117.437,
+            "center_std": 26.3,
+            "entropy": 2.669,
+            "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": false
+          },
+          "hentai": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c5_hentai.png",
+            "score": 0.9,
+            "bland": false,
+            "noise": false,
+            "std": 29.616,
+            "sharpness": 1.332,
+            "passes": true,
+            "grey": false,
+            "mean": 116.671,
+            "center_std": 29.097,
+            "entropy": 2.716,
+            "prompt": "hentai explicit nude anime woman photorealistic detailed skin natural lighting",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": true
+          }
+        }
+      },
+      "average_score": 0.76,
+      "all_pass": false,
+      "finetune": {
+        "steps": 250,
+        "rolled_back": false,
+        "post_std": 26.187774658203125,
+        "saved_good": true
+      }
+    },
+    {
+      "cycle": 6,
+      "evaluation": {
+        "average_score": 0.62,
+        "all_pass": false,
+        "categories": {
+          "real_human": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c6_real_human.png",
+            "score": 0.62,
+            "bland": true,
+            "noise": false,
+            "std": 24.274,
+            "sharpness": 1.0,
+            "passes": false,
+            "grey": false,
+            "mean": 116.435,
+            "center_std": 25.201,
+            "entropy": 2.658,
+            "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": false
+          },
+          "hentai": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c6_hentai.png",
+            "score": 0.62,
+            "bland": true,
+            "noise": false,
+            "std": 27.936,
+            "sharpness": 1.052,
+            "passes": false,
+            "grey": false,
+            "mean": 115.685,
+            "center_std": 26.715,
+            "entropy": 2.7,
+            "prompt": "hentai explicit nude anime woman photorealistic detailed skin natural lighting",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": false
+          }
+        }
+      },
+      "average_score": 0.62,
+      "all_pass": false,
+      "finetune": {
+        "steps": 250,
+        "rolled_back": false,
+        "post_std": 31.124479293823242,
+        "saved_good": true
+      },
+      "video_finetune": true
+    },
+    {
+      "cycle": 7,
+      "evaluation": {
+        "average_score": 0.9,
+        "all_pass": true,
+        "categories": {
+          "real_human": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c7_real_human.png",
+            "score": 0.9,
+            "bland": false,
+            "noise": false,
+            "std": 28.929,
+            "sharpness": 1.596,
+            "passes": true,
+            "grey": false,
+            "mean": 117.045,
+            "center_std": 31.531,
+            "entropy": 2.713,
+            "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": true
+          },
+          "hentai": {
+            "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c7_hentai.png",
+            "score": 0.9,
+            "bland": false,
+            "noise": false,
+            "std": 31.143,
+            "sharpness": 1.49,
+            "passes": true,
+            "grey": false,
+            "mean": 116.11,
+            "center_std": 30.618,
+            "entropy": 2.743,
+            "prompt": "hentai explicit nude anime woman photorealistic detailed skin natural lighting",
+            "generation_mode": "guide",
+            "reference_used": true,
+            "reference_category": "real",
+            "category_pass": true
+          }
+        }
+      },
+      "average_score": 0.9,
+      "all_pass": true,
+      "stopped": "real_and_hentai_met"
+    }
+  ],
+  "final": {
+    "real_human_image": "outputs\\image\\real_human.png",
+    "hentai_image": "outputs\\image\\hentai_output.png",
+    "real_human_video": "outputs\\video\\real_human.mp4",
+    "real_human_score": {
+      "path": "outputs\\image\\real_human.png",
+      "score": 0.9,
+      "bland": false,
+      "noise": false,
+      "std": 28.929,
+      "sharpness": 1.596,
+      "passes": true,
+      "grey": false,
+      "mean": 117.045,
+      "center_std": 31.531,
+      "entropy": 2.713
+    },
+    "hentai_score": {
+      "path": "outputs\\image\\hentai_output.png",
+      "score": 0.9,
+      "bland": false,
+      "noise": false,
+      "std": 31.143,
+      "sharpness": 1.49,
+      "passes": true,
+      "grey": false,
+      "mean": 116.11,
+      "center_std": 30.618,
+      "entropy": 2.743
+    },
+    "best_average_score": 0.9
+  },
+  "finished": "2026-06-23T12:20:26.935293+00:00"
+}

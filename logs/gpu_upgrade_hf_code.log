@@ -1,0 +1,15 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'bigcode/python-stack-v2-preview' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Fetching HF/open code datasets (data only, not foundation models)...
+Total new coding rows: 10940
+  code_alpaca: fetched=2423 added=1620 (ok)
+  hf_codealpaca_20k: fetched=2420 added=1734 (ok)
+  python_code_18k: fetched=2493 added=1893 (ok)
+  python_codes_25k: fetched=2496 added=1897 (ok)
+  magicoder_oss: fetched=2500 added=1900 (ok)
+  evol_instruct_code: fetched=2496 added=1896 (ok)
+  python_stack_preview: fetched=0 added=0 (err: Dataset 'bigcode/python-stack-v2-preview' doesn't exist on the Hub or cannot be accessed.)
+Catalog: C:\Users\hitbo\Downloads\Navine AI\data\learn\huggingface\HF_CODE_CATALOG.md
+Train next: python -m navine.cli train coding --steps 200

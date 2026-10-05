@@ -1,0 +1,10 @@
+{
+  "prompt": "create me a blue moon",
+  "enhanced_prompt": "a blue a moon in night sky, digital art, high quality, detailed, sharp focus",
+  "num_steps": 100,
+  "guidance_scale": 3.5,
+  "seed": 42,
+  "procedural": true,
+  "timestamp": "2026-06-13T01:48:25.864303+00:00",
+  "output": "outputs\\image\\test_infer_moon.png"
+}

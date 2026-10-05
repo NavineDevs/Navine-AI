@@ -1,0 +1,101 @@
+{
+  "round": "round_b",
+  "pass_score": 8.0,
+  "models": {
+    "text_enterprise": {
+      "chat": {
+        "best_score": 9.85,
+        "passed": true,
+        "best": ", with-the-&gt;Continue reading's on-Medium-width:1%;tesfye...."
+      },
+      "code": {
+        "best_score": 19.5,
+        "passed": true,
+        "best": "This is a single-source model, and the agent is the code."
+      },
+      "think": {
+        "best_score": 1.0499999999999998,
+        "passed": false,
+        "best": ",.,-&gt;&lt;Continue)...."
+      },
+      "detective": {
+        "best_score": -8.25,
+        "passed": false,
+        "best": "...,if-1/v4/2026/107869350082)"
+      }
+    },
+    "text_code": {
+      "chat": {
+        "best_score": 8.899999999999999,
+        "passed": true,
+        "best": "### Language: python\n##!![],\n    'FROD_CERENS.md)\n#text=\"Acchorane\",\"Nath-Hoice-Genixa-Buzer/blob/main/README.html\",./"
+      },
+      "code": {
+        "best_score": 15.35,
+        "passed": true,
+        "best": "Input: [1, 3, 4, 7],[0, 9, 8, 6, 5]\n### Language: python\n### Code:\ndef find_list(arr):\n    return array[i][j]for_arr[i][i])"
+      },
+      "think": {
+        "best_score": 9.25,
+        "passed": true,
+        "best": ".,af\"AI-world-agentic/docs/2026/CHAR_CodeSniffer/README.md);}\n####:\ndefyse_file([DATERIONPORCT]='\\\\{$XUMNINGEF_BYLKENT=')*.haili%2FORWG='VISUKERYNEDs.md\");\n    }"
+      },
+      "detective": {
+        "best_score": 15.05,
+        "passed": true,
+        "best": "### Language:-python\n###,BET_CodeSniffer()"
+      }
+    },
+    "hitboyx23_ai": {
+      "chat": {
+        "best_score": 18.2,
+        "passed": true,
+        "best": "### Language: python\n##trf-Calse()def_dict(1,000):\n    if mutary.append(),remove_length,mp+++)"
+      },
+      "code": {
+        "best_score": 20.55,
+        "passed": true,
+        "best": "The function should be used, and the inputs are not a list-in-one."
+      },
+      "think": {
+        "best_score": 8.2,
+        "passed": true,
+        "best": ",and&#x2026;Continuembf-width:1.14%2.6789e4c3e8a5\",\"C+++\"/Ebooks/PHP_CodeSniffer/Mixelzoo)"
+      },
+      "detective": {
+        "best_score": 18.9,
+        "passed": true,
+        "best": "###-Language:/python\n###![1,2],479865736.0](https://github.com/EbookFoundation/NecPTSD_BAYIMERVXWzFgQxLokqMwJtFdYnjiyMUlsSHHpLWgVTvcWGfbVzrkKtMhwAjNzmTY.jpeg%2FXxD%2Bi8FbN4UeoAYpJtf9dQl9nCw1.jpeg"
+      }
+    },
+    "hitboyx23_ai_python": {
+      "chat": {
+        "best_score": 15.75,
+        "passed": true,
+        "best": "### Language: python\n##!/Crasic-Voice/WHER_DIONINGY_BECT"
+      },
+      "code": {
+        "best_score": 18.45,
+        "passed": true,
+        "best": ", the function should be able, and the `False`."
+      },
+      "think": {
+        "best_score": 10.8,
+        "passed": true,
+        "best": ",.,dborn-1.0%,000-47980069e83f2c5a798f672b9a6c8e4a2\",\"Joiny_iilble\",Brace_Cature(ER))"
+      },
+      "detective": {
+        "best_score": 14.7,
+        "passed": true,
+        "best": "### Language:-python\n###"
+      }
+    }
+  },
+  "summary": {
+    "avg_score": 12.265625,
+    "min_score": -8.25,
+    "max_score": 20.55,
+    "passed_modes": 14,
+    "total_modes": 16
+  }
+}
