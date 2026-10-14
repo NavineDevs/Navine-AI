@@ -1,0 +1,15 @@
+[
+  {
+    "params": 317047808,
+    "status": "expanded",
+    "meta": {
+      "upgraded": true,
+      "fresh": false,
+      "transferred": 94,
+      "skipped": 126,
+      "missing_keys": 126,
+      "missing_ratio": 0.5727,
+      "note": "large architecture bump with partial transfer (missing_ratio=0.57)"
+    }
+  }
+]

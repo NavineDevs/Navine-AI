@@ -1,0 +1,69 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 4, 'pin_memory': True, 'persistent_workers': True}
+Navine AI: fresh rebuild into C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise (size_tier=medium)
+Navine AI: building BPE tokenizer (vocab=12000)...
+Navine Neural Text | params=317,047,808 | device=cuda | tier=medium layers=24 d=1024 rope=True swiglu=True rms=True tie=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 4, 'pin_memory': True, 'persistent_workers': True}
+
+Training Navine AI Text:   0%|          | 0/20 [00:00<?, ?it/s]
+Training Navine AI Text:   5%|5         | 1/20 [00:18<05:46, 18.23s/it]
+Training Navine AI Text:   5%|5         | 1/20 [00:18<05:46, 18.23s/it, loss=0.6113]
+Training Navine AI Text:  10%|#         | 2/20 [00:23<03:06, 10.37s/it, loss=0.6113]
+Training Navine AI Text:  10%|#         | 2/20 [00:23<03:06, 10.37s/it, loss=0.6056]
+Training Navine AI Text:  15%|#5        | 3/20 [00:23<01:36,  5.69s/it, loss=0.6056]
+Training Navine AI Text:  15%|#5        | 3/20 [00:23<01:36,  5.69s/it, loss=0.5988]
+Training Navine AI Text:  20%|##        | 4/20 [00:23<00:56,  3.52s/it, loss=0.5988]
+Training Navine AI Text:  20%|##        | 4/20 [00:23<00:56,  3.52s/it, loss=0.5815]
+Training Navine AI Text:  25%|##5       | 5/20 [00:23<00:34,  2.30s/it, loss=0.5815]
+Training Navine AI Text:  25%|##5       | 5/20 [00:23<00:34,  2.30s/it, loss=0.6062]
+Training Navine AI Text:  30%|###       | 6/20 [00:23<00:22,  1.58s/it, loss=0.6062]
+Training Navine AI Text:  30%|###       | 6/20 [00:23<00:22,  1.58s/it, loss=0.6079]
+Training Navine AI Text:  35%|###5      | 7/20 [00:27<00:31,  2.40s/it, loss=0.6079]
+Training Navine AI Text:  35%|###5      | 7/20 [00:27<00:31,  2.40s/it, loss=0.6139]
+Training Navine AI Text:  40%|####      | 8/20 [00:27<00:20,  1.67s/it, loss=0.6139]
+Training Navine AI Text:  40%|####      | 8/20 [00:27<00:20,  1.67s/it, loss=0.6156]
+Training Navine AI Text:  45%|####5     | 9/20 [00:28<00:13,  1.20s/it, loss=0.6156]
+Training Navine AI Text:  45%|####5     | 9/20 [00:28<00:13,  1.20s/it, loss=0.6145]
+Training Navine AI Text:  50%|#####     | 10/20 [00:28<00:08,  1.15it/s, loss=0.6145]
+Training Navine AI Text:  50%|#####     | 10/20 [00:28<00:08,  1.15it/s, loss=0.5998]
+Training Navine AI Text:  55%|#####5    | 11/20 [00:28<00:05,  1.53it/s, loss=0.5998]
+Training Navine AI Text:  55%|#####5    | 11/20 [00:28<00:05,  1.53it/s, loss=0.6060]
+Training Navine AI Text:  60%|######    | 12/20 [00:45<00:44,  5.55s/it, loss=0.6060]
+Training Navine AI Text:  60%|######    | 12/20 [00:45<00:44,  5.55s/it, loss=0.6012]
+Training Navine AI Text:  65%|######5   | 13/20 [00:49<00:37,  5.31s/it, loss=0.6012]
+Training Navine AI Text:  65%|######5   | 13/20 [00:49<00:37,  5.31s/it, loss=0.6026]
+Training Navine AI Text:  70%|#######   | 14/20 [00:54<00:31,  5.21s/it, loss=0.6026]
+Training Navine AI Text:  70%|#######   | 14/20 [00:54<00:31,  5.21s/it, loss=0.5956]
+Training Navine AI Text:  75%|#######5  | 15/20 [01:27<01:07, 13.47s/it, loss=0.5956]
+Training Navine AI Text:  75%|#######5  | 15/20 [01:27<01:07, 13.47s/it, loss=0.6014]
+Training Navine AI Text:  80%|########  | 16/20 [02:42<02:07, 31.93s/it, loss=0.6014]
+Training Navine AI Text:  80%|########  | 16/20 [02:42<02:07, 31.93s/it, loss=0.5938]
+Training Navine AI Text:  85%|########5 | 17/20 [02:43<01:08, 22.72s/it, loss=0.5938]
+Training Navine AI Text:  85%|########5 | 17/20 [02:43<01:08, 22.72s/it, loss=0.5593]
+Training Navine AI Text:  90%|######### | 18/20 [02:51<00:36, 18.25s/it, loss=0.5593]
+Training Navine AI Text:  90%|######### | 18/20 [02:51<00:36, 18.25s/it, loss=0.5767]
+Training Navine AI Text:  95%|#########5| 19/20 [02:59<00:15, 15.15s/it, loss=0.5767]
+Training Navine AI Text:  95%|#########5| 19/20 [02:59<00:15, 15.15s/it, loss=0.5668]
+Training Navine AI Text: 100%|##########| 20/20 [03:17<00:00, 15.94s/it, loss=0.5668]
+Training Navine AI Text: 100%|##########| 20/20 [03:17<00:00, 15.94s/it, loss=0.5594]Traceback (most recent call last):
+  File "C:\Users\hitbo\Downloads\Navine AI\scripts\train_medium_text.py", line 117, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\scripts\train_medium_text.py", line 99, in main
+    train(
+    ~~~~~^
+        config_path=cfg_name,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        require_cuda=bool(args.require_cuda),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\text\train.py", line 335, in train
+    model.save_checkpoint(ckpt_dir / "latest.pt")
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\text\model.py", line 369, in save_checkpoint
+    os.replace(tmp, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\text_enterprise\\latest.pt.tmp' -> 'C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\text_enterprise\\latest.pt'
+
+Training Navine AI Text: 100%|##########| 20/20 [04:09<00:00, 12.50s/it, loss=0.5594]

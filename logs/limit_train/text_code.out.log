@@ -1,0 +1,1216 @@
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Navine AI: capping train seq 2048 -> 512 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+PROGRESS steps=1/1200
+PROGRESS steps=5/1200
+PROGRESS steps=10/1200
+PROGRESS steps=15/1200
+PROGRESS steps=20/1200
+PROGRESS steps=25/1200
+PROGRESS steps=30/1200
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Navine AI: capping train seq 2048 -> 512 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Navine AI: capping train seq 2048 -> 512 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+PROGRESS steps=1/1200
+PROGRESS steps=5/1200
+PROGRESS steps=10/1200
+PROGRESS steps=15/1200
+PROGRESS steps=20/1200
+PROGRESS steps=25/1200
+PROGRESS steps=30/1200
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Navine AI: capping train seq 2048 -> 512 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+PROGRESS steps=1/1200
+PROGRESS steps=5/1200
+PROGRESS steps=10/1200
+PROGRESS steps=15/1200
+PROGRESS steps=20/1200
+PROGRESS steps=25/1200
+PROGRESS steps=30/1200
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Navine AI: capping train seq 2048 -> 512 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+PROGRESS steps=1/1200
+PROGRESS steps=5/1200
+PROGRESS steps=10/1200
+PROGRESS steps=15/1200
+PROGRESS steps=20/1200
+PROGRESS steps=25/1200
+PROGRESS steps=30/1200
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 4} ram=15.7GB usable=14.45GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 4}
+Navine AI: capping train seq 2048 -> 512 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+PROGRESS steps=1/1200
+PROGRESS steps=5/1200
+PROGRESS steps=10/1200
+PROGRESS steps=15/1200
+PROGRESS steps=20/1200
+PROGRESS steps=25/1200
+PROGRESS steps=30/1200
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 8} ram=15.7GB usable=14.95GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 8}
+Navine AI: capping train seq 2048 -> 256 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 8} ram=15.7GB usable=14.95GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 8}
+Navine AI: capping train seq 2048 -> 256 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 8} ram=15.7GB usable=14.95GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=24 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 826,171,008 | Device: cuda | tier=gpt3_800m arch L24/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 6, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 8}
+Navine AI: capping train seq 2048 -> 256 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000
+PROGRESS steps=5/4000
+PROGRESS steps=10/4000
+PROGRESS steps=15/4000
+PROGRESS steps=20/4000
+PROGRESS steps=25/4000
+PROGRESS steps=30/4000
+PROGRESS steps=35/4000
+PROGRESS steps=40/4000
+PROGRESS steps=45/4000
+PROGRESS steps=50/4000
+PROGRESS steps=55/4000
+PROGRESS steps=60/4000
+PROGRESS steps=65/4000
+PROGRESS steps=70/4000
+PROGRESS steps=75/4000
+PROGRESS steps=80/4000
+PROGRESS steps=85/4000
+PROGRESS steps=90/4000
+PROGRESS steps=95/4000
+PROGRESS steps=100/4000
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2} ram=15.7GB usable=13.7GB
+Navine AI: reusing tokenizer (12000 tokens).
+Navine AI: upgraded weights (220 tensors transferred, skipped=36, note=partial weight transfer into larger architecture).
+Navine AI Text-Code specialist | Parameters: 959,969,920 | Device: cuda | tier=gpt3_1b arch L28/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2}
+Navine AI: capping train seq 2048 -> 128 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000
+PROGRESS steps=5/4000
+PROGRESS steps=10/4000
+PROGRESS steps=15/4000
+PROGRESS steps=20/4000
+PROGRESS steps=25/4000
+PROGRESS steps=30/4000
+PROGRESS steps=35/4000
+PROGRESS steps=40/4000
+PROGRESS steps=45/4000
+PROGRESS steps=50/4000
+PROGRESS steps=55/4000
+PROGRESS steps=60/4000
+PROGRESS steps=65/4000
+PROGRESS steps=70/4000
+PROGRESS steps=75/4000
+PROGRESS steps=80/4000
+PROGRESS steps=85/4000
+PROGRESS steps=90/4000
+PROGRESS steps=95/4000
+PROGRESS steps=100/4000
+PROGRESS steps=105/4000
+PROGRESS steps=110/4000
+PROGRESS steps=115/4000
+PROGRESS steps=120/4000
+PROGRESS steps=125/4000
+PROGRESS steps=130/4000
+PROGRESS steps=135/4000
+PROGRESS steps=140/4000
+PROGRESS steps=145/4000
+PROGRESS steps=150/4000
+PROGRESS steps=155/4000
+PROGRESS steps=160/4000
+PROGRESS steps=165/4000
+PROGRESS steps=170/4000
+PROGRESS steps=175/4000
+PROGRESS steps=180/4000
+PROGRESS steps=185/4000
+PROGRESS steps=190/4000
+PROGRESS steps=195/4000
+PROGRESS steps=200/4000
+PROGRESS steps=205/4000
+PROGRESS steps=210/4000
+PROGRESS steps=215/4000
+PROGRESS steps=220/4000
+PROGRESS steps=225/4000
+PROGRESS steps=230/4000
+PROGRESS steps=235/4000
+PROGRESS steps=240/4000
+PROGRESS steps=245/4000
+PROGRESS steps=250/4000
+PROGRESS steps=255/4000
+PROGRESS steps=260/4000
+PROGRESS steps=265/4000
+PROGRESS steps=270/4000
+PROGRESS steps=275/4000
+PROGRESS steps=280/4000
+PROGRESS steps=285/4000
+PROGRESS steps=290/4000
+PROGRESS steps=295/4000
+PROGRESS steps=300/4000
+PROGRESS steps=305/4000
+PROGRESS steps=310/4000
+PROGRESS steps=315/4000
+PROGRESS steps=320/4000
+PROGRESS steps=325/4000
+PROGRESS steps=330/4000
+PROGRESS steps=335/4000
+PROGRESS steps=340/4000
+PROGRESS steps=345/4000
+PROGRESS steps=350/4000
+PROGRESS steps=355/4000
+PROGRESS steps=360/4000
+PROGRESS steps=365/4000
+PROGRESS steps=370/4000
+PROGRESS steps=375/4000
+PROGRESS steps=380/4000
+PROGRESS steps=385/4000
+PROGRESS steps=390/4000
+PROGRESS steps=395/4000
+PROGRESS steps=400/4000
+PROGRESS steps=405/4000
+PROGRESS steps=410/4000
+PROGRESS steps=415/4000
+PROGRESS steps=420/4000
+PROGRESS steps=425/4000
+PROGRESS steps=430/4000
+PROGRESS steps=435/4000
+PROGRESS steps=440/4000
+PROGRESS steps=445/4000
+PROGRESS steps=450/4000
+PROGRESS steps=455/4000
+PROGRESS steps=460/4000
+PROGRESS steps=465/4000
+PROGRESS steps=470/4000
+PROGRESS steps=475/4000
+PROGRESS steps=480/4000
+PROGRESS steps=485/4000
+PROGRESS steps=490/4000
+PROGRESS steps=495/4000
+PROGRESS steps=500/4000
+Evaluating at step 500...
+Step 500 | Val Loss: 5.3900
+PROGRESS steps=505/4000
+PROGRESS steps=510/4000
+PROGRESS steps=515/4000
+PROGRESS steps=520/4000
+PROGRESS steps=525/4000
+PROGRESS steps=530/4000
+PROGRESS steps=535/4000
+PROGRESS steps=540/4000
+PROGRESS steps=545/4000
+PROGRESS steps=550/4000
+PROGRESS steps=555/4000
+PROGRESS steps=560/4000
+PROGRESS steps=565/4000
+PROGRESS steps=570/4000
+PROGRESS steps=575/4000
+PROGRESS steps=580/4000
+PROGRESS steps=585/4000
+PROGRESS steps=590/4000
+PROGRESS steps=595/4000
+PROGRESS steps=600/4000
+PROGRESS steps=605/4000
+PROGRESS steps=610/4000
+PROGRESS steps=615/4000
+PROGRESS steps=620/4000
+PROGRESS steps=625/4000
+PROGRESS steps=630/4000
+PROGRESS steps=635/4000
+PROGRESS steps=640/4000
+PROGRESS steps=645/4000
+PROGRESS steps=650/4000
+PROGRESS steps=655/4000
+PROGRESS steps=660/4000
+PROGRESS steps=665/4000
+PROGRESS steps=670/4000
+PROGRESS steps=675/4000
+PROGRESS steps=680/4000
+PROGRESS steps=685/4000
+PROGRESS steps=690/4000
+PROGRESS steps=695/4000
+PROGRESS steps=700/4000
+PROGRESS steps=705/4000
+PROGRESS steps=710/4000
+PROGRESS steps=715/4000
+PROGRESS steps=720/4000
+PROGRESS steps=725/4000
+PROGRESS steps=730/4000
+PROGRESS steps=735/4000
+PROGRESS steps=740/4000
+PROGRESS steps=745/4000
+PROGRESS steps=750/4000
+PROGRESS steps=755/4000
+PROGRESS steps=760/4000
+PROGRESS steps=765/4000
+PROGRESS steps=770/4000
+PROGRESS steps=775/4000
+PROGRESS steps=780/4000
+PROGRESS steps=785/4000
+PROGRESS steps=790/4000
+PROGRESS steps=795/4000
+PROGRESS steps=800/4000
+PROGRESS steps=805/4000
+PROGRESS steps=810/4000
+PROGRESS steps=815/4000
+PROGRESS steps=820/4000
+PROGRESS steps=825/4000
+PROGRESS steps=830/4000
+PROGRESS steps=835/4000
+PROGRESS steps=840/4000
+PROGRESS steps=845/4000
+PROGRESS steps=850/4000
+PROGRESS steps=855/4000
+PROGRESS steps=860/4000
+PROGRESS steps=865/4000
+PROGRESS steps=870/4000
+PROGRESS steps=875/4000
+PROGRESS steps=880/4000
+PROGRESS steps=885/4000
+PROGRESS steps=890/4000
+PROGRESS steps=895/4000
+PROGRESS steps=900/4000
+PROGRESS steps=905/4000
+PROGRESS steps=910/4000
+PROGRESS steps=915/4000
+PROGRESS steps=920/4000
+PROGRESS steps=925/4000
+PROGRESS steps=930/4000
+PROGRESS steps=935/4000
+PROGRESS steps=940/4000
+PROGRESS steps=945/4000
+PROGRESS steps=950/4000
+PROGRESS steps=955/4000
+PROGRESS steps=960/4000
+PROGRESS steps=965/4000
+PROGRESS steps=970/4000
+PROGRESS steps=975/4000
+PROGRESS steps=980/4000
+PROGRESS steps=985/4000
+PROGRESS steps=990/4000
+PROGRESS steps=995/4000
+PROGRESS steps=1000/4000
+Evaluating at step 1000...
+Step 1000 | Val Loss: 4.9595
+PROGRESS steps=1005/4000
+PROGRESS steps=1010/4000
+PROGRESS steps=1015/4000
+PROGRESS steps=1020/4000
+PROGRESS steps=1025/4000
+PROGRESS steps=1030/4000
+PROGRESS steps=1035/4000
+PROGRESS steps=1040/4000
+PROGRESS steps=1045/4000
+PROGRESS steps=1050/4000
+PROGRESS steps=1055/4000
+PROGRESS steps=1060/4000
+PROGRESS steps=1065/4000
+PROGRESS steps=1070/4000
+PROGRESS steps=1075/4000
+PROGRESS steps=1080/4000
+PROGRESS steps=1085/4000
+PROGRESS steps=1090/4000
+PROGRESS steps=1095/4000
+PROGRESS steps=1100/4000
+PROGRESS steps=1105/4000
+PROGRESS steps=1110/4000
+PROGRESS steps=1115/4000
+PROGRESS steps=1120/4000
+PROGRESS steps=1125/4000
+PROGRESS steps=1130/4000
+PROGRESS steps=1135/4000
+PROGRESS steps=1140/4000
+PROGRESS steps=1145/4000
+PROGRESS steps=1150/4000
+PROGRESS steps=1155/4000
+PROGRESS steps=1160/4000
+PROGRESS steps=1165/4000
+PROGRESS steps=1170/4000
+PROGRESS steps=1175/4000
+PROGRESS steps=1180/4000
+PROGRESS steps=1185/4000
+PROGRESS steps=1190/4000
+PROGRESS steps=1195/4000
+PROGRESS steps=1200/4000
+PROGRESS steps=1205/4000
+PROGRESS steps=1210/4000
+PROGRESS steps=1215/4000
+PROGRESS steps=1220/4000
+PROGRESS steps=1225/4000
+PROGRESS steps=1230/4000
+PROGRESS steps=1235/4000
+PROGRESS steps=1240/4000
+PROGRESS steps=1245/4000
+PROGRESS steps=1250/4000
+PROGRESS steps=1255/4000
+PROGRESS steps=1260/4000
+PROGRESS steps=1265/4000
+PROGRESS steps=1270/4000
+PROGRESS steps=1275/4000
+PROGRESS steps=1280/4000
+PROGRESS steps=1285/4000
+PROGRESS steps=1290/4000
+PROGRESS steps=1295/4000
+PROGRESS steps=1300/4000
+PROGRESS steps=1305/4000
+PROGRESS steps=1310/4000
+PROGRESS steps=1315/4000
+PROGRESS steps=1320/4000
+PROGRESS steps=1325/4000
+PROGRESS steps=1330/4000
+PROGRESS steps=1335/4000
+PROGRESS steps=1340/4000
+PROGRESS steps=1345/4000
+PROGRESS steps=1350/4000
+PROGRESS steps=1355/4000
+PROGRESS steps=1360/4000
+PROGRESS steps=1365/4000
+PROGRESS steps=1370/4000
+PROGRESS steps=1375/4000
+PROGRESS steps=1380/4000
+PROGRESS steps=1385/4000
+PROGRESS steps=1390/4000
+PROGRESS steps=1395/4000
+PROGRESS steps=1400/4000
+PROGRESS steps=1405/4000
+PROGRESS steps=1410/4000
+PROGRESS steps=1415/4000
+PROGRESS steps=1420/4000
+PROGRESS steps=1425/4000
+PROGRESS steps=1430/4000
+PROGRESS steps=1435/4000
+PROGRESS steps=1440/4000
+PROGRESS steps=1445/4000
+PROGRESS steps=1450/4000
+PROGRESS steps=1455/4000
+PROGRESS steps=1460/4000
+PROGRESS steps=1465/4000
+PROGRESS steps=1470/4000
+PROGRESS steps=1475/4000
+PROGRESS steps=1480/4000
+PROGRESS steps=1485/4000
+PROGRESS steps=1490/4000
+PROGRESS steps=1495/4000
+PROGRESS steps=1500/4000
+Evaluating at step 1500...
+Step 1500 | Val Loss: 4.5765
+PROGRESS steps=1505/4000
+PROGRESS steps=1510/4000
+PROGRESS steps=1515/4000
+PROGRESS steps=1520/4000
+PROGRESS steps=1525/4000
+PROGRESS steps=1530/4000
+PROGRESS steps=1535/4000
+PROGRESS steps=1540/4000
+PROGRESS steps=1545/4000
+PROGRESS steps=1550/4000
+PROGRESS steps=1555/4000
+PROGRESS steps=1560/4000
+PROGRESS steps=1565/4000
+PROGRESS steps=1570/4000
+PROGRESS steps=1575/4000
+PROGRESS steps=1580/4000
+PROGRESS steps=1585/4000
+PROGRESS steps=1590/4000
+PROGRESS steps=1595/4000
+PROGRESS steps=1600/4000
+PROGRESS steps=1605/4000
+PROGRESS steps=1610/4000
+PROGRESS steps=1615/4000
+PROGRESS steps=1620/4000
+PROGRESS steps=1625/4000
+PROGRESS steps=1630/4000
+PROGRESS steps=1635/4000
+PROGRESS steps=1640/4000
+PROGRESS steps=1645/4000
+PROGRESS steps=1650/4000
+PROGRESS steps=1655/4000
+PROGRESS steps=1660/4000
+PROGRESS steps=1665/4000
+PROGRESS steps=1670/4000
+PROGRESS steps=1675/4000
+PROGRESS steps=1680/4000
+PROGRESS steps=1685/4000
+PROGRESS steps=1690/4000
+PROGRESS steps=1695/4000
+PROGRESS steps=1700/4000
+PROGRESS steps=1705/4000
+PROGRESS steps=1710/4000
+PROGRESS steps=1715/4000
+PROGRESS steps=1720/4000
+PROGRESS steps=1725/4000
+PROGRESS steps=1730/4000
+PROGRESS steps=1735/4000
+PROGRESS steps=1740/4000
+PROGRESS steps=1745/4000
+PROGRESS steps=1750/4000
+PROGRESS steps=1755/4000
+PROGRESS steps=1760/4000
+PROGRESS steps=1765/4000
+PROGRESS steps=1770/4000
+PROGRESS steps=1775/4000
+PROGRESS steps=1780/4000
+PROGRESS steps=1785/4000
+PROGRESS steps=1790/4000
+PROGRESS steps=1795/4000
+PROGRESS steps=1800/4000
+PROGRESS steps=1805/4000
+PROGRESS steps=1810/4000
+PROGRESS steps=1815/4000
+PROGRESS steps=1820/4000
+PROGRESS steps=1825/4000
+PROGRESS steps=1830/4000
+PROGRESS steps=1835/4000
+PROGRESS steps=1840/4000
+PROGRESS steps=1845/4000
+PROGRESS steps=1850/4000
+PROGRESS steps=1855/4000
+PROGRESS steps=1860/4000
+PROGRESS steps=1865/4000
+PROGRESS steps=1870/4000
+PROGRESS steps=1875/4000
+PROGRESS steps=1880/4000
+PROGRESS steps=1885/4000
+PROGRESS steps=1890/4000
+PROGRESS steps=1895/4000
+PROGRESS steps=1900/4000
+PROGRESS steps=1905/4000
+PROGRESS steps=1910/4000
+PROGRESS steps=1915/4000
+PROGRESS steps=1920/4000
+PROGRESS steps=1925/4000
+PROGRESS steps=1930/4000
+PROGRESS steps=1935/4000
+PROGRESS steps=1940/4000
+PROGRESS steps=1945/4000
+PROGRESS steps=1950/4000
+PROGRESS steps=1955/4000
+PROGRESS steps=1960/4000
+PROGRESS steps=1965/4000
+PROGRESS steps=1970/4000
+PROGRESS steps=1975/4000
+PROGRESS steps=1980/4000
+PROGRESS steps=1985/4000
+PROGRESS steps=1990/4000
+PROGRESS steps=1995/4000
+PROGRESS steps=2000/4000
+Evaluating at step 2000...
+Step 2000 | Val Loss: 4.3614
+PROGRESS steps=2005/4000
+PROGRESS steps=2010/4000
+PROGRESS steps=2015/4000
+PROGRESS steps=2020/4000
+PROGRESS steps=2025/4000
+PROGRESS steps=2030/4000
+PROGRESS steps=2035/4000
+PROGRESS steps=2040/4000
+PROGRESS steps=2045/4000
+PROGRESS steps=2050/4000
+PROGRESS steps=2055/4000
+PROGRESS steps=2060/4000
+PROGRESS steps=2065/4000
+PROGRESS steps=2070/4000
+PROGRESS steps=2075/4000
+PROGRESS steps=2080/4000
+PROGRESS steps=2085/4000
+PROGRESS steps=2090/4000
+PROGRESS steps=2095/4000
+PROGRESS steps=2100/4000
+PROGRESS steps=2105/4000
+PROGRESS steps=2110/4000
+PROGRESS steps=2115/4000
+PROGRESS steps=2120/4000
+PROGRESS steps=2125/4000
+PROGRESS steps=2130/4000
+PROGRESS steps=2135/4000
+PROGRESS steps=2140/4000
+PROGRESS steps=2145/4000
+PROGRESS steps=2150/4000
+PROGRESS steps=2155/4000
+PROGRESS steps=2160/4000
+PROGRESS steps=2165/4000
+PROGRESS steps=2170/4000
+PROGRESS steps=2175/4000
+PROGRESS steps=2180/4000
+PROGRESS steps=2185/4000
+PROGRESS steps=2190/4000
+PROGRESS steps=2195/4000
+PROGRESS steps=2200/4000
+PROGRESS steps=2205/4000
+PROGRESS steps=2210/4000
+PROGRESS steps=2215/4000
+PROGRESS steps=2220/4000
+PROGRESS steps=2225/4000
+PROGRESS steps=2230/4000
+PROGRESS steps=2235/4000
+PROGRESS steps=2240/4000
+PROGRESS steps=2245/4000
+PROGRESS steps=2250/4000
+PROGRESS steps=2255/4000
+PROGRESS steps=2260/4000
+PROGRESS steps=2265/4000
+PROGRESS steps=2270/4000
+PROGRESS steps=2275/4000
+PROGRESS steps=2280/4000
+PROGRESS steps=2285/4000
+PROGRESS steps=2290/4000
+PROGRESS steps=2295/4000
+PROGRESS steps=2300/4000
+PROGRESS steps=2305/4000
+PROGRESS steps=2310/4000
+PROGRESS steps=2315/4000
+PROGRESS steps=2320/4000
+PROGRESS steps=2325/4000
+PROGRESS steps=2330/4000
+PROGRESS steps=2335/4000
+PROGRESS steps=2340/4000
+PROGRESS steps=2345/4000
+PROGRESS steps=2350/4000
+PROGRESS steps=2355/4000
+PROGRESS steps=2360/4000
+PROGRESS steps=2365/4000
+PROGRESS steps=2370/4000
+PROGRESS steps=2375/4000
+PROGRESS steps=2380/4000
+PROGRESS steps=2385/4000
+PROGRESS steps=2390/4000
+PROGRESS steps=2395/4000
+PROGRESS steps=2400/4000
+PROGRESS steps=2405/4000
+PROGRESS steps=2410/4000
+PROGRESS steps=2415/4000
+PROGRESS steps=2420/4000
+PROGRESS steps=2425/4000
+PROGRESS steps=2430/4000
+PROGRESS steps=2435/4000
+PROGRESS steps=2440/4000
+PROGRESS steps=2445/4000
+PROGRESS steps=2450/4000
+PROGRESS steps=2455/4000
+PROGRESS steps=2460/4000
+PROGRESS steps=2465/4000
+PROGRESS steps=2470/4000
+PROGRESS steps=2475/4000
+PROGRESS steps=2480/4000
+PROGRESS steps=2485/4000
+PROGRESS steps=2490/4000
+PROGRESS steps=2495/4000
+PROGRESS steps=2500/4000
+Evaluating at step 2500...
+Step 2500 | Val Loss: 4.2007
+PROGRESS steps=2505/4000
+PROGRESS steps=2510/4000
+PROGRESS steps=2515/4000
+PROGRESS steps=2520/4000
+PROGRESS steps=2525/4000
+PROGRESS steps=2530/4000
+PROGRESS steps=2535/4000
+PROGRESS steps=2540/4000
+PROGRESS steps=2545/4000
+PROGRESS steps=2550/4000
+PROGRESS steps=2555/4000
+PROGRESS steps=2560/4000
+PROGRESS steps=2565/4000
+PROGRESS steps=2570/4000
+PROGRESS steps=2575/4000
+PROGRESS steps=2580/4000
+PROGRESS steps=2585/4000
+PROGRESS steps=2590/4000
+PROGRESS steps=2595/4000
+PROGRESS steps=2600/4000
+PROGRESS steps=2605/4000
+PROGRESS steps=2610/4000
+PROGRESS steps=2615/4000
+PROGRESS steps=2620/4000
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2} ram=15.7GB usable=13.7GB
+Navine AI: reusing tokenizer (12000 tokens).
+Navine AI: upgraded weights (220 tensors transferred, skipped=36, note=partial weight transfer into larger architecture).
+Navine AI Text-Code specialist | Parameters: 959,969,920 | Device: cuda | tier=gpt3_1b arch L28/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2}
+Navine AI: capping train seq 2048 -> 128 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000
+PROGRESS steps=5/4000
+PROGRESS steps=10/4000
+PROGRESS steps=15/4000
+PROGRESS steps=20/4000
+PROGRESS steps=25/4000
+PROGRESS steps=30/4000
+PROGRESS steps=35/4000
+PROGRESS steps=40/4000
+PROGRESS steps=45/4000
+PROGRESS steps=50/4000
+PROGRESS steps=55/4000
+PROGRESS steps=60/4000
+PROGRESS steps=65/4000
+PROGRESS steps=70/4000
+PROGRESS steps=75/4000
+PROGRESS steps=80/4000
+PROGRESS steps=85/4000
+PROGRESS steps=90/4000
+PROGRESS steps=95/4000
+PROGRESS steps=100/4000
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2} ram=15.7GB usable=13.7GB
+Navine AI: reusing tokenizer (12000 tokens).
+Navine AI: upgraded weights (220 tensors transferred, skipped=36, note=partial weight transfer into larger architecture).
+Navine AI Text-Code specialist | Parameters: 959,969,920 | Device: cuda | tier=gpt3_1b arch L28/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2}
+Navine AI: capping train seq 2048 -> 128 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000
+PROGRESS steps=5/4000
+PROGRESS steps=10/4000
+PROGRESS steps=15/4000
+PROGRESS steps=20/4000
+PROGRESS steps=25/4000
+PROGRESS steps=30/4000
+PROGRESS steps=35/4000
+PROGRESS steps=40/4000
+PROGRESS steps=45/4000
+PROGRESS steps=50/4000
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/best.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=28 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 959,969,920 | Device: cuda | tier=gpt3_1b arch L28/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2}
+Navine AI: capping train seq 2048 -> 128 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000
+PROGRESS steps=5/4000
+PROGRESS steps=10/4000
+PROGRESS steps=15/4000
+PROGRESS steps=20/4000
+PROGRESS steps=25/4000
+PROGRESS steps=30/4000
+PROGRESS steps=35/4000
+PROGRESS steps=40/4000
+PROGRESS steps=45/4000
+PROGRESS steps=50/4000
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/best.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/best.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=28 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 959,969,920 | Device: cuda | tier=gpt3_1b arch L28/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 128 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000
+PROGRESS steps=5/4000
+PROGRESS steps=10/4000
+PROGRESS steps=15/4000
+PROGRESS steps=20/4000
+PROGRESS steps=25/4000
+PROGRESS steps=30/4000
+PROGRESS steps=35/4000
+PROGRESS steps=40/4000
+PROGRESS steps=45/4000
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/best.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=28 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 959,969,920 | Device: cuda | tier=gpt3_1b arch L28/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 128 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000
+PROGRESS steps=5/4000
+PROGRESS steps=10/4000
+PROGRESS steps=15/4000
+PROGRESS steps=20/4000
+PROGRESS steps=25/4000
+PROGRESS steps=30/4000
+PROGRESS steps=35/4000
+PROGRESS steps=40/4000
+PROGRESS steps=45/4000
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/best.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=28 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 959,969,920 | Device: cuda | tier=gpt3_1b arch L28/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 128 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000
+PROGRESS steps=5/4000
+PROGRESS steps=10/4000
+PROGRESS steps=15/4000
+PROGRESS steps=20/4000
+PROGRESS steps=25/4000
+PROGRESS steps=30/4000
+PROGRESS steps=35/4000
+PROGRESS steps=40/4000
+PROGRESS steps=45/4000
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/best.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI: reusing tokenizer (12000 tokens).
+Seeded text_code/latest.pt from text_enterprise
+Seeded text_code/best.pt from text_enterprise
+Seeded text_code/tokenizer.json from text_enterprise
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_code\latest.pt
+Loaded NN | layers=30 d=1664 swiglu=True rms=True
+Navine AI Text-Code specialist | Parameters: 1,026,869,376 | Device: cuda | tier=gpt3_1b arch L30/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 128 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/4000

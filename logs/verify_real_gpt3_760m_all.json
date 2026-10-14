@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-25T14:30:06.328017+00:00",
+  "tier": "gpt3_760m",
+  "note": "All modalities ~760M GPT-3 Medium class. Detective/think/OSINT/analyze use text_enterprise (~701M).",
+  "models": {
+    "image_enterprise_v2": 701987053,
+    "video_enterprise": 698433653,
+    "voice": 704643793,
+    "deepfake": 707113187,
+    "text_enterprise": 701277696,
+    "text_code": 701277696
+  },
+  "total": 4214733078
+}

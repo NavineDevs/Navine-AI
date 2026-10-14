@@ -1,0 +1,46 @@
+C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py:260: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+blue_sky: C:\Users\hitbo\Downloads\Navine AI\outputs\image\mix_end_pure\blue_sky_seed0.png
+Traceback (most recent call last):
+  File "C:\Users\hitbo\Downloads\Navine AI\scripts\sample_mix_pure_noise.py", line 82, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\scripts\sample_mix_pure_noise.py", line 64, in main
+    sample = model.sample(
+        batch_size=1,
+    ...<4 lines>...
+        scheduler=scheduler,
+    )
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py", line 567, in sample
+    pred = self._predict_noise(x, t, text_emb, guidance_scale)
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py", line 435, in _predict_noise
+    pred = self.unet(x, t, ctx, pooled)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py", line 229, in forward
+    h = block(h, t_emb, text_ctx)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py", line 125, in forward
+    h = self.self_attn(h)
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py", line 66, in forward
+    out = F.scaled_dot_product_attention(q, k, v)
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

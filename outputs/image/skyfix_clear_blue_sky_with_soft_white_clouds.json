@@ -1,0 +1,14 @@
+{
+  "prompt": "clear blue sky with soft white clouds",
+  "enhanced_prompt": "a white a beautiful sky, digital art, high quality, detailed, sharp focus, clean composition",
+  "num_steps": 20,
+  "guidance_scale": 1.8,
+  "seed": 7,
+  "procedural": true,
+  "nsfw": false,
+  "category": "general",
+  "timestamp": "2026-08-21T16:35:29.666856+00:00",
+  "output": "outputs\\image\\skyfix_clear_blue_sky_with_soft_white_clouds.png",
+  "generation_mode": "procedural",
+  "reference_used": false
+}

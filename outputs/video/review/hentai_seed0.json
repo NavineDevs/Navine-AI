@@ -1,0 +1,11 @@
+{
+  "prompt": "hentai anime girl detailed face body, gentle motion",
+  "seed": 0,
+  "category_tag": "hentai",
+  "valid": true,
+  "frame_variance": 0.05557309734567459,
+  "size_bytes": 188998,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-19T12:09:31.374957+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\hentai_seed0.mp4"
+}

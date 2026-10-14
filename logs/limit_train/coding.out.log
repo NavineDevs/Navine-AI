@@ -1,0 +1,72 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Loaded NN | layers=30 d=1664 swiglu=True rms=True
+Navine AI Coding (all) | Parameters: 1,026,869,376 | Device: cuda | tier=gpt3_1b arch L30/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 96 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/2000
+PROGRESS steps=5/2000
+PROGRESS steps=10/2000
+PROGRESS steps=15/2000
+PROGRESS steps=20/2000
+PROGRESS steps=25/2000
+PROGRESS steps=30/2000
+PROGRESS steps=35/2000
+PROGRESS steps=40/2000
+PROGRESS steps=45/2000
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Loaded NN | layers=30 d=1664 swiglu=True rms=True
+Navine AI Coding (all) | Parameters: 1,026,869,376 | Device: cuda | tier=gpt3_1b arch L30/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 96 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: encoded 4000 sequences
+Navine AI: encoded 4500 sequences
+Navine AI: encoded 5000 sequences
+Navine AI: encoded 5500 sequences
+Navine AI: encoded 6000 sequences
+Navine AI: encoded 6500 sequences
+Navine AI: encoded 7000 sequences
+Navine AI: encoded 7500 sequences
+Navine AI: encoded 8000 sequences
+Navine AI: encoded 8500 sequences
+Navine AI: encoded 9000 sequences
+Navine AI: encoded 9500 sequences
+Navine AI: encoded 10000 sequences
+Navine AI: encoded 10500 sequences
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled

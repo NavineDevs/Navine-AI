@@ -1,0 +1,87 @@
+{
+  "started": "2026-08-14T14:06:45.824325+00:00",
+  "count_per_cycle": 8,
+  "max_cycles": 1,
+  "model": null,
+  "include_video": true,
+  "finetune_steps": 400,
+  "score_gap_threshold": 0.08,
+  "lap_gap_threshold": 15.0,
+  "cycles": [
+    {
+      "cycle": 1,
+      "phase_a": {
+        "images": 8,
+        "videos": 8,
+        "prompts": 8
+      },
+      "phase_b": {
+        "ingest_dir": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\image"
+      },
+      "phase_c": {
+        "image_finetune_steps": 400,
+        "video_finetune": true
+      },
+      "phase_d": {
+        "pairs": [
+          {
+            "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+            "seed": 42,
+            "teacher_path": null,
+            "custom_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\custom_00.png",
+            "teacher_score": 0.0,
+            "custom_score": 0.84,
+            "teacher_lap_var": 0.0,
+            "custom_lap_var": 12.521,
+            "score_gap": -0.84,
+            "lap_var_gap": -12.521
+          },
+          {
+            "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+            "seed": 43,
+            "teacher_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\teacher_01.png",
+            "custom_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\custom_01.png",
+            "teacher_score": 0.96,
+            "custom_score": 0.89,
+            "teacher_lap_var": 391.441,
+            "custom_lap_var": 22.955,
+            "score_gap": 0.07,
+            "lap_var_gap": 368.486
+          },
+          {
+            "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+            "seed": 44,
+            "teacher_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\teacher_02.png",
+            "custom_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\custom_02.png",
+            "teacher_score": 0.96,
+            "custom_score": 0.84,
+            "teacher_lap_var": 946.523,
+            "custom_lap_var": 16.211,
+            "score_gap": 0.12,
+            "lap_var_gap": 930.312
+          },
+          {
+            "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+            "seed": 45,
+            "teacher_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\teacher_03.png",
+            "custom_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\custom_03.png",
+            "teacher_score": 0.96,
+            "custom_score": 0.84,
+            "teacher_lap_var": 568.92,
+            "custom_lap_var": 10.269,
+            "score_gap": 0.12,
+            "lap_var_gap": 558.651
+          }
+        ],
+        "average_score_gap": 0.1033,
+        "average_lap_var_gap": 619.1497,
+        "average_custom_score": 0.8567,
+        "prompt_count": 4,
+        "valid_pairs": 3
+      },
+      "converged": false
+    }
+  ],
+  "stopped": "max_cycles",
+  "finished": "2026-08-14T14:41:31.179116+00:00"
+}

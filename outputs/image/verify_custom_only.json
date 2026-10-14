@@ -1,0 +1,14 @@
+{
+  "prompt": "blue sky with soft white clouds, photorealistic",
+  "enhanced_prompt": "blue sky with soft white clouds, photorealistic",
+  "num_steps": 12,
+  "guidance_scale": 7.5,
+  "seed": 21,
+  "procedural": true,
+  "nsfw": false,
+  "category": "real",
+  "timestamp": "2026-08-21T17:59:01.119404+00:00",
+  "output": "outputs\\image\\verify_custom_only.png",
+  "generation_mode": "procedural",
+  "reference_used": false
+}

@@ -1,0 +1,6 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI: loaded tokenizer from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\tokenizer.json (vocab=12000)
+Navine AI: resumed weights from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Navine Neural Text | params=317,047,808 | device=cuda | tier=medium layers=24 d=1024 rope=True swiglu=True rms=True tie=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Step 100 | Val Loss: 5.0897

@@ -1,0 +1,14 @@
+{
+  "prompt": "abstract visualization of deep reasoning, glowing neural pathways connecting puzzle pieces, dark blue background",
+  "enhanced_prompt": "abstract visualization of deep reasoning, glowing neural pathways connecting puzzle pieces, dark blue background",
+  "generation_mode": "diffusion",
+  "reference_used": false,
+  "procedural": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise_v2\\latest.pt",
+  "custom_trained_only": true,
+  "timestamp": "2026-08-25T01:13:56.150880+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_think.png",
+  "valid": true,
+  "noise": false,
+  "category_tag": "think"
+}

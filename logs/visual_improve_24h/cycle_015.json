@@ -1,0 +1,249 @@
+{
+  "cycle": 15,
+  "started": "2026-08-19T10:18:42.779962+00:00",
+  "remaining_hours": 1.0098195055458281,
+  "fetch": {
+    "reference_fetch": {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "reference",
+        "fetch",
+        "hentai",
+        "--max",
+        "40"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    "skipped_bulk_nsfw_packs": true,
+    "cycle": 15,
+    "hygiene": {
+      "removed_bytes": 326840505
+    },
+    "wikipedia": {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "learn",
+        "wikipedia",
+        "--max",
+        "25"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    "hf_code": {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "learn",
+        "hf-code",
+        "--max",
+        "800"
+      ],
+      "returncode": 0,
+      "ok": true
+    }
+  },
+  "ingest": {
+    "learned_images": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\image\\ingested",
+    "nsfw_images": 3111,
+    "external": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\image",
+    "video": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\video\\ingested"
+  },
+  "text_train": {
+    "steps": 1000,
+    "ok": true,
+    "samples": 36855,
+    "checkpoint": "text_enterprise"
+  },
+  "text_code_train": {
+    "steps": 700,
+    "ok": true,
+    "samples": 24161,
+    "checkpoint": "text_code"
+  },
+  "image_train": {
+    "steps": 1500,
+    "ok": true,
+    "checkpoint": "image_enterprise"
+  },
+  "video_train": {
+    "steps": 900,
+    "ok": true,
+    "checkpoint": "video_enterprise"
+  },
+  "llm_pack": {
+    "format": "navine-llm-v1",
+    "updated_at": "2026-08-19T12:08:18.847638+00:00",
+    "models": [
+      {
+        "name": "text_enterprise",
+        "ok": true,
+        "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\text_enterprise\\latest.pt",
+        "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI\\models\\text_enterprise.py",
+        "config": "C:\\Users\\hitbo\\Downloads\\Navine AI\\models\\text_enterprise\\config.json",
+        "parameters": 57936000
+      },
+      {
+        "name": "text_code",
+        "ok": true,
+        "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\text_code\\latest.pt",
+        "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI\\models\\text_code.py",
+        "config": "C:\\Users\\hitbo\\Downloads\\Navine AI\\models\\text_code\\config.json",
+        "parameters": 57936000
+      },
+      {
+        "name": "image_enterprise",
+        "ok": true,
+        "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise\\latest.pt",
+        "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI\\models\\image_enterprise.py",
+        "config": "C:\\Users\\hitbo\\Downloads\\Navine AI\\models\\image_enterprise\\config.json",
+        "parameters": 27398723
+      },
+      {
+        "name": "video_enterprise",
+        "ok": true,
+        "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+        "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI\\models\\video_enterprise.py",
+        "config": "C:\\Users\\hitbo\\Downloads\\Navine AI\\models\\video_enterprise\\config.json",
+        "parameters": 25808723
+      }
+    ]
+  },
+  "gallery": {
+    "image": {
+      "ok": false,
+      "seed": 0,
+      "items": {
+        "sfw": {
+          "prompt": "sfw clothed young adult woman portrait, natural light",
+          "seed": 0,
+          "category_tag": "sfw",
+          "valid": true,
+          "noise": false,
+          "score": 0.84,
+          "lap_var": 9.692,
+          "std": 52.262,
+          "passes": false,
+          "timestamp": "2026-08-19T12:08:26.877935+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\sfw_seed0.png"
+        },
+        "human": {
+          "prompt": "photoreal adult man standing outdoors",
+          "seed": 0,
+          "category_tag": "human",
+          "valid": true,
+          "noise": false,
+          "score": 1.0,
+          "lap_var": 1768.607,
+          "std": 68.079,
+          "passes": true,
+          "timestamp": "2026-08-19T12:08:34.839739+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\human_seed0.png"
+        },
+        "hentai": {
+          "prompt": "hentai anime girl detailed face body",
+          "seed": 0,
+          "category_tag": "hentai",
+          "valid": true,
+          "noise": false,
+          "score": 1.0,
+          "lap_var": 2556.768,
+          "std": 63.034,
+          "passes": true,
+          "timestamp": "2026-08-19T12:08:44.281607+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\hentai_seed0.png"
+        },
+        "object": {
+          "prompt": "red ceramic mug on wooden table",
+          "seed": 0,
+          "category_tag": "object",
+          "valid": true,
+          "noise": false,
+          "score": 0.76,
+          "lap_var": 8.267,
+          "std": 43.677,
+          "passes": false,
+          "timestamp": "2026-08-19T12:09:04.516778+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\object_seed0.png"
+        }
+      }
+    },
+    "video": {
+      "ok": true,
+      "seed": 0,
+      "items": {
+        "sfw": {
+          "prompt": "sfw clothed young adult woman portrait, subtle motion, natural light",
+          "seed": 0,
+          "category_tag": "sfw",
+          "valid": true,
+          "frame_variance": 0.008975190472894258,
+          "size_bytes": 91143,
+          "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+          "timestamp": "2026-08-19T12:09:13.066123+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\sfw_seed0.mp4"
+        },
+        "human": {
+          "prompt": "photoreal adult man standing outdoors, slow camera pan",
+          "seed": 0,
+          "category_tag": "human",
+          "valid": true,
+          "frame_variance": 0.008780879104667674,
+          "size_bytes": 67498,
+          "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+          "timestamp": "2026-08-19T12:09:21.682655+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\human_seed0.mp4"
+        },
+        "hentai": {
+          "prompt": "hentai anime girl detailed face body, gentle motion",
+          "seed": 0,
+          "category_tag": "hentai",
+          "valid": true,
+          "frame_variance": 0.05557309734567459,
+          "size_bytes": 188998,
+          "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+          "timestamp": "2026-08-19T12:09:31.374957+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\hentai_seed0.mp4"
+        },
+        "object": {
+          "prompt": "red ceramic mug on wooden table, slight camera drift",
+          "seed": 0,
+          "category_tag": "object",
+          "valid": true,
+          "frame_variance": 0.01127543337943573,
+          "size_bytes": 73170,
+          "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+          "timestamp": "2026-08-19T12:10:36.480183+00:00",
+          "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\object_seed0.mp4"
+        }
+      }
+    },
+    "image_dir": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015",
+    "video_dir": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015"
+  },
+  "gates": {
+    "image_ok": true,
+    "video_ok": true,
+    "all_ok": true,
+    "image_scores": {
+      "sfw": 0.84,
+      "human": 1.0,
+      "hentai": 1.0,
+      "object": 0.76
+    },
+    "video_variance": {
+      "sfw": 0.008975190472894258,
+      "human": 0.008780879104667674,
+      "hentai": 0.05557309734567459,
+      "object": 0.01127543337943573
+    }
+  },
+  "ok": true,
+  "ended": "2026-08-19T12:10:36.503477+00:00"
+}

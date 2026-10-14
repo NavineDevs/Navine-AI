@@ -1,0 +1,14 @@
+{
+  "prompt": "nude hentai anime girl detailed face body, gentle motion",
+  "enhanced_prompt": "an nude hentai anime girl detailed face body, gentle motion, anime illustration, hentai style, detailed linework, vibrant colors, explicit adult",
+  "num_frames": 24,
+  "fps": 16,
+  "seed": 242,
+  "fallback": true,
+  "timestamp": "2026-08-22T04:47:02.735143+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\hentai_step_00200.mp4",
+  "nsfw": true,
+  "category": "hentai",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

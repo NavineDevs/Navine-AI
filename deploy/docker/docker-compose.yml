@@ -1,0 +1,24 @@
+services:
+  api:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile.api
+    ports:
+      - "8765:8765"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ../../checkpoints:/app/checkpoints
+      - ../../data:/app/data
+      - ../../configs:/app/configs
+
+  gateway:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile.gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - api
+    environment:
+      - UPSTREAM=http://api:8765

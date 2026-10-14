@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "seed": 0,
+  "items": {
+    "sfw": {
+      "prompt": "sfw clothed young adult woman portrait, subtle motion, natural light",
+      "seed": 0,
+      "category_tag": "sfw",
+      "valid": true,
+      "frame_variance": 0.008975190472894258,
+      "size_bytes": 91143,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+      "timestamp": "2026-08-19T12:09:13.066123+00:00",
+      "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\sfw_seed0.mp4"
+    },
+    "human": {
+      "prompt": "photoreal adult man standing outdoors, slow camera pan",
+      "seed": 0,
+      "category_tag": "human",
+      "valid": true,
+      "frame_variance": 0.008780879104667674,
+      "size_bytes": 67498,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+      "timestamp": "2026-08-19T12:09:21.682655+00:00",
+      "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\human_seed0.mp4"
+    },
+    "hentai": {
+      "prompt": "hentai anime girl detailed face body, gentle motion",
+      "seed": 0,
+      "category_tag": "hentai",
+      "valid": true,
+      "frame_variance": 0.05557309734567459,
+      "size_bytes": 188998,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+      "timestamp": "2026-08-19T12:09:31.374957+00:00",
+      "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\hentai_seed0.mp4"
+    },
+    "object": {
+      "prompt": "red ceramic mug on wooden table, slight camera drift",
+      "seed": 0,
+      "category_tag": "object",
+      "valid": true,
+      "frame_variance": 0.01127543337943573,
+      "size_bytes": 73170,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+      "timestamp": "2026-08-19T12:10:36.480183+00:00",
+      "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_015\\object_seed0.mp4"
+    }
+  }
+}

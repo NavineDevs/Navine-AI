@@ -1,0 +1,14 @@
+{
+  "prompt": "photorealistic explicit adult anatomy, natural light, subtle camera drift",
+  "enhanced_prompt": "a photorealistic explicit adult anatomy, natural light, subtle camera drift, high quality, detailed skin texture, sharp focus",
+  "num_frames": 24,
+  "fps": 16,
+  "seed": 242,
+  "fallback": true,
+  "timestamp": "2026-08-21T19:07:20.316868+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\porn_step_00200.mp4",
+  "nsfw": true,
+  "category": "real",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

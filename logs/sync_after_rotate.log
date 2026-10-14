@@ -1,0 +1,24 @@
+Sync source: C:\Users\hitbo\Downloads\Navine AI
+Targets: 5
+
+== Navine AI - Python ==
+  code: 155 files updated in Navine AI - Python
+  configs: 41 items -> Navine AI - Python
+  checkpoints: skip (junction/same path) -> Navine AI - Python
+
+== Navuryx AI ==
+  code: 201 files updated in Navuryx AI
+  configs: 39 items -> Navuryx AI
+  checkpoints: 4 files -> Navuryx AI
+
+== Navuryx AI - Python ==
+  code: 201 files updated in Navuryx AI - Python
+  configs: 39 items -> Navuryx AI - Python
+  checkpoints: 4 files -> Navuryx AI - Python
+
+
+
+Summary written to C:\Users\hitbo\Downloads\Navine AI\logs\sync_all_six\sync_20260822_150520.json
+  Navine AI - Python: 6/6 checkpoints, 6 runners
+  Navuryx AI: 6/6 checkpoints, 6 runners
+  Navuryx AI - Python: 6/6 checkpoints, 6 runners

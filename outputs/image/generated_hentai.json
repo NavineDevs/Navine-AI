@@ -1,0 +1,14 @@
+{
+  "prompt": "hentai anime girl detailed face body",
+  "enhanced_prompt": "hentai anime girl detailed face body",
+  "generation_mode": "diffusion",
+  "reference_used": false,
+  "procedural": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise_v2\\latest.pt",
+  "custom_trained_only": true,
+  "timestamp": "2026-08-25T01:12:43.487358+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_hentai.png",
+  "valid": true,
+  "noise": false,
+  "category_tag": "hentai"
+}

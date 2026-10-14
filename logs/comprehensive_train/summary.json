@@ -1,0 +1,258 @@
+{
+  "product": "Navine AI",
+  "package": "navine",
+  "mode": "full",
+  "started": "2026-08-24T18:46:19.019830+00:00",
+  "ended": "2026-08-24T23:39:40.616296+00:00",
+  "text_steps": 1800,
+  "image_steps": 2800,
+  "video_steps": 2200,
+  "ok": false,
+  "results": [
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "learn",
+        "ingest"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "learn",
+        "index"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "general",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "chat",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "coding",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "creative",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "math",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "thinking",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "detective",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "multimodal-text",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 1,
+      "ok": false
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "games",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "nsfw",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "unrestricted",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "voice",
+        "--steps",
+        "1800"
+      ],
+      "returncode": 3221226505,
+      "ok": false
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "image",
+        "--steps",
+        "2800",
+        "--require-cuda"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.cli",
+        "train",
+        "video",
+        "--steps",
+        "2200",
+        "--require-cuda"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.llm",
+        "pack"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.llm",
+        "verify"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "-m",
+        "navine.gguf_export",
+        "export"
+      ],
+      "returncode": 0,
+      "ok": true
+    },
+    {
+      "cmd": [
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\venv\\Scripts\\python.exe",
+        "C:\\Users\\hitbo\\Downloads\\Navine AI\\scripts\\run_iterative_smoke_eval.py",
+        "comprehensive"
+      ],
+      "returncode": 0,
+      "ok": true
+    }
+  ]
+}

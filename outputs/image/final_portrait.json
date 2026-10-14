@@ -1,0 +1,15 @@
+{
+  "prompt": "photorealistic adult woman portrait, natural daylight",
+  "enhanced_prompt": "a photorealistic adult woman portrait, natural daylight, high quality, detailed skin texture, sharp focus",
+  "num_steps": 28,
+  "guidance_scale": 7.5,
+  "seed": 7,
+  "procedural": false,
+  "nsfw": true,
+  "category": "real",
+  "timestamp": "2026-08-21T17:50:22.503425+00:00",
+  "output": "outputs\\image\\final_portrait.png",
+  "generation_mode": "diffusers",
+  "reference_used": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise\\latest.pt"
+}

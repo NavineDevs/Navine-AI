@@ -1,0 +1,691 @@
+{
+  "target": "torvalds",
+  "kind": "username",
+  "query": "\"torvalds\" username profiles social media accounts site:github.com OR site:reddit.com",
+  "analysis": "OSINT report for `torvalds` (username)\n\nUsername scan `torvalds` (Sherlock-style)\n\nChecked 47 public sites — **30 found**, 8 not found, 8 inconclusive.\n\nAccounts likely found:\n- **Bitbucket**: https://bitbucket.org/torvalds/ (1911 ms)\n- **Chess.com**: https://www.chess.com/member/torvalds (694 ms)\n- **Docker Hub**: https://hub.docker.com/u/torvalds (882 ms)\n- **Duolingo**: https://www.duolingo.com/profile/torvalds (590 ms)\n- **Flickr**: https://www.flickr.com/people/torvalds/ (1002 ms)\n- **GitHub**: https://github.com/torvalds (977 ms)\n- **GitHub Gist**: https://gist.github.com/torvalds (1268 ms)\n- **GitLab**: https://gitlab.com/torvalds (1324 ms)\n- **Gitea**: https://gitea.com/torvalds (1512 ms)\n- **HackTheBox**: https://app.hackthebox.com/profile/torvalds (766 ms)\n- **Hacker News**: https://news.ycombinator.com/user?id=torvalds (882 ms)\n- **HackerRank**: https://www.hackerrank.com/torvalds (2003 ms)\n- **Instagram**: https://www.instagram.com/torvalds/ (918 ms)\n- **Keybase**: https://keybase.io/torvalds (1694 ms)\n- **Medium**: https://medium.com/@torvalds (1659 ms)\n- **Pastebin**: https://pastebin.com/u/torvalds (1285 ms)\n- **Pinterest**: https://www.pinterest.com/torvalds/ (1333 ms)\n- **PyPI**: https://pypi.org/user/torvalds/ (587 ms)\n- **Reddit**: https://www.reddit.com/user/torvalds (1303 ms)\n- **Replit**: https://replit.com/@torvalds (1395 ms)\n- **Roblox**: https://www.roblox.com/user.aspx?username=torvalds (1501 ms)\n- **RubyGems**: https://rubygems.org/profiles/torvalds (983 ms)\n- **Snapchat**: https://www.snapchat.com/add/torvalds (2749 ms)\n- **SoundCloud**: https://soundcloud.com/torvalds (1175 ms)\n- **Spotify**: https://open.spotify.com/user/torvalds (659 ms)\n- **Telegram**: https://t.me/torvalds (1244 ms)\n- **TikTok**: https://www.tiktok.com/@torvalds (512 ms)\n- **TryHackMe**: https://tryhackme.com/p/torvalds (1057 ms)\n- **Twitch**: https://www.twitch.tv/torvalds (462 ms)\n- **X**: https://x.com/torvalds (1390 ms)\n\nManual check recommended (blocked or ambiguous):\n- Behance: https://www.behance.net/torvalds\n- Codeberg: https://codeberg.org/torvalds\n- Discogs: https://www.discogs.com/user/torvalds\n- Last.fm: https://www.last.fm/user/torvalds\n- Mastodon.social: https://mastodon.social/@torvalds\n- Product Hunt: https://www.producthunt.com/@torvalds\n- Steam: https://steamcommunity.com/id/torvalds\n- npm: https://www.npmjs.com/~torvalds\n\nNote: Public pages only. False positives/negatives happen when sites block bots or hide profiles.\n\nNext steps: open found profiles, compare bios/links, then run a web search for extra mentions.",
+  "search_results": [],
+  "username_scan": {
+    "username": "torvalds",
+    "valid": true,
+    "profiles": [
+      {
+        "site": "Bitbucket",
+        "url": "https://bitbucket.org/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1911
+      },
+      {
+        "site": "Chess.com",
+        "url": "https://www.chess.com/member/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 694
+      },
+      {
+        "site": "Docker Hub",
+        "url": "https://hub.docker.com/u/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 882
+      },
+      {
+        "site": "Duolingo",
+        "url": "https://www.duolingo.com/profile/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 590
+      },
+      {
+        "site": "Flickr",
+        "url": "https://www.flickr.com/people/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1002
+      },
+      {
+        "site": "GitHub",
+        "url": "https://github.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 977
+      },
+      {
+        "site": "GitHub Gist",
+        "url": "https://gist.github.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1268
+      },
+      {
+        "site": "GitLab",
+        "url": "https://gitlab.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1324
+      },
+      {
+        "site": "Gitea",
+        "url": "https://gitea.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1512
+      },
+      {
+        "site": "HackTheBox",
+        "url": "https://app.hackthebox.com/profile/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 766
+      },
+      {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/user?id=torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 882
+      },
+      {
+        "site": "HackerRank",
+        "url": "https://www.hackerrank.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 2003
+      },
+      {
+        "site": "Instagram",
+        "url": "https://www.instagram.com/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 918
+      },
+      {
+        "site": "Keybase",
+        "url": "https://keybase.io/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1694
+      },
+      {
+        "site": "Medium",
+        "url": "https://medium.com/@torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1659
+      },
+      {
+        "site": "Pastebin",
+        "url": "https://pastebin.com/u/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1285
+      },
+      {
+        "site": "Pinterest",
+        "url": "https://www.pinterest.com/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1333
+      },
+      {
+        "site": "PyPI",
+        "url": "https://pypi.org/user/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 587
+      },
+      {
+        "site": "Reddit",
+        "url": "https://www.reddit.com/user/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1303
+      },
+      {
+        "site": "Replit",
+        "url": "https://replit.com/@torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1395
+      },
+      {
+        "site": "Roblox",
+        "url": "https://www.roblox.com/user.aspx?username=torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1501
+      },
+      {
+        "site": "RubyGems",
+        "url": "https://rubygems.org/profiles/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 983
+      },
+      {
+        "site": "Snapchat",
+        "url": "https://www.snapchat.com/add/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 2749
+      },
+      {
+        "site": "SoundCloud",
+        "url": "https://soundcloud.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1175
+      },
+      {
+        "site": "Spotify",
+        "url": "https://open.spotify.com/user/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 659
+      },
+      {
+        "site": "Telegram",
+        "url": "https://t.me/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1244
+      },
+      {
+        "site": "TikTok",
+        "url": "https://www.tiktok.com/@torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 512
+      },
+      {
+        "site": "TryHackMe",
+        "url": "https://tryhackme.com/p/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1057
+      },
+      {
+        "site": "Twitch",
+        "url": "https://www.twitch.tv/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 462
+      },
+      {
+        "site": "X",
+        "url": "https://x.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1390
+      },
+      {
+        "site": "About.me",
+        "url": "https://about.me/torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1501
+      },
+      {
+        "site": "Behance",
+        "url": "https://www.behance.net/torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 530
+      },
+      {
+        "site": "Codeberg",
+        "url": "https://codeberg.org/torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 1668
+      },
+      {
+        "site": "Dev.to",
+        "url": "https://dev.to/torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 952
+      },
+      {
+        "site": "Discogs",
+        "url": "https://www.discogs.com/user/torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 525
+      },
+      {
+        "site": "Dribbble",
+        "url": "https://dribbble.com/torvalds",
+        "status": "error",
+        "http_status": 0,
+        "response_ms": 40072,
+        "error": "HTTPSConnectionPool(host='dribbble.com', port=443): Max retries exceeded with url: /torvalds (Caused by ConnectTimeoutError(<HTTPSConnection(host='dribbble.com', port=443) at 0x1b4"
+      },
+      {
+        "site": "Facebook",
+        "url": "https://www.facebook.com/torvalds",
+        "status": "not_found",
+        "http_status": 400,
+        "response_ms": 647
+      },
+      {
+        "site": "Gravatar",
+        "url": "https://en.gravatar.com/torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 2035
+      },
+      {
+        "site": "Last.fm",
+        "url": "https://www.last.fm/user/torvalds",
+        "status": "unknown",
+        "http_status": 600,
+        "response_ms": 1186
+      },
+      {
+        "site": "LinkedIn",
+        "url": "https://www.linkedin.com/in/torvalds/",
+        "status": "not_found",
+        "http_status": 999,
+        "response_ms": 764
+      },
+      {
+        "site": "Mastodon.social",
+        "url": "https://mastodon.social/@torvalds",
+        "status": "unknown",
+        "http_status": 410,
+        "response_ms": 649
+      },
+      {
+        "site": "Packagist",
+        "url": "https://packagist.org/users/torvalds/",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1084
+      },
+      {
+        "site": "Product Hunt",
+        "url": "https://www.producthunt.com/@torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 362
+      },
+      {
+        "site": "Steam",
+        "url": "https://steamcommunity.com/id/torvalds",
+        "status": "unknown",
+        "http_status": 429,
+        "response_ms": 649
+      },
+      {
+        "site": "Vimeo",
+        "url": "https://vimeo.com/torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 694
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 506
+      },
+      {
+        "site": "npm",
+        "url": "https://www.npmjs.com/~torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 463
+      }
+    ],
+    "found": [
+      {
+        "site": "Bitbucket",
+        "url": "https://bitbucket.org/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1911
+      },
+      {
+        "site": "Chess.com",
+        "url": "https://www.chess.com/member/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 694
+      },
+      {
+        "site": "Docker Hub",
+        "url": "https://hub.docker.com/u/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 882
+      },
+      {
+        "site": "Duolingo",
+        "url": "https://www.duolingo.com/profile/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 590
+      },
+      {
+        "site": "Flickr",
+        "url": "https://www.flickr.com/people/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1002
+      },
+      {
+        "site": "GitHub",
+        "url": "https://github.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 977
+      },
+      {
+        "site": "GitHub Gist",
+        "url": "https://gist.github.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1268
+      },
+      {
+        "site": "GitLab",
+        "url": "https://gitlab.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1324
+      },
+      {
+        "site": "Gitea",
+        "url": "https://gitea.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1512
+      },
+      {
+        "site": "HackTheBox",
+        "url": "https://app.hackthebox.com/profile/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 766
+      },
+      {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/user?id=torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 882
+      },
+      {
+        "site": "HackerRank",
+        "url": "https://www.hackerrank.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 2003
+      },
+      {
+        "site": "Instagram",
+        "url": "https://www.instagram.com/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 918
+      },
+      {
+        "site": "Keybase",
+        "url": "https://keybase.io/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1694
+      },
+      {
+        "site": "Medium",
+        "url": "https://medium.com/@torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1659
+      },
+      {
+        "site": "Pastebin",
+        "url": "https://pastebin.com/u/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1285
+      },
+      {
+        "site": "Pinterest",
+        "url": "https://www.pinterest.com/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1333
+      },
+      {
+        "site": "PyPI",
+        "url": "https://pypi.org/user/torvalds/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 587
+      },
+      {
+        "site": "Reddit",
+        "url": "https://www.reddit.com/user/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1303
+      },
+      {
+        "site": "Replit",
+        "url": "https://replit.com/@torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1395
+      },
+      {
+        "site": "Roblox",
+        "url": "https://www.roblox.com/user.aspx?username=torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1501
+      },
+      {
+        "site": "RubyGems",
+        "url": "https://rubygems.org/profiles/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 983
+      },
+      {
+        "site": "Snapchat",
+        "url": "https://www.snapchat.com/add/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 2749
+      },
+      {
+        "site": "SoundCloud",
+        "url": "https://soundcloud.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1175
+      },
+      {
+        "site": "Spotify",
+        "url": "https://open.spotify.com/user/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 659
+      },
+      {
+        "site": "Telegram",
+        "url": "https://t.me/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1244
+      },
+      {
+        "site": "TikTok",
+        "url": "https://www.tiktok.com/@torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 512
+      },
+      {
+        "site": "TryHackMe",
+        "url": "https://tryhackme.com/p/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1057
+      },
+      {
+        "site": "Twitch",
+        "url": "https://www.twitch.tv/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 462
+      },
+      {
+        "site": "X",
+        "url": "https://x.com/torvalds",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1390
+      }
+    ],
+    "not_found": [
+      {
+        "site": "About.me",
+        "url": "https://about.me/torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1501
+      },
+      {
+        "site": "Dev.to",
+        "url": "https://dev.to/torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 952
+      },
+      {
+        "site": "Facebook",
+        "url": "https://www.facebook.com/torvalds",
+        "status": "not_found",
+        "http_status": 400,
+        "response_ms": 647
+      },
+      {
+        "site": "Gravatar",
+        "url": "https://en.gravatar.com/torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 2035
+      },
+      {
+        "site": "LinkedIn",
+        "url": "https://www.linkedin.com/in/torvalds/",
+        "status": "not_found",
+        "http_status": 999,
+        "response_ms": 764
+      },
+      {
+        "site": "Packagist",
+        "url": "https://packagist.org/users/torvalds/",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1084
+      },
+      {
+        "site": "Vimeo",
+        "url": "https://vimeo.com/torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 694
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@torvalds",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 506
+      }
+    ],
+    "unknown": [
+      {
+        "site": "Behance",
+        "url": "https://www.behance.net/torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 530
+      },
+      {
+        "site": "Codeberg",
+        "url": "https://codeberg.org/torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 1668
+      },
+      {
+        "site": "Discogs",
+        "url": "https://www.discogs.com/user/torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 525
+      },
+      {
+        "site": "Last.fm",
+        "url": "https://www.last.fm/user/torvalds",
+        "status": "unknown",
+        "http_status": 600,
+        "response_ms": 1186
+      },
+      {
+        "site": "Mastodon.social",
+        "url": "https://mastodon.social/@torvalds",
+        "status": "unknown",
+        "http_status": 410,
+        "response_ms": 649
+      },
+      {
+        "site": "Product Hunt",
+        "url": "https://www.producthunt.com/@torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 362
+      },
+      {
+        "site": "Steam",
+        "url": "https://steamcommunity.com/id/torvalds",
+        "status": "unknown",
+        "http_status": 429,
+        "response_ms": 649
+      },
+      {
+        "site": "npm",
+        "url": "https://www.npmjs.com/~torvalds",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 463
+      }
+    ],
+    "errors": [
+      {
+        "site": "Dribbble",
+        "url": "https://dribbble.com/torvalds",
+        "status": "error",
+        "http_status": 0,
+        "response_ms": 40072,
+        "error": "HTTPSConnectionPool(host='dribbble.com', port=443): Max retries exceeded with url: /torvalds (Caused by ConnectTimeoutError(<HTTPSConnection(host='dribbble.com', port=443) at 0x1b4"
+      }
+    ],
+    "summary": {
+      "total": 47,
+      "found": 30,
+      "not_found": 8,
+      "unknown": 8,
+      "errors": 1
+    }
+  },
+  "domain_intel": null,
+  "ip_intel": null,
+  "finished_at": "2026-08-24T06:34:54.889916+00:00"
+}

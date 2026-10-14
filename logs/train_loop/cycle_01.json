@@ -1,0 +1,53 @@
+{
+  "cycle": 1,
+  "evaluation": {
+    "average_score": 0.61,
+    "all_pass": false,
+    "categories": {
+      "real_human": {
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c1_real_human.png",
+        "score": 0.5,
+        "bland": true,
+        "noise": false,
+        "std": 27.862,
+        "sharpness": 3.399,
+        "passes": false,
+        "grey": false,
+        "mean": 121.662,
+        "center_std": 27.637,
+        "entropy": 2.758,
+        "lap_var": 11.431,
+        "structure": 1.165,
+        "blob_like": true,
+        "prompt": "photorealistic real amateur nude woman explicit photo natural skin texture portrait",
+        "generation_mode": "guide",
+        "reference_used": true,
+        "reference_category": "real",
+        "category_pass": false
+      },
+      "hentai": {
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\loop_c1_hentai.png",
+        "score": 0.72,
+        "bland": false,
+        "noise": false,
+        "std": 29.705,
+        "sharpness": 3.8,
+        "passes": false,
+        "grey": false,
+        "mean": 134.389,
+        "center_std": 28.038,
+        "entropy": 2.754,
+        "lap_var": 13.373,
+        "structure": 0.642,
+        "blob_like": true,
+        "prompt": "hentai explicit nude anime woman detailed anatomy anime illustration vibrant colors ecchi",
+        "generation_mode": "guide",
+        "reference_used": true,
+        "reference_category": "hentai",
+        "category_pass": false
+      }
+    }
+  },
+  "average_score": 0.61,
+  "all_pass": false
+}

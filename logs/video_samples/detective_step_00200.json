@@ -1,0 +1,14 @@
+{
+  "prompt": "noir alley at night, fog, silhouette with flashlight, slow camera pan, mysterious atmosphere",
+  "enhanced_prompt": "a night sky with stars, deep blue atmosphere, atmospheric depth, natural lighting, high quality",
+  "num_frames": 24,
+  "fps": 16,
+  "seed": 242,
+  "fallback": true,
+  "timestamp": "2026-08-21T19:09:05.243726+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\detective_step_00200.mp4",
+  "nsfw": false,
+  "category": "general",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

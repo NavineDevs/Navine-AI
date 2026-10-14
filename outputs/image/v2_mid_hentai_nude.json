@@ -1,0 +1,9 @@
+{
+  "tag": "hentai_nude",
+  "prompt": "nude hentai anime girl, detailed face and body, clean lineart, vibrant colors",
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise_v2\\latest.pt",
+  "phase": "mid_6000",
+  "ok": true,
+  "noise": false,
+  "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\v2_hentai_nude.png"
+}

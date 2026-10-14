@@ -1,0 +1,58 @@
+{
+  "ok": false,
+  "seed": 0,
+  "items": {
+    "sfw": {
+      "prompt": "sfw clothed young adult woman portrait, natural light",
+      "seed": 0,
+      "category_tag": "sfw",
+      "valid": true,
+      "noise": false,
+      "score": 0.84,
+      "lap_var": 9.692,
+      "std": 52.262,
+      "passes": false,
+      "timestamp": "2026-08-19T12:08:26.877935+00:00",
+      "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\sfw_seed0.png"
+    },
+    "human": {
+      "prompt": "photoreal adult man standing outdoors",
+      "seed": 0,
+      "category_tag": "human",
+      "valid": true,
+      "noise": false,
+      "score": 1.0,
+      "lap_var": 1768.607,
+      "std": 68.079,
+      "passes": true,
+      "timestamp": "2026-08-19T12:08:34.839739+00:00",
+      "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\human_seed0.png"
+    },
+    "hentai": {
+      "prompt": "hentai anime girl detailed face body",
+      "seed": 0,
+      "category_tag": "hentai",
+      "valid": true,
+      "noise": false,
+      "score": 1.0,
+      "lap_var": 2556.768,
+      "std": 63.034,
+      "passes": true,
+      "timestamp": "2026-08-19T12:08:44.281607+00:00",
+      "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\hentai_seed0.png"
+    },
+    "object": {
+      "prompt": "red ceramic mug on wooden table",
+      "seed": 0,
+      "category_tag": "object",
+      "valid": true,
+      "noise": false,
+      "score": 0.76,
+      "lap_var": 8.267,
+      "std": 43.677,
+      "passes": false,
+      "timestamp": "2026-08-19T12:09:04.516778+00:00",
+      "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\object_seed0.png"
+    }
+  }
+}

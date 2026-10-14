@@ -1,0 +1,57 @@
+{
+  "round": "comprehensive",
+  "pass_score": 8.0,
+  "models": {
+    "text_enterprise": {
+      "chat": {
+        "best_score": 13.85,
+        "passed": true,
+        "best": ", not ice / col um n s f w - b ir th s."
+      },
+      "code": {
+        "best_score": 18.8,
+        "passed": true,
+        "best": ", and a b ra y of the same b ra y."
+      },
+      "think": {
+        "best_score": 8.0,
+        "passed": true,
+        "best": ",!! -- >. md > is ol ate (text,}) < / p > < / p >. j pe g s. de code = sm art &amp; auto = web p &amp; s = 3 b 8 9 f 2 c 0 d 6 a 5 e 8 7\"> [link] < / a > < / sp an >"
+      },
+      "detective": {
+        "best_score": 8.0,
+        "passed": true,
+        "best": ",,,!! -- > S C _ ON N E R T I F Y A V s b W 8 6 h 1. j pe g? width = 6 4 0 &amp; c rop = sm art &amp; auto = web p &amp; s = 5 d 9 e 2 f 7 1 f b 8 e 3 a\"> [link] < / a > < / sp an >. / t d >"
+      }
+    },
+    "text_code": {
+      "chat": {
+        "best_score": 21.35,
+        "passed": true,
+        "best": "ge m ge an ge ge n ge g es as e: b ge ther from s, of video ge (\"Hello, Counter iv n ti g u al mo ge (\"Hello, ```"
+      },
+      "code": {
+        "best_score": 20.2,
+        "passed": true,
+        "best": "ge ther. ge o he he the he he clo th es cho o b b o th es them at ge ther."
+      },
+      "think": {
+        "best_score": 20.55,
+        "passed": true,
+        "best": "al write and the data stricted The word. ist itle Primus my or Grok."
+      },
+      "detective": {
+        "best_score": 23.35,
+        "passed": true,
+        "best": ", or b cal e, Primus Verity ] a pict u al video he or b's, he them b cal e, N er, won cho li ur ing, ."
+      }
+    }
+  },
+  "summary": {
+    "avg_score": 7.3812500000000005,
+    "min_score": -32.55,
+    "max_score": 23.35,
+    "passed_modes": 12,
+    "total_modes": 16
+  }
+}

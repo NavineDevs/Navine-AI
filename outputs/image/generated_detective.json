@@ -1,0 +1,14 @@
+{
+  "prompt": "noir detective office at night, cork board with red string clues, encrypted symbols, magnifying glass, cinematic mood",
+  "enhanced_prompt": "noir detective office at night, cork board with red string clues, encrypted symbols, magnifying glass, cinematic mood",
+  "generation_mode": "diffusion",
+  "reference_used": false,
+  "procedural": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise_v2\\latest.pt",
+  "custom_trained_only": true,
+  "timestamp": "2026-08-25T01:14:32.566844+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\generated_detective.png",
+  "valid": true,
+  "noise": false,
+  "category_tag": "detective"
+}

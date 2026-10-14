@@ -1,0 +1,7 @@
+Navine AI infer: size_tier=medium upgrade transferred=220 fresh=False
+fizzbuzz: compile=ok lang=python chars=867
+json_parse: compile=ok lang=python chars=2427
+file_io: compile=ok lang=python chars=757
+rest_handler: compile=ok lang=python chars=484
+hello_gui: compile=ok lang=python chars=288
+coding_eval 5/5

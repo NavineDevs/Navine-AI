@@ -1,0 +1,14 @@
+{
+  "prompt": "photoreal adult woman portrait, natural lighting, subtle motion",
+  "enhanced_prompt": "a photoreal adult woman portrait, natural lighting, subtle motion, high quality, detailed skin texture, sharp focus",
+  "num_frames": 24,
+  "fps": 16,
+  "seed": 242,
+  "fallback": true,
+  "timestamp": "2026-08-22T04:41:53.196830+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\human_step_00200.mp4",
+  "nsfw": true,
+  "category": "real",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

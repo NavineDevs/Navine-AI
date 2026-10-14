@@ -1,0 +1,12 @@
+{
+  "prompt": "abstract mind map forming from particles, slow camera drift, glowing connections",
+  "generation_mode": "video_checkpoint",
+  "reference_used": false,
+  "custom_trained_only": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-22T12:01:37.068504+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_think.mp4",
+  "valid": true,
+  "frame_variance": 0.00962977615468528,
+  "category_tag": "think"
+}

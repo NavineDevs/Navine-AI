@@ -1,0 +1,13 @@
+{
+  "prompt": "red ceramic mug on wooden table",
+  "seed": 0,
+  "category_tag": "object",
+  "valid": true,
+  "noise": false,
+  "score": 0.89,
+  "lap_var": 20.016,
+  "std": 38.069,
+  "passes": true,
+  "timestamp": "2026-08-17T10:23:15.968939+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_037\\object_seed0.png"
+}

@@ -1,0 +1,14 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+ImageFolderDataset unique=2900 effective=14283
+Navine AI Image Model | Parameters: 127,314,883 | Device: cuda
+Training samples: 14283 | Steps: 4000
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+Training complete. Checkpoint saved to C:\Users\hitbo\Downloads\Navine AI\checkpoints\image_enterprise_v2\latest.pt
+smoke sfw: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_sfw.png
+smoke human: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_human.png
+smoke hentai: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_hentai.png
+smoke object: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_object.png
+smoke think: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_think.png
+smoke detective: valid=True noise=False -> C:\Users\hitbo\Downloads\Navine AI\outputs\image\generated_detective.png
+Image smoke eval ok=True report=C:\Users\hitbo\Downloads\Navine AI\logs\image_smoke_eval.json
+EXIT:0

@@ -1,0 +1,12 @@
+{
+  "prompt": "clear blue sky with soft white clouds, gentle cloud drift",
+  "generation_mode": "video_checkpoint",
+  "reference_used": false,
+  "custom_trained_only": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-25T01:56:31.874734+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_sky.mp4",
+  "valid": true,
+  "frame_variance": 0.008154099807143211,
+  "category_tag": "sky"
+}

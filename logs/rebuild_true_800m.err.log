@@ -1,0 +1,41 @@
+C:\Users\hitbo\Downloads\Navine AI\navine\image\model.py:260: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+Traceback (most recent call last):
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\serialization.py", line 1004, in save
+    _save(
+    ~~~~~^
+        obj,
+        ^^^^
+    ...<3 lines>...
+        _disable_byteorder_record,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\serialization.py", line 1313, in _save
+    zip_file.write_record(name, storage, num_bytes)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: ios_base::badbit set: iostream stream error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hitbo\Downloads\Navine AI\scripts\rebuild_true_800m.py", line 254, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\scripts\rebuild_true_800m.py", line 227, in main
+    torch.save(
+    ~~~~~~~~~~^
+        {
+        ^
+    ...<5 lines>...
+        df_dir / "latest.pt",
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\serialization.py", line 1003, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\serialization.py", line 835, in __exit__
+    self.file_like.write_end_of_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: [enforce fail at inline_container.cc:672] . unexpected pos 517509184 vs 517509136

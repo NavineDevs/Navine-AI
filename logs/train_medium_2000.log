@@ -1,0 +1,141 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+Navine AI: loaded tokenizer from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\tokenizer.json (vocab=12000)
+Navine AI: resumed weights from C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Navine Neural Text | params=317,047,808 | device=cuda | tier=medium layers=24 d=1024 rope=True swiglu=True rms=True tie=True
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}
+
+Training Navine AI Text:   0%|          | 0/2000 [00:00<?, ?it/s]
+Training Navine AI Text:   0%|          | 1/2000 [00:01<44:14,  1.33s/it]
+Training Navine AI Text:   0%|          | 1/2000 [00:01<44:14,  1.33s/it, loss=0.4647]
+Training Navine AI Text:   0%|          | 2/2000 [00:04<1:16:13,  2.29s/it, loss=0.4647]
+Training Navine AI Text:   0%|          | 2/2000 [00:04<1:16:13,  2.29s/it, loss=0.4376]
+Training Navine AI Text:   0%|          | 3/2000 [00:06<1:09:19,  2.08s/it, loss=0.4376]
+Training Navine AI Text:   0%|          | 3/2000 [00:06<1:09:19,  2.08s/it, loss=0.4520]
+Training Navine AI Text:   0%|          | 4/2000 [00:08<1:08:48,  2.07s/it, loss=0.4520]
+Training Navine AI Text:   0%|          | 4/2000 [00:08<1:08:48,  2.07s/it, loss=0.5068]
+Training Navine AI Text:   0%|          | 5/2000 [00:10<1:10:31,  2.12s/it, loss=0.5068]
+Training Navine AI Text:   0%|          | 5/2000 [00:10<1:10:31,  2.12s/it, loss=0.4766]
+Training Navine AI Text:   0%|          | 6/2000 [00:14<1:32:48,  2.79s/it, loss=0.4766]
+Training Navine AI Text:   0%|          | 6/2000 [00:14<1:32:48,  2.79s/it, loss=0.4632]
+Training Navine AI Text:   0%|          | 7/2000 [00:16<1:20:59,  2.44s/it, loss=0.4632]
+Training Navine AI Text:   0%|          | 7/2000 [00:16<1:20:59,  2.44s/it, loss=0.4797]
+Training Navine AI Text:   0%|          | 8/2000 [00:24<2:25:44,  4.39s/it, loss=0.4797]
+Training Navine AI Text:   0%|          | 8/2000 [00:24<2:25:44,  4.39s/it, loss=0.4652]
+Training Navine AI Text:   0%|          | 9/2000 [00:28<2:16:25,  4.11s/it, loss=0.4652]
+Training Navine AI Text:   0%|          | 9/2000 [00:28<2:16:25,  4.11s/it, loss=0.5047]
+Training Navine AI Text:   0%|          | 10/2000 [00:39<3:29:44,  6.32s/it, loss=0.5047]
+Training Navine AI Text:   0%|          | 10/2000 [00:39<3:29:44,  6.32s/it, loss=0.4613]
+Training Navine AI Text:   1%|          | 11/2000 [01:06<6:59:18, 12.65s/it, loss=0.4613]
+Training Navine AI Text:   1%|          | 11/2000 [01:06<6:59:18, 12.65s/it, loss=0.4619]
+Training Navine AI Text:   1%|          | 12/2000 [01:19<7:02:47, 12.76s/it, loss=0.4619]
+Training Navine AI Text:   1%|          | 12/2000 [01:19<7:02:47, 12.76s/it, loss=0.4486]
+Training Navine AI Text:   1%|          | 13/2000 [01:20<5:06:37,  9.26s/it, loss=0.4486]
+Training Navine AI Text:   1%|          | 13/2000 [01:20<5:06:37,  9.26s/it, loss=0.4180]
+Training Navine AI Text:   1%|          | 14/2000 [01:26<4:28:38,  8.12s/it, loss=0.4180]
+Training Navine AI Text:   1%|          | 14/2000 [01:26<4:28:38,  8.12s/it, loss=0.4595]
+Training Navine AI Text:   1%|          | 15/2000 [01:27<3:18:57,  6.01s/it, loss=0.4595]
+Training Navine AI Text:   1%|          | 15/2000 [01:27<3:18:57,  6.01s/it, loss=0.4731]
+Training Navine AI Text:   1%|          | 16/2000 [02:16<10:24:24, 18.88s/it, loss=0.4731]
+Training Navine AI Text:   1%|          | 16/2000 [02:16<10:24:24, 18.88s/it, loss=0.4787]
+Training Navine AI Text:   1%|          | 17/2000 [02:17<7:30:40, 13.64s/it, loss=0.4787] 
+Training Navine AI Text:   1%|          | 17/2000 [02:17<7:30:40, 13.64s/it, loss=0.4653]
+Training Navine AI Text:   1%|          | 18/2000 [02:26<6:45:31, 12.28s/it, loss=0.4653]
+Training Navine AI Text:   1%|          | 18/2000 [02:26<6:45:31, 12.28s/it, loss=0.4717]
+Training Navine AI Text:   1%|          | 19/2000 [02:28<4:59:48,  9.08s/it, loss=0.4717]
+Training Navine AI Text:   1%|          | 19/2000 [02:28<4:59:48,  9.08s/it, loss=0.4195]
+Training Navine AI Text:   1%|1         | 20/2000 [02:29<3:42:55,  6.76s/it, loss=0.4195]
+Training Navine AI Text:   1%|1         | 20/2000 [02:29<3:42:55,  6.76s/it, loss=0.4736]
+Training Navine AI Text:   1%|1         | 21/2000 [02:51<6:08:27, 11.17s/it, loss=0.4736]
+Training Navine AI Text:   1%|1         | 21/2000 [02:51<6:08:27, 11.17s/it, loss=0.4347]
+Training Navine AI Text:   1%|1         | 22/2000 [02:56<5:13:26,  9.51s/it, loss=0.4347]
+Training Navine AI Text:   1%|1         | 22/2000 [02:56<5:13:26,  9.51s/it, loss=0.4768]
+Training Navine AI Text:   1%|1         | 23/2000 [03:00<4:11:28,  7.63s/it, loss=0.4768]
+Training Navine AI Text:   1%|1         | 23/2000 [03:00<4:11:28,  7.63s/it, loss=0.4869]
+Training Navine AI Text:   1%|1         | 24/2000 [03:02<3:21:56,  6.13s/it, loss=0.4869]
+Training Navine AI Text:   1%|1         | 24/2000 [03:02<3:21:56,  6.13s/it, loss=0.4574]
+Training Navine AI Text:   1%|1         | 25/2000 [10:18<74:04:05, 135.01s/it, loss=0.4574]
+Training Navine AI Text:   1%|1         | 25/2000 [10:18<74:04:05, 135.01s/it, loss=0.4291]
+Training Navine AI Text:   1%|1         | 26/2000 [26:25<210:56:17, 384.69s/it, loss=0.4291]
+Training Navine AI Text:   1%|1         | 26/2000 [26:25<210:56:17, 384.69s/it, loss=0.3878]
+Training Navine AI Text:   1%|1         | 27/2000 [26:31<148:32:14, 271.03s/it, loss=0.3878]
+Training Navine AI Text:   1%|1         | 27/2000 [26:31<148:32:14, 271.03s/it, loss=0.3929]
+Training Navine AI Text:   1%|1         | 28/2000 [26:34<104:28:00, 190.71s/it, loss=0.3929]
+Training Navine AI Text:   1%|1         | 28/2000 [26:34<104:28:00, 190.71s/it, loss=0.4343]
+Training Navine AI Text:   1%|1         | 29/2000 [26:44<74:40:30, 136.39s/it, loss=0.4343] 
+Training Navine AI Text:   1%|1         | 29/2000 [26:44<74:40:30, 136.39s/it, loss=0.4251]
+Training Navine AI Text:   2%|1         | 30/2000 [26:49<53:03:18, 96.95s/it, loss=0.4251] 
+Training Navine AI Text:   2%|1         | 30/2000 [26:49<53:03:18, 96.95s/it, loss=0.4172]
+Training Navine AI Text:   2%|1         | 31/2000 [26:55<38:11:00, 69.81s/it, loss=0.4172]
+Training Navine AI Text:   2%|1         | 31/2000 [26:55<38:11:00, 69.81s/it, loss=0.4608]
+Training Navine AI Text:   2%|1         | 32/2000 [27:06<28:29:07, 52.11s/it, loss=0.4608]
+Training Navine AI Text:   2%|1         | 32/2000 [27:06<28:29:07, 52.11s/it, loss=0.4273]
+Training Navine AI Text:   2%|1         | 33/2000 [27:23<22:43:33, 41.59s/it, loss=0.4273]
+Training Navine AI Text:   2%|1         | 33/2000 [27:23<22:43:33, 41.59s/it, loss=0.3671]
+Training Navine AI Text:   2%|1         | 34/2000 [27:27<16:36:29, 30.41s/it, loss=0.3671]
+Training Navine AI Text:   2%|1         | 34/2000 [27:27<16:36:29, 30.41s/it, loss=0.5222]
+Training Navine AI Text:   2%|1         | 35/2000 [27:32<12:23:51, 22.71s/it, loss=0.5222]
+Training Navine AI Text:   2%|1         | 35/2000 [27:32<12:23:51, 22.71s/it, loss=0.5309]
+Training Navine AI Text:   2%|1         | 36/2000 [27:34<8:55:07, 16.35s/it, loss=0.5309] 
+Training Navine AI Text:   2%|1         | 36/2000 [27:34<8:55:07, 16.35s/it, loss=0.5597]
+Training Navine AI Text:   2%|1         | 37/2000 [27:40<7:15:38, 13.32s/it, loss=0.5597]
+Training Navine AI Text:   2%|1         | 37/2000 [27:40<7:15:38, 13.32s/it, loss=0.4763]
+Training Navine AI Text:   2%|1         | 38/2000 [27:45<5:56:16, 10.90s/it, loss=0.4763]
+Training Navine AI Text:   2%|1         | 38/2000 [27:45<5:56:16, 10.90s/it, loss=0.4222]
+Training Navine AI Text:   2%|1         | 39/2000 [27:55<5:49:41, 10.70s/it, loss=0.4222]
+Training Navine AI Text:   2%|1         | 39/2000 [27:55<5:49:41, 10.70s/it, loss=0.4330]
+Training Navine AI Text:   2%|2         | 40/2000 [28:06<5:47:43, 10.64s/it, loss=0.4330]
+Training Navine AI Text:   2%|2         | 40/2000 [28:06<5:47:43, 10.64s/it, loss=0.4083]
+Training Navine AI Text:   2%|2         | 41/2000 [28:12<5:07:27,  9.42s/it, loss=0.4083]
+Training Navine AI Text:   2%|2         | 41/2000 [28:12<5:07:27,  9.42s/it, loss=0.4082]
+Training Navine AI Text:   2%|2         | 42/2000 [28:21<4:55:21,  9.05s/it, loss=0.4082]
+Training Navine AI Text:   2%|2         | 42/2000 [28:21<4:55:21,  9.05s/it, loss=0.5056]
+Training Navine AI Text:   2%|2         | 43/2000 [28:29<4:50:02,  8.89s/it, loss=0.5056]
+Training Navine AI Text:   2%|2         | 43/2000 [28:29<4:50:02,  8.89s/it, loss=0.5200]Traceback (most recent call last):
+  File "C:\Users\hitbo\Downloads\Navine AI\scripts\train_medium_text.py", line 118, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\scripts\train_medium_text.py", line 100, in main
+    train(
+    ~~~~~^
+        config_path=cfg_name,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        require_cuda=bool(args.require_cuda),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\text\train.py", line 309, in train
+    scaler.scale(loss).backward()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\_tensor.py", line 631, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\autograd\__init__.py", line 379, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\venv\Lib\site-packages\torch\autograd\graph.py", line 882, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+Training Navine AI Text:   2%|2         | 43/2000 [28:53<21:54:46, 40.31s/it, loss=0.5200]

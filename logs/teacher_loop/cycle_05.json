@@ -1,0 +1,72 @@
+{
+  "cycle": 5,
+  "phase_a": {
+    "images": 5,
+    "videos": 0,
+    "prompts": 5
+  },
+  "phase_b": {
+    "ingest_dir": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\image"
+  },
+  "phase_c": {
+    "image_finetune_steps": 400
+  },
+  "phase_d": {
+    "pairs": [
+      {
+        "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+        "seed": 42,
+        "teacher_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\teacher_00.png",
+        "custom_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\custom_00.png",
+        "teacher_score": 0.96,
+        "custom_score": 0.24,
+        "teacher_lap_var": 147.74,
+        "custom_lap_var": 1.277,
+        "score_gap": 0.72,
+        "lap_var_gap": 146.463
+      },
+      {
+        "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+        "seed": 43,
+        "teacher_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\teacher_01.png",
+        "custom_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\custom_01.png",
+        "teacher_score": 0.84,
+        "custom_score": 0.46,
+        "teacher_lap_var": 132.006,
+        "custom_lap_var": 1.49,
+        "score_gap": 0.38,
+        "lap_var_gap": 130.516
+      },
+      {
+        "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+        "seed": 44,
+        "teacher_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\teacher_02.png",
+        "custom_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\custom_02.png",
+        "teacher_score": 1.0,
+        "custom_score": 0.42,
+        "teacher_lap_var": 307.773,
+        "custom_lap_var": 1.515,
+        "score_gap": 0.58,
+        "lap_var_gap": 306.258
+      },
+      {
+        "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+        "seed": 45,
+        "teacher_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\teacher_03.png",
+        "custom_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\teacher_compare\\custom_03.png",
+        "teacher_score": 1.0,
+        "custom_score": 0.42,
+        "teacher_lap_var": 929.733,
+        "custom_lap_var": 1.842,
+        "score_gap": 0.58,
+        "lap_var_gap": 927.891
+      }
+    ],
+    "average_score_gap": 0.565,
+    "average_lap_var_gap": 377.782,
+    "average_custom_score": 0.385,
+    "prompt_count": 4,
+    "valid_pairs": 4
+  },
+  "converged": false
+}

@@ -1,0 +1,38 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Loaded NN | layers=30 d=1664 swiglu=True rms=True
+Navine AI Chat | Parameters: 1,026,869,376 | Device: cuda | tier=gpt3_1b arch L30/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 96 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences
+Navine AI: using CPU-offloaded AdamW (GPU holds weights/grads only)
+Navine AI: gradient checkpointing enabled
+PROGRESS steps=1/1600
+PROGRESS steps=5/1600
+PROGRESS steps=10/1600
+PROGRESS steps=15/1600
+PROGRESS steps=20/1600
+PROGRESS steps=25/1600
+PROGRESS steps=30/1600
+PROGRESS steps=35/1600
+PROGRESS steps=40/1600
+PROGRESS steps=45/1600
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+Navine AI fine-tuning from checkpoint: C:\Users\hitbo\Downloads\Navine AI\checkpoints\text_enterprise\latest.pt
+Loaded NN | layers=30 d=1664 swiglu=True rms=True
+Navine AI Chat | Parameters: 1,026,869,376 | Device: cuda | tier=gpt3_1b arch L30/D1664/H16 swiglu=True rms=True rope=True
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: capping train seq 2048 -> 96 for VRAM safety
+Navine AI: encoded 500 sequences
+Navine AI: encoded 1000 sequences
+Navine AI: encoded 1500 sequences
+Navine AI: encoded 2000 sequences
+Navine AI: encoded 2500 sequences
+Navine AI: encoded 3000 sequences
+Navine AI: encoded 3500 sequences

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "items": {
+    "sky": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_sky.mp4",
+      "valid": true,
+      "variance": 0.014002692521266315
+    },
+    "human": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_human.mp4",
+      "valid": true,
+      "variance": 0.01341440360588224
+    },
+    "hentai": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_hentai.mp4",
+      "valid": true,
+      "variance": 0.0676456033454641
+    },
+    "porn": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_porn.mp4",
+      "valid": true,
+      "variance": 0.011051724381420923
+    },
+    "think": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_think.mp4",
+      "valid": true,
+      "variance": 0.00962977615468528
+    },
+    "detective": {
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_detective.mp4",
+      "valid": true,
+      "variance": 0.002528905610391951
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "prompt": "hentai anime woman subtle motion animated style cinematic lighting ecchi illustration movement",
+  "enhanced_prompt": "an hentai anime woman subtle motion animated style cinematic lighting ecchi illustration movement, anime illustration, hentai style, detailed linework, vibrant colors, explicit adult, high quality, detailed",
+  "num_frames": 32,
+  "fps": 24,
+  "seed": 1057981906,
+  "fallback": true,
+  "timestamp": "2026-07-09T06:39:19.982259+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\hentai_output.mp4",
+  "nsfw": true,
+  "category": "hentai",
+  "reference_used": true,
+  "reference_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\local\\hentai\\infini_ecchi_7105.png",
+  "keyword_matched": "hentai",
+  "reference_category": "hentai",
+  "reference_strength": 0.52,
+  "generation_mode": "guide"
+}

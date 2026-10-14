@@ -1,0 +1,12 @@
+{
+  "prompt": "sfw clothed young adult woman portrait, subtle motion, natural light",
+  "generation_mode": "video_checkpoint",
+  "reference_used": false,
+  "custom_trained_only": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-19T17:26:14.609756+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_sfw.mp4",
+  "valid": true,
+  "frame_variance": 0.009179586831915883,
+  "category_tag": "sfw"
+}

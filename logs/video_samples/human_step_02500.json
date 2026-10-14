@@ -1,0 +1,20 @@
+{
+  "prompt": "photoreal adult man standing outdoors, slow camera pan",
+  "enhanced_prompt": "a photoreal adult man standing outdoors, slow camera pan, high quality, detailed skin texture, sharp focus",
+  "num_frames": 32,
+  "fps": 24,
+  "seed": 2542,
+  "fallback": false,
+  "timestamp": "2026-08-18T13:17:25.040829+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\human_step_02500.mp4",
+  "nsfw": true,
+  "category": "real",
+  "reference_used": true,
+  "reference_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\local\\real\\b_1781418595169002.png",
+  "keyword_matched": "photoreal",
+  "reference_category": "real",
+  "reference_strength": 0.8,
+  "generation_mode": "heavy",
+  "seeded_from_image": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt"
+}

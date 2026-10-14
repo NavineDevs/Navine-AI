@@ -1,0 +1,12 @@
+{
+  "prompt": "red ceramic mug on wooden table, slight camera drift",
+  "generation_mode": "video_checkpoint",
+  "reference_used": false,
+  "custom_trained_only": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-19T15:14:48.299643+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated_object.mp4",
+  "valid": true,
+  "frame_variance": 0.013808302325947631,
+  "category_tag": "object"
+}

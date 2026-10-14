@@ -1,0 +1,5 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=21 dataloader={'num_workers': 0, 'pin_memory': True}
+VideoFrameDataset unique=1152 effective=6430
+Navine AI Video Model | Parameters: 25,808,723 | Device: cuda
+Training sequences: 6430 | frame_size=256 | Steps: 1000
+Hybrid compute | CPU threads: 21 | DataLoader: {'num_workers': 0, 'pin_memory': True}

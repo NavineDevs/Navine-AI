@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\cli.py", line 3225, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\cli.py", line 1847, in main
+    train(
+    ~~~~~^
+        config_path=modality_config_name("image"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        require_cuda=bool(getattr(args, "require_cuda", False)),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\image\train.py", line 285, in train
+    with training_lock("image"):
+         ~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\hitbo\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "C:\Users\hitbo\Downloads\Navine AI\navine\utils\training_lock.py", line 81, in training_lock
+    raise RuntimeError(
+        f"Navine AI {name} training is already running. Wait for it to finish before starting another."
+    ) from None
+RuntimeError: Navine AI image training is already running. Wait for it to finish before starting another.

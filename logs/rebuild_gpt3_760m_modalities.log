@@ -1,0 +1,14 @@
+2026-08-25 23:28:48 === rebuild multimodal gpt3_760m start ===
+2026-08-25 23:30:06 === rebuild multimodal gpt3_760m start ===
+2026-08-25 23:30:06 archived image_enterprise_v2 (2 files) -> _archive_pre760m_image_enterprise_v2_20260825_143006
+2026-08-25 23:30:06 archived video_enterprise (2 files) -> _archive_pre760m_video_enterprise_20260825_143006
+2026-08-25 23:30:06 archived voice (2 files) -> _archive_pre760m_voice_20260825_143006
+2026-08-25 23:30:06 archived deepfake (2 files) -> _archive_pre760m_deepfake_20260825_143006
+2026-08-25 23:30:13 seeded image_enterprise_v2 701,987,053
+2026-08-25 23:30:18 seeded video_enterprise 698,433,653
+2026-08-25 23:30:30 seeded voice 704,643,793
+2026-08-25 23:31:06 seeded deepfake 707,113,187
+2026-08-25 23:31:09 kept text_enterprise 701,277,696
+2026-08-25 23:31:14 kept text_code 701,277,696
+2026-08-25 23:31:14 proof -> C:\Users\hitbo\Downloads\Navine AI\logs\verify_real_gpt3_760m_all.json total=4,214,733,078
+2026-08-25 23:31:14 === rebuild multimodal gpt3_760m done ===

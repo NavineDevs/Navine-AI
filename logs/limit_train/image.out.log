@@ -1,0 +1,105 @@
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2} ram=15.7GB usable=13.7GB
+ImageFolderDataset unique=3418 effective=16991
+Navine AI Image Model | Parameters: 832,274,029 | Device: cuda
+Navine AI: verified real params for image: 832,274,029 (unique storage)
+Navine AI: gradient checkpointing enabled for image UNet
+Training samples: 16991 | Steps: 2500
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 3, 'pin_memory': True, 'persistent_workers': True, 'prefetch_factor': 2}
+Navine AI: using SGD optimizer (VRAM-safe for 800M+ on 8GB)
+Navine AI: EMA disabled for this run
+PROGRESS steps=1/2500
+PROGRESS steps=5/2500
+PROGRESS steps=10/2500
+PROGRESS steps=15/2500
+PROGRESS steps=20/2500
+PROGRESS steps=25/2500
+PROGRESS steps=30/2500
+PROGRESS steps=35/2500
+PROGRESS steps=40/2500
+PROGRESS steps=45/2500
+PROGRESS steps=50/2500
+PROGRESS steps=55/2500
+PROGRESS steps=60/2500
+PROGRESS steps=65/2500
+PROGRESS steps=70/2500
+PROGRESS steps=75/2500
+PROGRESS steps=80/2500
+PROGRESS steps=85/2500
+PROGRESS steps=90/2500
+PROGRESS steps=95/2500
+PROGRESS steps=100/2500
+PROGRESS steps=105/2500
+PROGRESS steps=110/2500
+PROGRESS steps=115/2500
+PROGRESS steps=120/2500
+PROGRESS steps=125/2500
+PROGRESS steps=130/2500
+PROGRESS steps=135/2500
+PROGRESS steps=140/2500
+PROGRESS steps=145/2500
+PROGRESS steps=150/2500
+PROGRESS steps=155/2500
+PROGRESS steps=160/2500
+PROGRESS steps=165/2500
+PROGRESS steps=170/2500
+PROGRESS steps=175/2500
+PROGRESS steps=180/2500
+PROGRESS steps=185/2500
+PROGRESS steps=190/2500
+PROGRESS steps=195/2500
+PROGRESS steps=200/2500
+PROGRESS steps=205/2500
+PROGRESS steps=210/2500
+PROGRESS steps=215/2500
+PROGRESS steps=220/2500
+PROGRESS steps=225/2500
+PROGRESS steps=230/2500
+PROGRESS steps=235/2500
+PROGRESS steps=240/2500
+PROGRESS steps=245/2500
+PROGRESS steps=250/2500
+PROGRESS steps=255/2500
+PROGRESS steps=260/2500
+PROGRESS steps=265/2500
+PROGRESS steps=270/2500
+PROGRESS steps=275/2500
+PROGRESS steps=280/2500
+PROGRESS steps=285/2500
+PROGRESS steps=290/2500
+PROGRESS steps=295/2500
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+ImageFolderDataset unique=3418 effective=16991
+Navine AI warning: the saved image checkpoint does not match the current architecture.
+Navine AI: C:\Users\hitbo\Downloads\Navine AI\checkpoints\image_enterprise_v2\latest.pt
+Navine AI: starting from a fresh image model so generation and training can continue.
+Navine AI: the next checkpoint will be saved in the self-describing format.
+Navine AI Image Model | Parameters: 1,010,719,309 | Device: cuda
+Navine AI: verified real params for image: 1,010,719,309 (unique storage)
+Navine AI: gradient checkpointing enabled for image UNet
+Training samples: 16991 | Steps: 2500
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: using SGD optimizer (VRAM-safe for 800M+ on 8GB)
+Navine AI: EMA disabled for this run
+PROGRESS steps=1/2500
+PROGRESS steps=5/2500
+PROGRESS steps=10/2500
+PROGRESS steps=15/2500
+PROGRESS steps=20/2500
+PROGRESS steps=25/2500
+PROGRESS steps=30/2500
+PROGRESS steps=35/2500
+PROGRESS steps=40/2500
+PROGRESS steps=45/2500
+Navine train device: cuda | mode=hybrid dtype=torch.float16 | cuda_available=True name=NVIDIA GeForce RTX 4060 Laptop GPU vram_gb=8.0 | cpu_threads=22 dataloader={'num_workers': 0, 'pin_memory': True, 'persistent_workers': False} ram=15.7GB usable=13.7GB
+ImageFolderDataset unique=3418 effective=16991
+Navine AI warning: the saved image checkpoint does not match the current architecture.
+Navine AI: C:\Users\hitbo\Downloads\Navine AI\checkpoints\image_enterprise_v2\latest.pt
+Navine AI: starting from a fresh image model so generation and training can continue.
+Navine AI: the next checkpoint will be saved in the self-describing format.
+Navine AI Image Model | Parameters: 1,010,719,309 | Device: cuda
+Navine AI: verified real params for image: 1,010,719,309 (unique storage)
+Navine AI: gradient checkpointing enabled for image UNet
+Training samples: 16991 | Steps: 2500
+Hybrid compute | CPU threads: 22 | DataLoader: {'num_workers': 0, 'pin_memory': True, 'persistent_workers': False}
+Navine AI: using SGD optimizer (VRAM-safe for 800M+ on 8GB)
+Navine AI: EMA disabled for this run

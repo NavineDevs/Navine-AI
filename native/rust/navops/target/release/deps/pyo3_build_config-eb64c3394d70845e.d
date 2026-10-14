@@ -1,0 +1,14 @@
+C:\Users\hitbo\Downloads\Navuryx AI\native\rust\navops\target\release\deps\pyo3_build_config-eb64c3394d70845e.d: C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\hitbo\Downloads\Navuryx\ AI\native\rust\navops\target\release\build\pyo3-build-config-eb12a86032516a86\out/pyo3-build-config-file.txt C:\Users\hitbo\Downloads\Navuryx\ AI\native\rust\navops\target\release\build\pyo3-build-config-eb12a86032516a86\out/pyo3-build-config.txt
+
+C:\Users\hitbo\Downloads\Navuryx AI\native\rust\navops\target\release\deps\libpyo3_build_config-eb64c3394d70845e.rlib: C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\hitbo\Downloads\Navuryx\ AI\native\rust\navops\target\release\build\pyo3-build-config-eb12a86032516a86\out/pyo3-build-config-file.txt C:\Users\hitbo\Downloads\Navuryx\ AI\native\rust\navops\target\release\build\pyo3-build-config-eb12a86032516a86\out/pyo3-build-config.txt
+
+C:\Users\hitbo\Downloads\Navuryx AI\native\rust\navops\target\release\deps\libpyo3_build_config-eb64c3394d70845e.rmeta: C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs C:\Users\hitbo\Downloads\Navuryx\ AI\native\rust\navops\target\release\build\pyo3-build-config-eb12a86032516a86\out/pyo3-build-config-file.txt C:\Users\hitbo\Downloads\Navuryx\ AI\native\rust\navops\target\release\build\pyo3-build-config-eb12a86032516a86\out/pyo3-build-config.txt
+
+C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\lib.rs:
+C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\errors.rs:
+C:\Users\hitbo\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.22.6\src\impl_.rs:
+C:\Users\hitbo\Downloads\Navuryx\ AI\native\rust\navops\target\release\build\pyo3-build-config-eb12a86032516a86\out/pyo3-build-config-file.txt:
+C:\Users\hitbo\Downloads\Navuryx\ AI\native\rust\navops\target\release\build\pyo3-build-config-eb12a86032516a86\out/pyo3-build-config.txt:
+
+# env-dep:CARGO_PKG_VERSION=0.22.6
+# env-dep:OUT_DIR=C:\\Users\\hitbo\\Downloads\\Navuryx AI\\native\\rust\\navops\\target\\release\\build\\pyo3-build-config-eb12a86032516a86\\out

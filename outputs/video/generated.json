@@ -1,0 +1,14 @@
+{
+  "prompt": "blue sky",
+  "enhanced_prompt": "a clear blue sky with soft white clouds, atmospheric depth, natural daylight, atmospheric depth, natural lighting, high quality",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 2143978076,
+  "fallback": true,
+  "timestamp": "2026-08-23T15:07:58.441164+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\generated.mp4",
+  "nsfw": false,
+  "category": "general",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

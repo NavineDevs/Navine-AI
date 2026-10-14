@@ -1,0 +1,14 @@
+{
+  "prompt": "red ceramic mug on wooden table, slight camera drift",
+  "enhanced_prompt": "red ceramic mug on wooden table, slight camera drift, high quality, detailed, sharp focus, clean composition",
+  "num_frames": 32,
+  "fps": 24,
+  "seed": 1542,
+  "fallback": true,
+  "timestamp": "2026-08-18T12:58:01.830658+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\object_step_01500.mp4",
+  "nsfw": false,
+  "category": "general",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

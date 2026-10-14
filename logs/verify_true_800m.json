@@ -1,0 +1,13 @@
+{
+  "tier": "gpt3_800m_plus",
+  "target": "800M+ unique trainable params",
+  "models": {
+    "text_enterprise": 826171008,
+    "text_code": 826171008,
+    "image_enterprise_v2": 832274029,
+    "video_enterprise": 830884328,
+    "voice": 829947153,
+    "deepfake": 831544099
+  },
+  "total": 4976991625
+}

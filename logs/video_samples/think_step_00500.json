@@ -1,0 +1,14 @@
+{
+  "prompt": "abstract mind map forming from particles, slow camera drift, glowing connections",
+  "enhanced_prompt": "abstract mind map forming from particles, slow camera drift, glowing connections, high quality, detailed, sharp focus, clean composition",
+  "num_frames": 32,
+  "fps": 24,
+  "seed": 542,
+  "fallback": true,
+  "timestamp": "2026-08-19T17:18:11.935114+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\think_step_00500.mp4",
+  "nsfw": false,
+  "category": "general",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

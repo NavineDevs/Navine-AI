@@ -1,0 +1,11 @@
+Fetching HF/open code datasets (data only, not foundation models)...
+Total new coding rows: 146947
+  code_alpaca: fetched=19418 added=15231 (ok)
+  hf_codealpaca_20k: fetched=17479 added=7417 (ok)
+  python_code_18k: fetched=18571 added=15922 (ok)
+  python_codes_25k: fetched=49470 added=20316 (ok)
+  magicoder_oss: fetched=49994 added=45578 (ok)
+  evol_instruct_code: fetched=49936 added=42483 (ok)
+  stack_smol_xs: fetched=0 added=0 (err: Dataset scripts are no longer supported, but found the-stack-smol-xs.py)
+Catalog: C:\Users\hitbo\Downloads\Navine AI\data\learn\huggingface\HF_CODE_CATALOG.md
+Train next: python -m navine.cli train coding --steps 200

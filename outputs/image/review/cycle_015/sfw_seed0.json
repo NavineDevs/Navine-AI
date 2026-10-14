@@ -1,0 +1,13 @@
+{
+  "prompt": "sfw clothed young adult woman portrait, natural light",
+  "seed": 0,
+  "category_tag": "sfw",
+  "valid": true,
+  "noise": false,
+  "score": 0.84,
+  "lap_var": 9.692,
+  "std": 52.262,
+  "passes": false,
+  "timestamp": "2026-08-19T12:08:26.877935+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\review\\cycle_015\\sfw_seed0.png"
+}

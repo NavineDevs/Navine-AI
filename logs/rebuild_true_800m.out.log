@@ -1,0 +1,18 @@
+2026-08-26 19:31:08 === rebuild true ~800M start ===
+2026-08-26 19:31:08 archived text_enterprise -> _archive_pre800m_text_enterprise_20260826_103108
+Navine AI: verified real params for text_enterprise: 826,171,008 (unique storage)
+2026-08-26 19:31:26 seeded text_enterprise 826,171,008
+2026-08-26 19:31:26 archived text_code -> _archive_pre800m_text_code_20260826_103126
+Navine AI: verified real params for text_code: 826,171,008 (unique storage)
+2026-08-26 19:32:51 seeded text_code 826,171,008
+2026-08-26 19:32:51 archived image_enterprise_v2 -> _archive_pre800m_image_enterprise_v2_20260826_103251
+2026-08-26 19:32:51 archived video_enterprise -> _archive_pre800m_video_enterprise_20260826_103251
+2026-08-26 19:32:51 archived voice -> _archive_pre800m_voice_20260826_103251
+2026-08-26 19:32:51 archived deepfake -> _archive_pre800m_deepfake_20260826_103251
+Navine AI: verified real params for image_enterprise_v2: 832,274,029 (unique storage)
+2026-08-26 19:35:38 seeded image_enterprise_v2 832,274,029
+Navine AI: verified real params for video_enterprise: 830,884,328 (unique storage)
+2026-08-26 19:38:08 seeded video_enterprise 830,884,328
+Navine AI: verified real params for voice: 829,947,153 (unique storage)
+2026-08-26 19:40:01 seeded voice 829,947,153
+Navine AI: verified real params for deepfake: 831,544,099 (unique storage)

@@ -1,0 +1,11 @@
+{
+  "prompt": "photoreal adult man standing outdoors, slow camera pan",
+  "seed": 0,
+  "category_tag": "human",
+  "valid": true,
+  "frame_variance": 0.010073750621579107,
+  "size_bytes": 91491,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt",
+  "timestamp": "2026-08-17T10:23:25.888617+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\video\\review\\cycle_037\\human_seed0.mp4"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt": "sfw clothed young adult woman portrait, subtle motion, natural light",
+  "enhanced_prompt": "a sfw clothed young adult woman portrait, subtle motion, natural light, photorealistic, natural lighting, high quality, detailed skin texture, sharp focus",
+  "num_frames": 32,
+  "fps": 24,
+  "seed": 2042,
+  "fallback": false,
+  "timestamp": "2026-08-18T13:07:24.339155+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\logs\\video_samples\\sfw_step_02000.mp4",
+  "nsfw": true,
+  "category": "human",
+  "reference_used": true,
+  "reference_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\local\\human\\hm_1784678887073587.jpg",
+  "keyword_matched": "woman",
+  "reference_category": "human",
+  "reference_strength": 0.75,
+  "generation_mode": "heavy",
+  "seeded_from_image": true,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt"
+}

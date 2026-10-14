@@ -1,0 +1,15 @@
+{
+  "prompt": "nude hentai anime girl, detailed face and body, clean lineart",
+  "enhanced_prompt": "an nude hentai anime girl, detailed face and body, clean lineart, anime illustration, hentai style, detailed linework, vibrant colors, explicit adult",
+  "num_steps": 140,
+  "guidance_scale": 2.4,
+  "seed": 42,
+  "procedural": false,
+  "nsfw": true,
+  "category": "hentai",
+  "timestamp": "2026-08-21T19:01:51.382714+00:00",
+  "output": "outputs\\image\\mix_hentai_nude.png",
+  "generation_mode": "diffusion",
+  "reference_used": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise\\latest.pt"
+}

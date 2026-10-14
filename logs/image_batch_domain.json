@@ -1,0 +1,415 @@
+{
+  "ok": true,
+  "count_per_tag": 16,
+  "tags": {
+    "sfw": {
+      "valid": 16,
+      "noise": 0,
+      "items": [
+        {
+          "seed": 42,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_042.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 43,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_043.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 44,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_044.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 45,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_045.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 46,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_046.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 47,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_047.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 48,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_048.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 49,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_049.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 50,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_050.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 51,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_051.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 52,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_052.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 53,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_053.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 54,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_054.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 55,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_055.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 56,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_056.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 57,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\sfw\\sfw_057.png",
+          "valid": true,
+          "noise": false
+        }
+      ]
+    },
+    "human": {
+      "valid": 16,
+      "noise": 0,
+      "items": [
+        {
+          "seed": 42,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_042.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 43,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_043.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 44,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_044.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 45,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_045.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 46,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_046.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 47,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_047.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 48,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_048.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 49,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_049.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 50,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_050.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 51,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_051.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 52,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_052.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 53,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_053.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 54,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_054.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 55,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_055.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 56,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_056.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 57,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\human\\human_057.png",
+          "valid": true,
+          "noise": false
+        }
+      ]
+    },
+    "hentai": {
+      "valid": 16,
+      "noise": 0,
+      "items": [
+        {
+          "seed": 42,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_042.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 43,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_043.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 44,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_044.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 45,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_045.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 46,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_046.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 47,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_047.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 48,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_048.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 49,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_049.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 50,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_050.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 51,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_051.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 52,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_052.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 53,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_053.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 54,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_054.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 55,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_055.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 56,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_056.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 57,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\hentai\\hentai_057.png",
+          "valid": true,
+          "noise": false
+        }
+      ]
+    },
+    "object": {
+      "valid": 16,
+      "noise": 0,
+      "items": [
+        {
+          "seed": 42,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_042.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 43,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_043.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 44,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_044.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 45,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_045.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 46,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_046.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 47,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_047.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 48,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_048.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 49,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_049.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 50,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_050.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 51,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_051.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 52,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_052.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 53,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_053.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 54,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_054.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 55,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_055.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 56,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_056.png",
+          "valid": true,
+          "noise": false
+        },
+        {
+          "seed": 57,
+          "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\image\\batch\\object\\object_057.png",
+          "valid": true,
+          "noise": false
+        }
+      ]
+    }
+  },
+  "total": 64
+}
